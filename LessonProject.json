@@ -3134,6 +3134,24 @@
         "name": "assets\\New Assets\\InventoryNumber.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/478b511c7b87ede5997c6a5ebfe49e81.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\478b511c7b87ede5997c6a5ebfe49e81.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cd4c420fda57ac6552065f4fa2bb5dc0.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cd4c420fda57ac6552065f4fa2bb5dc0.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10280,7 +10298,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\3cf6b673c8bdb958b5abda2e40f5bdca (1).jpg",
+                  "image": "assets\\478b511c7b87ede5997c6a5ebfe49e81.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10328,7 +10346,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\3cf6b673c8bdb958b5abda2e40f5bdca (1).jpg",
+                  "image": "assets\\cd4c420fda57ac6552065f4fa2bb5dc0.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11699,6 +11717,264 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Brewed_Potion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "no"
+        },
+        {
+          "folded": true,
+          "name": "Number",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "Tags",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "Not Found"
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 10
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\4487a041c432a9a6407ea3cae95f015a.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BasePotion",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\3cf6b673c8bdb958b5abda2e40f5bdca (1).jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2Potion",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\478b511c7b87ede5997c6a5ebfe49e81.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3Potion",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cd4c420fda57ac6552065f4fa2bb5dc0.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11799,6 +12075,9 @@
       {
         "folderName": "Potions",
         "children": [
+          {
+            "objectName": "Brewed_Potion"
+          },
           {
             "objectName": "Brew_Ingridient"
           },
@@ -23332,6 +23611,10 @@
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
         },
         {
           "name": "SmoothCamera",
@@ -42970,12 +43253,53 @@
                             },
                             {
                               "type": {
-                                "value": "BBText::SetBBText"
+                                "value": "Create"
                               },
                               "parameters": [
-                                "Instruction",
+                                "",
+                                "Brewed_Potion",
+                                "1350",
+                                "300",
+                                "\"Potions\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetSize"
+                              },
+                              "parameters": [
+                                "Brewed_Potion",
+                                "Resizable",
+                                "200",
+                                "200"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Brewed_Potion",
+                                "Animation",
                                 "=",
-                                "PotionsData[BrewButton.SubstractCount].Number + PotionsData[BrewButton.SubstractCount].Name"
+                                "PotionsData[BrewButton.SubstractCount].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                              },
+                              "parameters": [
+                                "Brewed_Potion",
+                                "ShakeObject_PositionAngleScale",
+                                "0.5",
+                                "0",
+                                "0",
+                                "0",
+                                "5",
+                                "0.5",
+                                "",
+                                ""
                               ]
                             }
                           ],
@@ -43119,6 +43443,29 @@
                                     "Name",
                                     "=",
                                     "\"no\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "0.5\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Brewed_Potion",
+                                    ""
                                   ]
                                 }
                               ]
