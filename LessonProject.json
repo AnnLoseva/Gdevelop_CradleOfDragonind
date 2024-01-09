@@ -37912,7 +37912,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38426,7 +38425,38 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Inventory\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Potions\""
+                      ]
+                    }
+                  ]
+                }
+              ],
               "actions": [],
               "events": [
                 {
@@ -38620,7 +38650,7 @@
                               "parameters": [
                                 "Potion_Number",
                                 "=",
-                                "ToString(Inventory_Potion.Number)"
+                                "PotionsData[InventoryCount].Number"
                               ]
                             },
                             {
@@ -42228,7 +42258,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Brew",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42824,7 +42853,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Brew",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -42938,6 +42966,16 @@
                                 "Tags",
                                 "=",
                                 "\"no\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BBText::SetBBText"
+                              },
+                              "parameters": [
+                                "Instruction",
+                                "=",
+                                "PotionsData[BrewButton.SubstractCount].Number + PotionsData[BrewButton.SubstractCount].Name"
                               ]
                             }
                           ],
@@ -43070,6 +43108,17 @@
                                     "Inventory_Item",
                                     "Chosen",
                                     "False"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "Inventory_Item",
+                                    "Name",
+                                    "=",
+                                    "\"no\""
                                   ]
                                 }
                               ]
@@ -43217,18 +43266,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Instruction",
-                    "=",
-                    "BrewButton.Tags"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
