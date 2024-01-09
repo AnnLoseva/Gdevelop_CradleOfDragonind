@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Potion",
+		"tags": "End ",
+		"body": "I want to \nbuy a potion \nfrom you!",
+		"position": {
+			"x": 401,
+			"y": 267
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ingridients",
+		"tags": "",
+		"body": "Let's make\npotion together!!!",
+		"position": {
+			"x": 786,
+			"y": 63
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IngridientsActive",
+		"tags": "",
+		"body": "Bring 5 \nGrass!",
+		"position": {
+			"x": 1029,
+			"y": 58
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PotionActive",
+		"tags": "",
+		"body": "Potions, \nPlease!",
+		"position": {
+			"x": 622,
+			"y": 304
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Complete",
+		"tags": "",
+		"body": "No more\nquests left!",
+		"position": {
+			"x": 482,
+			"y": -89
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ingridients1",
+		"tags": "",
+		"body": "Let's make\npotion together!!!",
+		"position": {
+			"x": 890,
+			"y": 297
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ingridients1Active",
+		"tags": "",
+		"body": "Bring 5 \nGrass!",
+		"position": {
+			"x": 1280,
+			"y": 181
+		},
+		"colorID": 0
+	}
+]
