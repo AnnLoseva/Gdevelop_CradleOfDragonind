@@ -11240,6 +11240,51 @@
           "name": "SubstractCount",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Places",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "array",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 1200
+                },
+                {
+                  "type": "number",
+                  "value": 1350
+                },
+                {
+                  "type": "number",
+                  "value": 1500
+                }
+              ]
+            },
+            {
+              "name": "Y",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 200
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 400
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 200
+                }
+              ]
+            }
+          ]
         }
       ],
       "effects": [],
@@ -11457,6 +11502,203 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Brew_Ingridient",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Number",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 10
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "IdleEffect": "",
+          "FocusedEffect": "",
+          "PressedEffect": ""
+        }
+      ],
+      "animations": [
+        {
+          "name": "Empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\4487a041c432a9a6407ea3cae95f015a.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Grass",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\3cf6b673c8bdb958b5abda2e40f5bdca.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gold",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\1e4fdc6e183fc643d732371ae2ae1be0.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11557,6 +11799,9 @@
       {
         "folderName": "Potions",
         "children": [
+          {
+            "objectName": "Brew_Ingridient"
+          },
           {
             "objectName": "IngridientTagsPannel"
           },
@@ -11968,12 +12213,12 @@
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nRed"
+                  "value": "Red"
                 },
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nRainbow"
+                  "value": "Rainbow"
                 }
               ]
             },
@@ -12022,12 +12267,12 @@
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nWhite"
+                  "value": "White"
                 },
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nGreen"
+                  "value": "Green"
                 }
               ]
             },
@@ -12075,12 +12320,12 @@
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nBlue"
+                  "value": "Blue"
                 },
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "\nno"
+                  "value": "no"
                 }
               ]
             },
@@ -22665,6 +22910,21 @@
               "value": 6
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Potions",
+          "name": "Instruction",
+          "persistentUuid": "584d9a6f-c5c6-4b35-959b-d79357db9f93",
+          "width": 0,
+          "x": 1287,
+          "y": 884,
+          "zOrder": 301,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22883,7 +23143,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -22947,7 +23207,7 @@
           "isLocked": false,
           "name": "Potions",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -38360,7 +38620,7 @@
                               "parameters": [
                                 "Potion_Number",
                                 "=",
-                                "ToString(PotionsData[InventoryCount].Number)"
+                                "ToString(Inventory_Potion.Number)"
                               ]
                             },
                             {
@@ -41968,283 +42228,349 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Ingridients",
+          "folded": true,
+          "name": "Brew",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Potions\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsHovered"
-                  },
-                  "parameters": [
-                    "Inventory_Item",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "IngridientTagsPannel",
-                    "Inventory_Item.BoundingBoxRight() -50 ",
-                    "Inventory_Item.BoundingBoxBottom() - 30",
-                    "\"Potions\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "IngridientTagsText",
-                    "Inventory_Item.BoundingBoxRight() -50 ",
-                    "Inventory_Item.BoundingBoxBottom() - 30",
-                    "\"Potions\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                  },
-                  "parameters": [
-                    "IngridientTagsPannel",
-                    "Resizable",
-                    "=",
-                    "200"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                  },
-                  "parameters": [
-                    "IngridientTagsPannel",
-                    "Resizable",
-                    "=",
-                    "300"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::Sticker::Stick"
-                  },
-                  "parameters": [
-                    "IngridientTagsPannel",
-                    "Sticker",
-                    "Inventory_Item",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::Sticker::Stick"
-                  },
-                  "parameters": [
-                    "IngridientTagsText",
-                    "Sticker",
-                    "Inventory_Item",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "IngridientTagsText",
-                    "=",
-                    "Inventory_Item.Tags"
-                  ]
-                }
-              ]
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "CLicking ingridient in brewing potions\n"
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ButtonStates::ButtonFSM::IsHovered"
-                  },
-                  "parameters": [
-                    "Inventory_Item",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Potions\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::IsStuck"
-                  },
-                  "parameters": [
-                    "",
-                    "IngridientTagsPannel",
-                    "Sticker",
-                    "Inventory_Item",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::IsStuck"
-                  },
-                  "parameters": [
-                    "",
-                    "IngridientTagsText",
-                    "Sticker",
-                    "Inventory_Item",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "IngridientTagsText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "IngridientTagsPannel",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Potions\""
-                  ]
-                }
-              ],
-              "actions": [],
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Click",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "DiaryPannel",
-                        "Open",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player",
-                        "State",
-                        "=",
-                        "\"Idle\""
+                        "Inventory_Item",
+                        "ButtonFSM",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "HideLayer"
+                        "value": "VarObjetTxt"
                       },
                       "parameters": [
-                        "",
+                        "DiaryPannel",
+                        "State",
+                        "=",
                         "\"Potions\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "ModVarObjetTxt"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "DiaryPannel",
-                        "State",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CacheSouris"
-                      },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": []
                     }
                   ],
+                  "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Choosing Ingridient > 0 & Is NOT Chosen"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "AjoutObjConcern"
+                            "value": "ObjectVariableAsBoolean"
                           },
                           "parameters": [
-                            "",
-                            "Inventory_Item"
+                            "Inventory_Item",
+                            "Chosen",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Number",
+                            "<=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Number",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Choose Ingridient & put data in Tags & Ingridients of BrewButton"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "Inventory_Item",
+                                "Effect",
+                                "\"Outline\"",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "Tags",
+                                "+",
+                                "Inventory_Item.Tags"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "Number",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "Ingridients[BrewButton.Number- 2]",
+                                "=",
+                                "Inventory_Item.Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Inventory_Item",
+                                "Chosen",
+                                "True"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Create BrewIngridient and link to InventoryItem\n"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Brew_Ingridient",
+                                "BrewButton.Places.X[BrewButton.Number-2]",
+                                "BrewButton.Places.Y[BrewButton.Number-2]",
+                                "\"Potions\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Brew_Ingridient",
+                                "Inventory_Item"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetSize"
+                              },
+                              "parameters": [
+                                "Brew_Ingridient",
+                                "Resizable",
+                                "200",
+                                "200"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Brew_Ingridient",
+                                "Animation",
+                                "=",
+                                "Inventory_Item.Animation::Name()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Brew_Ingridient",
+                                "Number",
+                                "=",
+                                "BrewButton.Number-2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Delete choosen Ingridient"
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Chosen",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Number",
+                            ">",
+                            "0"
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "ModVarObjetTxt"
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
                             "Inventory_Item",
-                            "Name",
+                            "Effect",
+                            "\"Outline\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Number",
+                            "-",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Tags",
                             "=",
-                            "\"no\""
+                            "SubStr(BrewButton.Tags,0,StrFind(BrewButton.Tags,Inventory_Item.Tags)) + SubStr(BrewButton.Tags,StrFind(BrewButton.Tags,Inventory_Item.Tags) + StrLength(Inventory_Item.Tags), StrLength(BrewButton.Tags)-StrLength(Inventory_Item.Tags))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
                           ]
                         },
                         {
@@ -42256,90 +42582,650 @@
                             "Chosen",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Count",
+                            "=",
+                            "BrewButton.Number"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "5",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": true,
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Ingridients[BrewButton.Count]",
+                                    "=",
+                                    "\"no\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "VarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "BrewButton",
+                                        "Ingridients[BrewButton.Count-1]",
+                                        "=",
+                                        "\"no\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "VarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "BrewButton",
+                                        "Ingridients[BrewButton.Count-2]",
+                                        "=",
+                                        "\"no\""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Ingridients[BrewButton.Count-1]",
+                                    "=",
+                                    "BrewButton.Ingridients[BrewButton.Count]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "BrewButton.Ingridients[BrewButton.Count]",
+                                    "=",
+                                    "\"0\""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "VarObjet"
+                                      },
+                                      "parameters": [
+                                        "Brew_Ingridient",
+                                        "Number",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarObjet"
+                                      },
+                                      "parameters": [
+                                        "Brew_Ingridient",
+                                        "Number",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Delete Ingridient"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Ingridients[BrewButton.Count]",
+                                    "=",
+                                    "Inventory_Item.Name"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Ingridients[BrewButton.Count]",
+                                    "=",
+                                    "\"no\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Count",
+                                    "-",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Delete chosen BrewIngridient"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "LinkedObjects::PickObjectsLinkedTo"
+                              },
+                              "parameters": [
+                                "",
+                                "Brew_Ingridient",
+                                "Inventory_Item",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Brew_Ingridient",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                },
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Brew",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
                       "parameters": [
-                        "DiaryPannel",
-                        "Open",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player",
-                        "State",
-                        "=",
-                        "\"Potions\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Potions\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Ingridients + Potions\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MontreSouris"
-                      },
-                      "parameters": [
+                        "BrewButton",
+                        "ButtonFSM",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "HideLayer"
+                        "value": "VarObjet"
                       },
                       "parameters": [
-                        "",
-                        "\"Diary\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Quests\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Desctiption Image\""
+                        "BrewButton",
+                        "Number",
+                        ">",
+                        "0"
                       ]
                     }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Tags",
+                                    "contains",
+                                    "PotionsData[BrewButton.SubstractCount].Tags[0] "
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Tags",
+                                    "contains",
+                                    "PotionsData[BrewButton.SubstractCount].Tags[1] "
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Tags",
+                                    "contains",
+                                    "PotionsData[BrewButton.SubstractCount].Tags[2] "
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "PotionsData[BrewButton.SubstractCount].Number",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "Number",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "Tags",
+                                "=",
+                                "\"no\""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "Inventory_Item",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "BrewButton",
+                                    "Count",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Repeat",
+                                  "repeatExpression": "10",
+                                  "conditions": [],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "VarObjetTxt"
+                                          },
+                                          "parameters": [
+                                            "Inventory_Item",
+                                            "Name",
+                                            "=",
+                                            "InventoryData[BrewButton.Count].Name"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Inventory_Item",
+                                            "Chosen",
+                                            "True"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "ModVarGlobal"
+                                          },
+                                          "parameters": [
+                                            "InventoryData[BrewButton.Count].Number",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "New sound effect2",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "ModVarObjet"
+                                          },
+                                          "parameters": [
+                                            "BrewButton",
+                                            "Count",
+                                            "+",
+                                            "1"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AjoutObjConcern"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Inventory_Item"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Inventory_Item",
+                                    "Effect",
+                                    "\"Outline\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Inventory_Item",
+                                    "Chosen",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "BrewButton",
+                                "SubstractCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Number",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "Tags",
+                            "=",
+                            "\"no\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "SubstractCount",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Chosen",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Effect",
+                            "\"Outline\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Brew_Ingridient",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "BrewButton.Ingridients[0]",
+                            "=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "BrewButton.Ingridients[1]",
+                            "=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "BrewButton",
+                            "BrewButton.Ingridients[2]",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Instruction",
+                    "=",
+                    "BrewButton.Tags"
                   ]
                 }
               ]
@@ -42598,666 +43484,6 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Brew",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "Inventory_Item",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Potions\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Inventory_Item",
-                        "Chosen",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "BrewButton",
-                        "Number",
-                        "<=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Inventory_Item",
-                        "Number",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::EnableEffect"
-                          },
-                          "parameters": [
-                            "Inventory_Item",
-                            "Effect",
-                            "\"Outline\"",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "Tags",
-                            "+",
-                            "Inventory_Item.Tags"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "Number",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "Ingridients[BrewButton.Number- 2]",
-                            "=",
-                            "Inventory_Item.Name"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Inventory_Item",
-                            "Chosen",
-                            "True"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Inventory_Item",
-                        "Chosen",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "BrewButton",
-                        "Number",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "Inventory_Item",
-                        "Effect",
-                        "\"Outline\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "BrewButton",
-                        "Number",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "BrewButton",
-                        "Tags",
-                        "=",
-                        "SubStr(BrewButton.Tags,0,StrFind(BrewButton.Tags,Inventory_Item.Tags)) + SubStr(BrewButton.Tags,StrFind(BrewButton.Tags,Inventory_Item.Tags) + StrLength(Inventory_Item.Tags), StrLength(BrewButton.Tags)-StrLength(Inventory_Item.Tags))"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Inventory_Item",
-                        "Chosen",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "BrewButton",
-                        "Count",
-                        "=",
-                        "BrewButton.Number"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "3",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Ingridients[BrewButton.Count]",
-                                "=",
-                                "\"no\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "VarObjetTxt"
-                                  },
-                                  "parameters": [
-                                    "BrewButton",
-                                    "Ingridients[BrewButton.Count-1]",
-                                    "=",
-                                    "\"no\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "VarObjetTxt"
-                                  },
-                                  "parameters": [
-                                    "BrewButton",
-                                    "Ingridients[BrewButton.Count-2]",
-                                    "=",
-                                    "\"no\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Ingridients[BrewButton.Count-1]",
-                                "=",
-                                "BrewButton.Ingridients[BrewButton.Count]"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Ingridients[BrewButton.Count]",
-                                "=",
-                                "Inventory_Item.Name"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Ingridients[BrewButton.Count]",
-                                "=",
-                                "\"no\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Count",
-                                "-",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "BrewButton",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "BrewButton",
-                    "Number",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "BrewButton",
-                    "SubstractCount",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "10",
-                  "conditions": [],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Tags",
-                                "contains",
-                                "PotionsData[BrewButton.SubstractCount].Tags[0] "
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Tags",
-                                "contains",
-                                "PotionsData[BrewButton.SubstractCount].Tags[1] "
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Tags",
-                                "contains",
-                                "PotionsData[BrewButton.SubstractCount].Tags[2] "
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "PotionsData[BrewButton.SubstractCount].Number",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "Number",
-                            "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "Tags",
-                            "=",
-                            "\"no\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "folded": true,
-                          "type": "BuiltinCommonInstructions::ForEach",
-                          "object": "Inventory_Item",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "BrewButton",
-                                "Count",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Repeat",
-                              "repeatExpression": "10",
-                              "conditions": [],
-                              "actions": [],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "VarObjetTxt"
-                                      },
-                                      "parameters": [
-                                        "Inventory_Item",
-                                        "Name",
-                                        "=",
-                                        "InventoryData[BrewButton.Count].Name"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Inventory_Item",
-                                        "Chosen",
-                                        "True"
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "ModVarGlobal"
-                                      },
-                                      "parameters": [
-                                        "InventoryData[BrewButton.Count].Number",
-                                        "-",
-                                        "1"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PlaySound"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "New sound effect2",
-                                        "",
-                                        "",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "ModVarObjet"
-                                      },
-                                      "parameters": [
-                                        "BrewButton",
-                                        "Count",
-                                        "+",
-                                        "1"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AjoutObjConcern"
-                              },
-                              "parameters": [
-                                "",
-                                "Inventory_Item"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "Inventory_Item",
-                                "Effect",
-                                "\"Outline\"",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Inventory_Item",
-                                "Chosen",
-                                "False"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "BrewButton",
-                            "SubstractCount",
-                            "+",
-                            "1"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Instruction",
-                    "=",
-                    "\"1 - Red Black Rainbow 2 - Black White Green 3 - Violet Blue No\" "
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Potions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43435,6 +43661,331 @@
                   "parameters": [
                     "IngridientTagsPannel",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ingridients",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Potions\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsHovered"
+                  },
+                  "parameters": [
+                    "Inventory_Item",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "IngridientTagsPannel",
+                    "Inventory_Item.BoundingBoxRight() -50 ",
+                    "Inventory_Item.BoundingBoxBottom() - 30",
+                    "\"Potions\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "IngridientTagsText",
+                    "Inventory_Item.BoundingBoxRight() -50 ",
+                    "Inventory_Item.BoundingBoxBottom() - 30",
+                    "\"Potions\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IngridientTagsPannel",
+                    "Resizable",
+                    "=",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IngridientTagsPannel",
+                    "Resizable",
+                    "=",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "IngridientTagsPannel",
+                    "Sticker",
+                    "Inventory_Item",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "IngridientTagsText",
+                    "Sticker",
+                    "Inventory_Item",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "IngridientTagsText",
+                    "=",
+                    "Inventory_Item.Tags"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ButtonStates::ButtonFSM::IsHovered"
+                  },
+                  "parameters": [
+                    "Inventory_Item",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Potions\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::IsStuck"
+                  },
+                  "parameters": [
+                    "",
+                    "IngridientTagsPannel",
+                    "Sticker",
+                    "Inventory_Item",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::IsStuck"
+                  },
+                  "parameters": [
+                    "",
+                    "IngridientTagsText",
+                    "Sticker",
+                    "Inventory_Item",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IngridientTagsText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IngridientTagsPannel",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Potions\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "Open",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "State",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Potions\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CacheSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Inventory_Item"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Inventory_Potion"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Name",
+                            "=",
+                            "\"no\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Inventory_Potion",
+                            "Name",
+                            "=",
+                            "\"no\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Inventory_Item",
+                            "Chosen",
+                            "False"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -43729,12 +44280,6 @@
           "actions": []
         }
       ]
-    },
-    {
-      "associatedLayout": "",
-      "lastChangeTimeStamp": 0,
-      "name": "Untitled external events",
-      "events": []
     }
   ],
   "eventsFunctionsExtensions": [
