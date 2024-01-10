@@ -3314,6 +3314,15 @@
         "name": "assets\\8e450e765a1bc50c93337539ff8f615f.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e5922bb0710bc849dccbc41243d40c6d.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\e5922bb0710bc849dccbc41243d40c6d.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8713,6 +8722,113 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Plant",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\b1ade9f5fb37ef23efb79d4bd2a38000.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flower",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\e5922bb0710bc849dccbc41243d40c6d.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
         }
       ]
     },
@@ -10451,7 +10567,7 @@
           ]
         },
         {
-          "name": "2Potion",
+          "name": "Blue Potion",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -10499,7 +10615,7 @@
           ]
         },
         {
-          "name": "3Potion",
+          "name": "Yellow Potion",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -11684,6 +11800,54 @@
           ]
         },
         {
+          "name": "Snake",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\15b15783fc4c32a0adebfdf6888e72c9.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Wyvern",
           "useMultipleDirections": false,
           "directions": [
@@ -11742,54 +11906,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\81c70d11c06748fb79b908b4d9985f2d.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 564,
-                        "y": 0
-                      },
-                      {
-                        "x": 564,
-                        "y": 609
-                      },
-                      {
-                        "x": 0,
-                        "y": 609
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Snake",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\15b15783fc4c32a0adebfdf6888e72c9.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12665,7 +12781,7 @@
           ]
         },
         {
-          "name": "2Potion",
+          "name": "Blue Potion",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -12713,7 +12829,7 @@
           ]
         },
         {
-          "name": "3Potion",
+          "name": "Yellow Potion",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -12989,6 +13105,7 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "cb24ab44-bba3-4ff8-bc65-a17fe6ddfebe",
           "type": "structure",
           "children": [
@@ -13020,13 +13137,14 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "04b9661b-9ac9-4afb-8567-08cc1a939961",
           "type": "structure",
           "children": [
             {
               "name": "Name",
               "type": "string",
-              "value": "Rainbow"
+              "value": "Plant"
             },
             {
               "name": "Number",
@@ -13057,7 +13175,7 @@
             {
               "name": "Name",
               "type": "string",
-              "value": "Crimson"
+              "value": "Flower"
             },
             {
               "name": "Number",
@@ -13239,12 +13357,10 @@
       ]
     },
     {
-      "folded": true,
       "name": "PotionsData",
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -13266,7 +13382,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Tags",
               "persistentUuid": "80ce1cc9-3f11-46ba-a822-1399c98b5fe3",
               "type": "array",
@@ -13284,7 +13399,7 @@
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "Rainbow"
+                  "value": "Violet"
                 }
               ]
             },
@@ -13298,7 +13413,6 @@
           ]
         },
         {
-          "folded": true,
           "persistentUuid": "8fa26906-6447-444b-bc36-23f19ad5ab2f",
           "type": "structure",
           "children": [
@@ -13338,7 +13452,7 @@
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "Green"
+                  "value": "Rainbow"
                 }
               ]
             },
@@ -13352,6 +13466,7 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "fb8cb020-9098-43bb-97c6-86013c7ec3a4",
           "type": "structure",
           "children": [
@@ -13374,6 +13489,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Tags",
               "persistentUuid": "80ce1cc9-3f11-46ba-a822-1399c98b5fe3",
               "type": "array",
@@ -13645,6 +13761,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "Diary",
       "type": "structure",
       "children": [
@@ -13707,6 +13824,24 @@
               ]
             },
             {
+              "persistentUuid": "857ecb2a-a67b-4dde-8ca4-b535767be3ce",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Rhino"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Rhino"
+                }
+              ]
+            },
+            {
               "persistentUuid": "6ac59739-23a4-488d-b8d7-aae192c8d6c5",
               "type": "structure",
               "children": [
@@ -13738,25 +13873,25 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "0"
+                  "value": "Leopard"
                 }
               ]
             },
             {
-              "persistentUuid": "857ecb2a-a67b-4dde-8ca4-b535767be3ce",
+              "persistentUuid": "e133b2cd-ae38-42d6-8aa3-3c7f466e8ae5",
               "type": "structure",
               "children": [
                 {
                   "folded": true,
                   "name": "Description",
                   "type": "string",
-                  "value": "Octopus"
+                  "value": "Snake"
                 },
                 {
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "0"
+                  "value": "Snake"
                 }
               ]
             }
@@ -13884,13 +14019,11 @@
           ]
         },
         {
-          "folded": true,
           "name": "Ingridients",
           "persistentUuid": "8825a29c-34da-4563-b191-de5c7ae89ea4",
           "type": "array",
           "children": [
             {
-              "folded": true,
               "type": "structure",
               "children": [
                 {
@@ -13908,7 +14041,6 @@
               ]
             },
             {
-              "folded": true,
               "persistentUuid": "2c0b3ad9-81ed-41e3-8b81-c0b8547b4ade",
               "type": "structure",
               "children": [
@@ -13927,7 +14059,6 @@
               ]
             },
             {
-              "folded": true,
               "persistentUuid": "5bb8b363-f884-4ca3-904b-1250c7bee38b",
               "type": "structure",
               "children": [
@@ -13946,7 +14077,6 @@
               ]
             },
             {
-              "folded": true,
               "persistentUuid": "6b9af82b-8238-42fe-a2f5-097fd2ce6558",
               "type": "structure",
               "children": [
@@ -13960,7 +14090,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "0"
+                  "value": "Gold"
                 }
               ]
             },
@@ -14005,6 +14135,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "Potions",
           "persistentUuid": "de0ab653-e53f-49a5-9e79-97ff03bab982",
           "type": "array",
@@ -20293,7 +20424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38958562738273395,
+        "zoomFactor": 0.3645833333333385,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21640,12 +21771,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
           "layer": "Diary",
           "name": "Diary_Object_Name",
           "persistentUuid": "2fee2b89-f992-4ebb-ab84-e3ab8fb350b3",
-          "width": 0,
+          "width": 461,
           "x": 484,
           "y": 177,
           "zOrder": 138,
@@ -21671,12 +21803,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
           "layer": "Diary",
           "name": "Diary_Object_Name",
           "persistentUuid": "c1a16a2a-151d-4029-ba95-fedca29a319c",
-          "width": 0,
+          "width": 456,
           "x": 488,
           "y": 293,
           "zOrder": 138,
@@ -21702,12 +21835,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
           "layer": "Diary",
           "name": "Diary_Object_Name",
           "persistentUuid": "a0e6a699-d86a-4da8-afc8-1315b12cbde6",
-          "width": 0,
+          "width": 459,
           "x": 489,
           "y": 404,
           "zOrder": 138,
@@ -21733,76 +21867,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
           "layer": "Diary",
           "name": "Diary_Object_Name",
           "persistentUuid": "1ff39983-fb5f-4ad1-8053-b20989232090",
-          "width": 0,
+          "width": 447,
           "x": 490,
           "y": 513,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 98,
-          "layer": "Diary",
-          "name": "Diary_Name_Panel",
-          "persistentUuid": "4898502d-ca04-433a-97e8-5e0f9c351428",
-          "width": 491,
-          "x": 482,
-          "y": 608,
-          "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Diary",
-          "name": "Diary_Object_Name",
-          "persistentUuid": "b0f9acf0-0880-4837-a2e3-fd3d75a24353",
-          "width": 0,
-          "x": 490,
-          "y": 621,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 98,
-          "layer": "Diary",
-          "name": "Diary_Name_Panel",
-          "persistentUuid": "6de5019b-4628-457d-925d-619676d77303",
-          "width": 491,
-          "x": 481,
-          "y": 732,
-          "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Diary",
-          "name": "Diary_Object_Name",
-          "persistentUuid": "b43310d1-3d56-424f-baef-183c55adf101",
-          "width": 0,
-          "x": 489,
-          "y": 745,
           "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
@@ -23962,6 +24035,134 @@
               "value": 6
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "4711d890-71a3-45b7-a171-a8b519b66a8e",
+          "width": 451,
+          "x": 491,
+          "y": 633,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "4fdd18a7-37ed-4700-91f5-630946078b27",
+          "width": 454,
+          "x": 494,
+          "y": 748,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "319f3e2c-044e-499e-8c67-73270f5c6d13",
+          "width": 451,
+          "x": 499,
+          "y": 863,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "656f7f4f-a6a5-4346-b9e7-6a9ad86ac69c",
+          "width": 447,
+          "x": 493,
+          "y": 974,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "bb76e997-49ed-4f4e-8d92-7c329f995cd1",
+          "width": 491,
+          "x": 475,
+          "y": 620,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "868349ed-ebc9-4894-91d4-4bdedd301009",
+          "width": 491,
+          "x": 475,
+          "y": 733,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "9671ba46-9c6a-468e-81b9-90d9a1614d9d",
+          "width": 491,
+          "x": 474,
+          "y": 845,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "2fb984eb-aebf-4092-aaf4-2b5f388047ab",
+          "width": 491,
+          "x": 468,
+          "y": 959,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -24276,7 +24477,7 @@
           "isLocked": false,
           "name": "Desctiption Image",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -38957,6 +39158,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39787,7 +39989,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -39798,6 +39999,17 @@
                     "Inventory_Potion",
                     "ButtonFSM",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Inventory\""
                   ]
                 }
               ],
@@ -42152,7 +42364,6 @@
               "comment": "Put Info in Panel\n"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -42169,7 +42380,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Diary_Name_Panel",
                   "conditions": [],
@@ -44167,9 +44377,9 @@
                                           },
                                           "parameters": [
                                             "",
-                                            "New sound effect2",
+                                            "New sound effect",
                                             "",
-                                            "",
+                                            "15",
                                             ""
                                           ]
                                         }
