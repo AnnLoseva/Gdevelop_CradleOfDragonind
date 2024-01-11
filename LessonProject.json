@@ -3323,6 +3323,15 @@
         "name": "assets\\e5922bb0710bc849dccbc41243d40c6d.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 8.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12086,6 +12095,102 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Let's Make Potion!1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Let's Make Potion!2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\8ae452b3199ee03e40e86cdebb3a32b9.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 0
+                      },
+                      {
+                        "x": 564,
+                        "y": 609
+                      },
+                      {
+                        "x": 0,
+                        "y": 609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -20424,7 +20529,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38958562738273395,
+        "zoomFactor": 0.3411856023473496,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20831,9 +20936,9 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "92b8fafa-5e0f-4e21-a48a-571b8c36a47e",
-          "width": 434,
-          "x": 405,
-          "y": 206,
+          "width": 559,
+          "x": 398,
+          "y": 188,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -20843,36 +20948,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 148,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "976a9996-d1a1-4cc2-ae38-2e5cca7ae404",
-          "width": 139,
-          "x": 818,
-          "y": 194,
-          "zOrder": 74,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 57,
+          "height": 59,
           "layer": "Quests",
           "name": "QuestObjectNumber",
           "persistentUuid": "767354b8-7dfd-4d3a-9f67-4a265dd4e86f",
           "width": 164,
-          "x": 813,
-          "y": 336,
+          "x": 769,
+          "y": 119,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -20947,7 +21029,7 @@
           "layer": "Quests",
           "name": "QuestName",
           "persistentUuid": "8e014576-a727-47b9-aa54-54c88cde59db",
-          "width": 207,
+          "width": 402,
           "x": 392,
           "y": 369,
           "zOrder": 64,
@@ -20970,33 +21052,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "5c91b016-4caa-443f-b145-452496cd3c4e",
-          "width": 456,
+          "width": 561,
           "x": 389,
           "y": 457,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 149,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "d61adb72-7079-4475-bba6-eb472304556b",
-          "width": 146,
-          "x": 823,
-          "y": 444,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -21017,8 +21076,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "cbf5ab5f-b961-48b1-a7a4-c37c46bd3be5",
           "width": 161,
-          "x": 818,
-          "y": 587,
+          "x": 769,
+          "y": 381,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -21039,7 +21098,7 @@
           "layer": "Quests",
           "name": "QuestName",
           "persistentUuid": "97b617c1-0ffd-4933-92bf-295bc931de11",
-          "width": 205,
+          "width": 389,
           "x": 390,
           "y": 641,
           "zOrder": 64,
@@ -21062,33 +21121,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "8b99ef65-c5d8-457b-a88f-8456ef0a5f9f",
-          "width": 451,
+          "width": 589,
           "x": 388,
           "y": 734,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "5dfdca7f-8d21-4522-9c1d-18df1b6c0657",
-          "width": 145,
-          "x": 817,
-          "y": 721,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -21109,8 +21145,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "7f268edd-e204-4344-acb5-6c64de1bcb74",
           "width": 167,
-          "x": 811,
-          "y": 874,
+          "x": 765,
+          "y": 659,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -23699,33 +23735,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "0489e73a-e524-4792-966f-7d9e7f073e54",
-          "width": 434,
+          "width": 561,
           "x": 405,
           "y": 1041,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 148,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "d37c4535-566b-43e1-a5a4-470f254c188d",
-          "width": 139,
-          "x": 818,
-          "y": 1029,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23746,8 +23759,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "7c92c6d3-9968-4173-8a73-dd0c59586feb",
           "width": 164,
-          "x": 813,
-          "y": 1171,
+          "x": 778,
+          "y": 970,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -23768,9 +23781,9 @@
           "layer": "Quests",
           "name": "QuestName",
           "persistentUuid": "ee1dd8d5-2af2-41fe-a6c3-8302391e4e33",
-          "width": 207,
-          "x": 392,
-          "y": 1204,
+          "width": 383,
+          "x": 390,
+          "y": 1237,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -23791,33 +23804,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "3fa53489-8baf-4b7d-ae22-f650b742f579",
-          "width": 456,
-          "x": 389,
-          "y": 1292,
+          "width": 574,
+          "x": 391,
+          "y": 1314,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 149,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "b3397857-a933-479b-9e38-598232fbd52a",
-          "width": 146,
-          "x": 823,
-          "y": 1279,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23838,8 +23828,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "5160c400-101f-485f-8f80-d9d8b0b2abe1",
           "width": 161,
-          "x": 818,
-          "y": 1422,
+          "x": 776,
+          "y": 1237,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -23860,9 +23850,9 @@
           "layer": "Quests",
           "name": "QuestName",
           "persistentUuid": "3b1cc13d-e1fd-4a00-a9c6-95537af3e641",
-          "width": 205,
+          "width": 370,
           "x": 390,
-          "y": 1476,
+          "y": 1568,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -23883,33 +23873,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "50d68aba-d22b-476d-9908-8aedb1a2b822",
-          "width": 451,
+          "width": 569,
           "x": 388,
-          "y": 1569,
+          "y": 1661,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "6ab11769-7831-4437-9702-8a430eb0ebae",
-          "width": 145,
-          "x": 817,
-          "y": 1556,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23930,8 +23897,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "81b76ed3-01b7-4f22-81a9-3a45b2192acc",
           "width": 167,
-          "x": 811,
-          "y": 1709,
+          "x": 774,
+          "y": 1577,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -23954,7 +23921,7 @@
           "persistentUuid": "1bb60eb8-0a63-448a-ae74-208c1325615e",
           "width": 396,
           "x": 401,
-          "y": 1770,
+          "y": 1862,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -23975,33 +23942,10 @@
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "cdd581da-836f-4949-aa76-a241578b35e4",
-          "width": 434,
+          "width": 542,
           "x": 409,
-          "y": 1855,
+          "y": 1947,
           "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 148,
-          "layer": "Quests",
-          "name": "QuestObjectImage",
-          "persistentUuid": "a28877f9-ef71-475f-9c50-ea0e1c3d6ea5",
-          "width": 139,
-          "x": 822,
-          "y": 1843,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -24022,8 +23966,8 @@
           "name": "QuestObjectNumber",
           "persistentUuid": "d0826236-abd4-4114-804d-6ae2710ef7b1",
           "width": 164,
-          "x": 817,
-          "y": 1985,
+          "x": 784,
+          "y": 1869,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -24163,33 +24107,265 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "e2c323d4-28fe-4497-8457-5a44dd1e2638",
+          "width": 596,
+          "x": 383,
+          "y": 110,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "150806d5-739b-4f7f-a2ad-472f2090a6e0",
+          "width": 596,
+          "x": 375,
+          "y": 369,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "de7788cf-1421-4341-b8e2-121481c02c29",
+          "width": 596,
+          "x": 382,
+          "y": 646,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "8a808169-1549-48e7-aeae-b25d4db89d4a",
+          "width": 596,
+          "x": 387,
+          "y": 956,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "edf21834-7d05-4046-a7cb-36137a3f96d1",
+          "width": 596,
+          "x": 380,
+          "y": 1235,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "335b6992-96e3-4ab2-bd95-70fbf2b022bd",
+          "width": 596,
+          "x": 376,
+          "y": 1559,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "586c8488-883d-463c-8be6-4968cf027acb",
+          "width": 596,
+          "x": 376,
+          "y": 1853,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewBBText",
-          "type": "BBText::BBText",
-          "variables": [],
+          "name": "QuestsButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "wordWrap": true
-          }
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Rectangle 3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1386,
+                            "y": 0
+                          },
+                          {
+                            "x": 1386,
+                            "y": 745
+                          },
+                          {
+                            "x": 0,
+                            "y": 745
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewBBText"
+            "objectName": "QuestsButton"
           }
         ]
       },
@@ -24349,7 +24525,7 @@
           "isLocked": false,
           "name": "Ingridients + Potions",
           "renderingType": "2d",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35190,6 +35366,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Diary Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37247,6 +37424,7 @@
                   "comment": "Name"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -37406,7 +37584,7 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "QuestObjectImage",
+                      "object": "QuestsButton",
                       "conditions": [],
                       "actions": [],
                       "events": [
@@ -37418,7 +37596,7 @@
                                 "value": "VarObjet"
                               },
                               "parameters": [
-                                "QuestObjectImage",
+                                "QuestsButton",
                                 "ID",
                                 "=",
                                 "QuestCount"
@@ -37441,7 +37619,7 @@
                                 "value": "Cache"
                               },
                               "parameters": [
-                                "QuestObjectImage"
+                                "QuestsButton"
                               ]
                             },
                             {
@@ -37464,7 +37642,7 @@
                                 "value": "VarObjet"
                               },
                               "parameters": [
-                                "QuestObjectImage",
+                                "QuestsButton",
                                 "ID",
                                 "=",
                                 "QuestCount"
@@ -37488,19 +37666,19 @@
                                 "value": "Montre"
                               },
                               "parameters": [
-                                "QuestObjectImage",
+                                "QuestsButton",
                                 ""
                               ]
                             },
                             {
                               "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                "value": "ModVarObjetTxt"
                               },
                               "parameters": [
-                                "QuestObjectImage",
-                                "Animation",
+                                "QuestsButton",
+                                "Name",
                                 "=",
-                                "JournalQuests[QuestCount].TargetObject"
+                                "JournalQuests[QuestCount].Name"
                               ]
                             },
                             {
@@ -37532,6 +37710,7 @@
                   "comment": "Number"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -37907,6 +38086,7 @@
                   "comment": "Description"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -38035,6 +38215,84 @@
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Click Button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "QuestsButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Quests\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "QuestsButton"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Description_Image",
+                    "Animation",
+                    "=",
+                    "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 6)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -44337,11 +44595,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Brew",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -45591,138 +45851,6 @@
           "conditions": [
             {
               "type": {
-                "value": "IsMouseWheelScrollingUp"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "IsMouseWheelScrollingDown"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "ScrollNumber",
-                "<",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "State",
-                "=",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "State",
-                "=",
-                "\"Diary\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "State",
-                "=",
-                "\"Quests\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Item_Number",
-                "=",
-                "Item_Number.Y() - 50"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "NumberDot",
-                "=",
-                "NumberDot.Y() - 50"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Inventory_Item",
-                "=",
-                "Inventory_Item.Y() - 50"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Inventory_Potion",
-                "=",
-                "Inventory_Potion.Y() - 50"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Potion_Number",
-                "=",
-                "Potion_Number.Y() - 50"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "ScrollNumber",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "IsMouseWheelScrollingDown"
               },
               "parameters": [
@@ -45771,18 +45899,6 @@
                 "State",
                 "=",
                 "\"Diary\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "DiaryPannel",
-                "State",
-                "=",
-                "\"Quests\""
               ]
             }
           ],
@@ -45839,6 +45955,46 @@
             },
             {
               "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestDescription",
+                "=",
+                "QuestDescription.Y() + 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestName",
+                "=",
+                "QuestName.Y() + 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestObjectNumber",
+                "=",
+                "QuestObjectNumber.Y() + 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestsButton",
+                "=",
+                "QuestsButton.Y() + 50"
+              ]
+            },
+            {
+              "type": {
                 "value": "ModVarObjet"
               },
               "parameters": [
@@ -45862,8 +46018,163 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseWheelScrollingUp"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsMouseWheelScrollingDown"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "DiaryPannel",
+                "ScrollNumber",
+                "<",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "DiaryPannel",
+                "State",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "DiaryPannel",
+                "State",
+                "=",
+                "\"Diary\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Item_Number",
+                "=",
+                "Item_Number.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "NumberDot",
+                "=",
+                "NumberDot.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Inventory_Item",
+                "=",
+                "Inventory_Item.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Inventory_Potion",
+                "=",
+                "Inventory_Potion.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Potion_Number",
+                "=",
+                "Potion_Number.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestDescription",
+                "=",
+                "QuestDescription.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestName",
+                "=",
+                "QuestName.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestObjectNumber",
+                "=",
+                "QuestObjectNumber.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "QuestsButton",
+                "=",
+                "QuestsButton.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "DiaryPannel",
+                "ScrollNumber",
+                "+",
+                "1"
+              ]
+            }
+          ]
         }
       ]
     }
