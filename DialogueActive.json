@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "IdlePlayer",
-		"body": "Hello my dear dragon friend!\nDO u wanna chill here? \n<<HappyNPC>> \nBabboodaba BOO\n \n[[Yes|YES]]\n[[Maybe|MAYBE]]\n[[No|NoChill]]",
+		"body": "<<IdleNPC>> \nHello my dear dragon friend!\nDO u wanna chill here? \n<<HappyNPC>> \nBabboodaba BOO\n \n[[Yes|YES]]\n[[Maybe|MAYBE]]\n[[No|NoChill]]",
 		"position": {
 			"x": 577,
 			"y": 519

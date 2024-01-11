@@ -20424,7 +20424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333385,
+        "zoomFactor": 0.38958562738273395,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24349,7 +24349,7 @@
           "isLocked": false,
           "name": "Ingridients + Potions",
           "renderingType": "2d",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -28544,6 +28544,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28653,7 +28654,6 @@
                   "comment": "Running throuh the NPC"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -28765,7 +28765,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -28889,7 +28888,6 @@
                   "comment": "Standing next to NPC"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -31683,6 +31681,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue is Running",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32295,6 +32294,204 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">=",
+                            "NPC.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "NPC",
+                                "120",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                              },
+                              "parameters": [
+                                "Player",
+                                "SmoothCamera",
+                                "=",
+                                "-DistanceBetweenPositions(Player.CenterX(),0,NPC.CenterX(),0)/2",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Flippable",
+                                "no"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "NPC",
+                                "100",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                              },
+                              "parameters": [
+                                "Player",
+                                "SmoothCamera",
+                                "=",
+                                "-DistanceBetweenPositions(Player.CenterX(),0,NPC.CenterX(),0)/2",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Flippable",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "NPC.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "NPC",
+                                "120",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                              },
+                              "parameters": [
+                                "Player",
+                                "SmoothCamera",
+                                "=",
+                                "DistanceBetweenPositions(Player.CenterX(),0,NPC.CenterX(),0)/2",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "NPC",
+                                "100",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                              },
+                              "parameters": [
+                                "Player",
+                                "SmoothCamera",
+                                "=",
+                                "DistanceBetweenPositions(Player.CenterX(),0,NPC.CenterX(),0)/2",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -32318,7 +32515,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "NPC",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -32483,7 +32679,6 @@
                       "comment": "Idle"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -39158,7 +39353,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39168,7 +39362,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Fill Ingridients",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -39666,6 +39859,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Potions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
