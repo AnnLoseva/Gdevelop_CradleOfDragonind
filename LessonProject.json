@@ -10779,6 +10779,10 @@
           "TouchIsInside": false,
           "MouseIsInside": false,
           "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -13108,6 +13112,242 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Info_Tab",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Brightness",
+          "doubleParameters": {
+            "brightness": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Quests",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New Assets\\Orange.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 74
+                      },
+                      {
+                        "x": 0,
+                        "y": 74
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Diary",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New Assets\\Blue - Diary.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 74
+                      },
+                      {
+                        "x": 0,
+                        "y": 74
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inventory",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New Assets\\Red - guests.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 74
+                      },
+                      {
+                        "x": 0,
+                        "y": 74
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Potions",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New Assets\\Green - potion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 0
+                      },
+                      {
+                        "x": 153,
+                        "y": 74
+                      },
+                      {
+                        "x": 0,
+                        "y": 74
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13202,6 +13442,9 @@
           },
           {
             "objectName": "Diary_Tab_Button"
+          },
+          {
+            "objectName": "Info_Tab"
           },
           {
             "objectName": "Description_Image"
@@ -20808,7 +21051,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2216924727500545,
+        "zoomFactor": 0.33005600491659703,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21975,98 +22218,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 178,
-          "customSize": true,
-          "depth": 1,
-          "height": 147,
-          "layer": "Diary",
-          "name": "Diary_Tab_Button",
-          "persistentUuid": "8b637d77-fe11-4f71-87e6-ea1dfa7c11a8",
-          "width": 81,
-          "x": 1801,
-          "y": 155,
-          "zOrder": 135,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Type",
-              "type": "string",
-              "value": "Ingridients"
-            }
-          ]
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 147,
-          "layer": "Diary",
-          "name": "Diary_Tab_Button",
-          "persistentUuid": "9ade0c20-8ebd-4c5f-ab62-8a5f2d9a0b04",
-          "width": 81,
-          "x": 1805,
-          "y": 317,
-          "zOrder": 135,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Type",
-              "type": "string",
-              "value": "Potions Info"
-            }
-          ]
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 147,
-          "layer": "Diary",
-          "name": "Diary_Tab_Button",
-          "persistentUuid": "f4fe4f72-1c77-40d8-bfa7-d7b6e74d4356",
-          "width": 81,
-          "x": 1805,
-          "y": 481,
-          "zOrder": 135,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Type",
-              "type": "string",
-              "value": "Diseeses"
-            }
-          ]
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 147,
-          "layer": "Diary",
-          "name": "Diary_Tab_Button",
-          "persistentUuid": "b9cbc4c3-6bf4-4405-a81e-30306b2fbdef",
-          "width": 81,
-          "x": 1808,
-          "y": 644,
-          "zOrder": 135,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Type",
-              "type": "string",
-              "value": "Creatures"
-            }
-          ]
         },
         {
           "angle": 0,
@@ -23939,14 +24090,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 900,
           "layer": "Base Diary",
           "name": "DiaryPannel",
           "persistentUuid": "7d9f71df-a40c-4880-8d50-2393971a62be",
-          "width": 0,
-          "x": 295,
-          "y": 103,
+          "width": 1500,
+          "x": 210,
+          "y": 120,
           "zOrder": 220,
           "numberProperties": [],
           "stringProperties": [],
@@ -23960,8 +24112,8 @@
           "name": "Scroll_Panel",
           "persistentUuid": "3b3d73b7-7ba9-4b4f-bfb2-bc5e25896f2e",
           "width": 0,
-          "x": 367,
-          "y": -113,
+          "x": 264,
+          "y": -120,
           "zOrder": 225,
           "numberProperties": [],
           "stringProperties": [],
@@ -23976,8 +24128,8 @@
           "name": "Description_Image",
           "persistentUuid": "4ffb9c3b-565c-426c-bcb4-b39ddf7502ce",
           "width": 600,
-          "x": 1162,
-          "y": 142,
+          "x": 1063,
+          "y": 164,
           "zOrder": 226,
           "numberProperties": [],
           "stringProperties": [],
@@ -25314,6 +25466,98 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "039fa88e-0ca9-4868-9fb6-1bae55d8387a",
+          "width": 200,
+          "x": 1600,
+          "y": 184,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Ingridients"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "a97bf2e7-b999-4488-b0eb-c47b92c57a43",
+          "width": 200,
+          "x": 1600,
+          "y": 337,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Potions Info"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "e0de2178-7cd7-42f0-9945-22864e331379",
+          "width": 200,
+          "x": 1600,
+          "y": 496,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Diseeses"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "636166a7-7a7d-4678-a896-1bc8a468f556",
+          "width": 200,
+          "x": 1600,
+          "y": 674,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Creatures"
+            }
+          ]
         }
       ],
       "objects": [],
@@ -25444,7 +25688,7 @@
           "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -36522,110 +36766,64 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "Diary_Tab_Button",
+                    "Info_Tab",
                     "ButtonFSM",
                     ""
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "DiaryTab",
+                    "=",
+                    "Info_Tab.Type"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "AjoutObjConcern"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Quests\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Diary\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Inventory\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Potions\""
-                          ]
-                        }
+                      "parameters": [
+                        "",
+                        "Info_Tab"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarObjetTxt"
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                       },
                       "parameters": [
-                        "DiaryPannel",
-                        "State",
-                        "=",
-                        "Diary_Tab_Button.Type"
+                        "Info_Tab",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "0.7"
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AjoutObjConcern"
-                          },
-                          "parameters": [
-                            "",
-                            "Diary_Tab_Button"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "0.7"
-                          ]
-                        }
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Info_Tab",
+                        "Tween",
+                        "\"X position\"",
+                        "1600",
+                        "\"easeInQuad\"",
+                        "0.3",
+                        ""
                       ]
                     }
                   ]
@@ -36635,157 +36833,112 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Quests\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Diary\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Inventory\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Potions\""
-                          ]
-                        }
+                      "parameters": [
+                        "Info_Tab",
+                        "ButtonFSM",
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarObjetTxt"
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                       },
                       "parameters": [
-                        "DiaryPannel",
-                        "DiaryTab",
-                        "=",
-                        "Diary_Tab_Button.Type"
+                        "Info_Tab",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Info_Tab",
+                        "Tween",
+                        "\"X position\"",
+                        "1650",
+                        "\"easeInQuad\"",
+                        "0.3",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Diary_Tab_Button",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "Diary_Tab_Button.Type"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Diary_Tab_Button"
                       ]
                     }
                   ],
-                  "events": [
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AjoutObjConcern"
-                          },
-                          "parameters": [
-                            "",
-                            "Diary_Tab_Button"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Diary_Tab_Button",
-                                "Type",
-                                "=",
-                                "\"Quests\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Diary_Tab_Button",
-                                "Type",
-                                "=",
-                                "\"Diary\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Diary_Tab_Button",
-                                "Type",
-                                "=",
-                                "\"Inventory\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Diary_Tab_Button",
-                                "Type",
-                                "=",
-                                "\"Potions\""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "0.7"
-                          ]
-                        }
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "Diary_Tab_Button",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Diary_Tab_Button",
+                        "Tween",
+                        "\"X position\"",
+                        "150",
+                        "\"easeInQuad\"",
+                        "0.3",
+                        ""
                       ]
                     }
                   ]
@@ -36815,6 +36968,20 @@
                         "\"Brightness\"",
                         "\"brightness\"",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Diary_Tab_Button",
+                        "Tween",
+                        "\"X position\"",
+                        "100",
+                        "\"easeInQuad\"",
+                        "0.3",
+                        ""
                       ]
                     }
                   ]
