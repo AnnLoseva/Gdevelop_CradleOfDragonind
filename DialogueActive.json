@@ -40,7 +40,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Let's Make Potion!1",
+		"title": "Let's Make Potion!",
 		"tags": "End IdleNPC IdlePlayer",
 		"body": "<< if $Busy is false>> \n<<quest>> \nLet's make Potion! Bring me 5 Ingridients!\n<< endif>>\n\n<< if $Busy is true>> \nYou already have a quest\n<< endif>>\n[[Answer:End|End]]",
 		"position": {
@@ -80,7 +80,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Let's Make Potion!1Active",
+		"title": "Let's Make Potion!Active",
 		"tags": "End",
 		"body": "<< $Reward is BasePotion>> << $RewardAmount is 1>>\n<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> <<$Quest is Ingridients>> \nYou have no ingredients. You can't make Potion.\n<< endif >>\n\n<< if $Current > 0  and  $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>> <<$Quest is Ingridients>> \nNot enough! \n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
 		"position": {
@@ -96,26 +96,6 @@
 		"position": {
 			"x": 762,
 			"y": -564
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Let's Make Potion!2",
-		"tags": "End IdleNPC IdlePlayer",
-		"body": "<< if $Busy is false>> \n<<quest>> \nLet's make Potion! Bring me 5 Ingridients!\n<< endif>>\n\n<< if $Busy is true>> \nYou already have a quest\n<< endif>>\n[[Answer:End|End]]",
-		"position": {
-			"x": 1362,
-			"y": -200
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Let's Make Potion!2Active",
-		"tags": "End",
-		"body": "<< $Reward is BasePotion>> << $RewardAmount is 1>>\n<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> <<$Quest is Ingridients>> \nYou have no ingredients. You can't make Potion.\n<< endif >>\n\n<< if $Current > 0  and  $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>> <<$Quest is Ingridients>> \nNot enough!\n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
-		"position": {
-			"x": 1268,
-			"y": -506
 		},
 		"colorID": 0
 	}

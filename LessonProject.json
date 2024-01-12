@@ -20687,7 +20687,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.27050126039625866,
+        "zoomFactor": 0.2216924727500545,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20766,8 +20766,8 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "b6acf357-ad4d-42e7-b0f9-177fabb45223",
-          "width": 4209,
-          "x": -1886,
+          "width": 5274,
+          "x": -2951,
           "y": 434,
           "zOrder": 2,
           "numberProperties": [],
@@ -21325,8 +21325,8 @@
           "name": "NPC",
           "persistentUuid": "c4b1ac9d-b226-4cb0-bdc9-c623a90bdb32",
           "width": 0,
-          "x": 887,
-          "y": 366,
+          "x": 1648,
+          "y": 373,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -21394,8 +21394,8 @@
           "name": "NPC",
           "persistentUuid": "d1c217d1-4950-47fa-b641-8d924dad82de",
           "width": 0,
-          "x": 333,
-          "y": 359,
+          "x": 907,
+          "y": 370,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -21463,8 +21463,8 @@
           "name": "NPC",
           "persistentUuid": "ddb7eacc-d30e-45ea-b4ef-9476dad2f2eb",
           "width": 0,
-          "x": -378,
-          "y": 369,
+          "x": -414,
+          "y": 358,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -24704,8 +24704,8 @@
           "name": "NPC",
           "persistentUuid": "b63d7cec-3429-490a-a112-179a9e75c883",
           "width": 0,
-          "x": 66,
-          "y": 375,
+          "x": 604,
+          "y": 379,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -24773,8 +24773,8 @@
           "name": "NPC",
           "persistentUuid": "620cce71-4dca-40e3-9cad-85702fcc70ab",
           "width": 0,
-          "x": -608,
-          "y": 367,
+          "x": -1258,
+          "y": 356,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -24842,8 +24842,8 @@
           "name": "NPC",
           "persistentUuid": "ec4d8e60-d610-44ef-8cf4-df6e48d48e2c",
           "width": 0,
-          "x": -794,
-          "y": 362,
+          "x": -758,
+          "y": 369,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -24911,8 +24911,8 @@
           "name": "NPC",
           "persistentUuid": "cec24dac-807e-45be-a105-30e1a155724d",
           "width": 0,
-          "x": -9,
-          "y": 382,
+          "x": 197,
+          "y": 371,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -24980,7 +24980,7 @@
           "name": "NPC",
           "persistentUuid": "2d36b496-0d49-4c1f-9ed1-d0c14f3fbb5d",
           "width": 0,
-          "x": -207,
+          "x": -106,
           "y": 367,
           "zOrder": 91,
           "numberProperties": [],
@@ -25049,8 +25049,8 @@
           "name": "NPC",
           "persistentUuid": "d6cb61a3-b4da-4f95-9324-da9a12806229",
           "width": 0,
-          "x": -921,
-          "y": 357,
+          "x": -1697,
+          "y": 364,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -25118,7 +25118,7 @@
           "name": "NPC",
           "persistentUuid": "b98052cc-c564-4cdc-a1fe-edd616757dfd",
           "width": 0,
-          "x": -1078,
+          "x": -2085,
           "y": 360,
           "zOrder": 91,
           "numberProperties": [],
@@ -25178,6 +25178,21 @@
               ]
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Instruction",
+          "persistentUuid": "c415196b-4b78-43c4-8f79-39af60f51bca",
+          "width": 0,
+          "x": 984,
+          "y": 266,
+          "zOrder": 301,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -29416,6 +29431,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29456,7 +29472,7 @@
                       },
                       "parameters": [
                         "",
-                        "DialogueActive.json2"
+                        "DialogueActive.json"
                       ]
                     },
                     {
@@ -29636,7 +29652,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30198,25 +30213,13 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "10",
+                      "repeatExpression": "1",
                       "conditions": [],
                       "actions": [],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.TargetObject",
-                                "=",
-                                "InventoryData[QuestObjectNumber.Count].Name"
-                              ]
-                            }
-                          ],
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
@@ -30231,19 +30234,7 @@
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.TargetObject",
-                                "=",
-                                "PotionsData[QuestObjectNumber.Count].Name"
-                              ]
-                            }
-                          ],
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
@@ -30359,7 +30350,7 @@
                             "value": "DialogueTree::StartDialogueFromBranch"
                           },
                           "parameters": [
-                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name) - 1) + \"Active\""
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-7) + \"Active\""
                           ]
                         }
                       ]
