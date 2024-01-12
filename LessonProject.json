@@ -36343,7 +36343,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Diary Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36373,12 +36372,17 @@
                     "Open",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36459,7 +36463,7 @@
                             "Effect",
                             "\"Brightness\"",
                             "\"brightness\"",
-                            "0.5"
+                            "0.8"
                           ]
                         }
                       ]
@@ -36511,7 +36515,6 @@
               "comment": "Click Tab Button"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -36583,7 +36586,19 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "Diary_Tab_Button.Type"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36608,144 +36623,7 @@
                             "Effect",
                             "\"Brightness\"",
                             "\"brightness\"",
-                            "0.8"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Quests\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Diary\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Inventory\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Type",
-                            "=",
-                            "\"Potions\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "DiaryPannel",
-                            "State",
-                            "=",
-                            "Diary_Tab_Button.Type"
+                            "0.7"
                           ]
                         }
                       ]
@@ -36796,11 +36674,35 @@
                             "=",
                             "\"Inventory\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Diary_Tab_Button",
+                            "Type",
+                            "=",
+                            "\"Potions\""
+                          ]
                         }
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "DiaryTab",
+                        "=",
+                        "Diary_Tab_Button.Type"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36813,6 +36715,62 @@
                             "",
                             "Diary_Tab_Button"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Quests\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Diary\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Inventory\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Potions\""
+                              ]
+                            }
+                          ]
                         }
                       ],
                       "actions": [
@@ -36825,55 +36783,38 @@
                             "Effect",
                             "\"Brightness\"",
                             "\"brightness\"",
-                            "0.8"
+                            "0.7"
                           ]
                         }
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonFSM::IsClicked"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "ButtonFSM",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "Diary_Tab_Button",
-                            "Effect",
-                            "\"Brightness\"",
-                            "\"brightness\"",
-                            "1"
-                          ]
-                        }
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "Diary_Tab_Button",
+                        "ButtonFSM",
+                        ""
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "DiaryPannel",
-                            "DiaryTab",
-                            "=",
-                            "Diary_Tab_Button.Type"
-                          ]
-                        }
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "Diary_Tab_Button",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "1"
                       ]
                     }
                   ]
@@ -37238,6 +37179,7 @@
                       "comment": "Brew Potions"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -40822,6 +40764,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44522,64 +44465,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "Diary_Tab_Button"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Effect",
-                        "\"Brightness\"",
-                        "\"brightness\"",
-                        "0.5"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Type",
-                        "=",
-                        "\"Ingridients\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Effect",
-                        "\"Brightness\"",
-                        "\"brightness\"",
-                        "1"
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -44770,34 +44655,6 @@
                 }
               ],
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "Diary_Name_Panel"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "Diary_Name_Panel",
-                        "Effect",
-                        "\"Effect\"",
-                        "\"brightness\"",
-                        "0.7"
-                      ]
-                    }
-                  ]
-                },
                 {
                   "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
