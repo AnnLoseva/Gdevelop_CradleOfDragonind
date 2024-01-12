@@ -3332,6 +3332,14 @@
         "name": "Group 8.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/DialogueActive.json2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "DialogueActive.json2",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12097,7 +12105,7 @@
           ]
         },
         {
-          "name": "Let's Make Potion!1",
+          "name": "Let's Make Potion!",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -12145,7 +12153,7 @@
           ]
         },
         {
-          "name": "Let's Make Potion!2",
+          "name": "Sell me Potion!",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -13462,6 +13470,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "PotionsData",
       "type": "array",
       "children": [
@@ -13628,7 +13637,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -13754,6 +13762,156 @@
         {
           "folded": true,
           "persistentUuid": "ffc6eea6-3793-4722-aca9-29a8f99cf45a",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "c3b192c7-ebc3-424e-9c25-93153076df7f",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "f8a7bf54-2a0b-408f-b2e1-95935f50fc9c",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "9246a320-1120-407d-a452-48c1c173c1e6",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "14d671dc-aabf-4e38-8cb7-99fa5bbb81eb",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "786745b5-7b81-4e61-af44-fbe664da5aae",
           "type": "structure",
           "children": [
             {
@@ -20529,7 +20687,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3411856023473496,
+        "zoomFactor": 0.27050126039625866,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20968,8 +21126,8 @@
           "name": "Teleport",
           "persistentUuid": "07f2a5a5-a967-41bb-b3da-92051db01348",
           "width": 0,
-          "x": 1120,
-          "y": 377,
+          "x": 1091,
+          "y": 340,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -21167,7 +21325,7 @@
           "name": "NPC",
           "persistentUuid": "c4b1ac9d-b226-4cb0-bdc9-c623a90bdb32",
           "width": 0,
-          "x": 895,
+          "x": 887,
           "y": 366,
           "zOrder": 91,
           "numberProperties": [],
@@ -21236,8 +21394,8 @@
           "name": "NPC",
           "persistentUuid": "d1c217d1-4950-47fa-b641-8d924dad82de",
           "width": 0,
-          "x": 358,
-          "y": 372,
+          "x": 333,
+          "y": 359,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -21305,8 +21463,8 @@
           "name": "NPC",
           "persistentUuid": "ddb7eacc-d30e-45ea-b4ef-9476dad2f2eb",
           "width": 0,
-          "x": -353,
-          "y": 372,
+          "x": -378,
+          "y": 369,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -21337,7 +21495,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "Sell me Potion!"
+                  "value": "Sell me Potion!1"
                 },
                 {
                   "folded": true,
@@ -24259,6 +24417,765 @@
               "name": "ID",
               "type": "number",
               "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "b2d3113d-6eaa-4de8-a46b-281c59182312",
+          "width": 370,
+          "x": 394,
+          "y": 2156,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "2f301ca7-c67d-4f9a-966c-34ca49df268f",
+          "width": 569,
+          "x": 392,
+          "y": 2249,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "538cca15-0ac5-4fd1-96aa-00b4ebf796e2",
+          "width": 167,
+          "x": 778,
+          "y": 2165,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "6052325a-cc59-4d0c-a46b-47691c03e0f3",
+          "width": 396,
+          "x": 405,
+          "y": 2450,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "b32ce624-4de0-416d-b2ce-13110cabd10c",
+          "width": 542,
+          "x": 413,
+          "y": 2535,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "0419e8d9-da35-4b37-b372-9438b1ad9b49",
+          "width": 164,
+          "x": 788,
+          "y": 2457,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "de3e08dc-b2fe-48d6-a54d-83222a0f3813",
+          "width": 596,
+          "x": 380,
+          "y": 2147,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "3178a868-98a9-48e6-87ea-efbb40a7d026",
+          "width": 596,
+          "x": 380,
+          "y": 2441,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "c9a25ac9-7e2c-4001-9af7-8b967ba86152",
+          "width": 396,
+          "x": 409,
+          "y": 2728,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "654f938e-3c2a-462a-8d46-8db32e0233cd",
+          "width": 542,
+          "x": 417,
+          "y": 2813,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "788f27fd-c547-4c46-ba7e-c66b798f78c3",
+          "width": 164,
+          "x": 792,
+          "y": 2735,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "474e6259-a5d0-428b-9071-b75991553eed",
+          "width": 596,
+          "x": 384,
+          "y": 2719,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "b63d7cec-3429-490a-a112-179a9e75c883",
+          "width": 0,
+          "x": 66,
+          "y": 375,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!3"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "620cce71-4dca-40e3-9cad-85702fcc70ab",
+          "width": 0,
+          "x": -608,
+          "y": 367,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!4"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "ec4d8e60-d610-44ef-8cf4-df6e48d48e2c",
+          "width": 0,
+          "x": -794,
+          "y": 362,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!5"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "cec24dac-807e-45be-a105-30e1a155724d",
+          "width": 0,
+          "x": -9,
+          "y": 382,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!5"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "2d36b496-0d49-4c1f-9ed1-d0c14f3fbb5d",
+          "width": 0,
+          "x": -207,
+          "y": 367,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!6"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "d6cb61a3-b4da-4f95-9324-da9a12806229",
+          "width": 0,
+          "x": -921,
+          "y": 357,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!7"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "b98052cc-c564-4cdc-a1fe-edd616757dfd",
+          "width": 0,
+          "x": -1078,
+          "y": 360,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Bring me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!8"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
             }
           ]
         }
@@ -28499,7 +29416,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28540,7 +29456,7 @@
                       },
                       "parameters": [
                         "",
-                        "DialogueActive.json"
+                        "DialogueActive.json2"
                       ]
                     },
                     {
@@ -29385,6 +30301,18 @@
                             "contains",
                             "\"Complete\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Name",
+                            "contains",
+                            "\"Active\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -29393,7 +30321,45 @@
                             "value": "DialogueTree::StartDialogueFromBranch"
                           },
                           "parameters": [
-                            "NPC.Quest_Type.Name"
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name) - 1) "
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Name",
+                            "contains",
+                            "\"Complete\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Name",
+                            "contains",
+                            "\"Active\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name) - 1) + \"Active\""
                           ]
                         }
                       ]
@@ -36834,6 +37800,7 @@
                       "comment": "Get Next Quests"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -37055,6 +38022,66 @@
                             },
                             {
                               "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "contains",
+                                "JournalQuests[QuestCount-6].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "contains",
+                                "JournalQuests[QuestCount-7].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "contains",
+                                "JournalQuests[QuestCount-8].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "contains",
+                                "JournalQuests[QuestCount-9].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "contains",
+                                "JournalQuests[QuestCount-10].Name"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": []
@@ -37198,6 +38225,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37407,6 +38435,12 @@
                     "=",
                     "\"Quests\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [],
@@ -37567,6 +38601,7 @@
                   "comment": "Image"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -37710,7 +38745,6 @@
                   "comment": "Number"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -37850,10 +38884,10 @@
                                   "conditions": [
                                     {
                                       "type": {
-                                        "value": "VarGlobal"
+                                        "value": "VarGlobalTxt"
                                       },
                                       "parameters": [
-                                        "InventoryData[QuestObjectNumber.Count].Number",
+                                        "InventoryData[QuestObjectNumber.Count].Name",
                                         "=",
                                         "JournalQuests[QuestObjectNumber.ID].TargetObject"
                                       ]
@@ -37867,7 +38901,19 @@
                                       "parameters": [
                                         "QuestObjectNumber",
                                         "=",
-                                        "\"[b]\" + ToString(InventoryData[QuestObjectNumber.Count].Number) + \" / \" + ToString(JournalQuests[QuestObjectNumber.ID].TargetNumber)"
+                                        "ToString(InventoryData[QuestObjectNumber.Count].Number) + \"/\"+ToString(JournalQuests[QuestObjectNumber.ID].TargetNumber) "
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "New sound effect2",
+                                        "",
+                                        "",
+                                        ""
                                       ]
                                     }
                                   ],
@@ -37939,15 +38985,14 @@
                                   ]
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
                                       "type": {
-                                        "value": "VarGlobal"
+                                        "value": "VarGlobalTxt"
                                       },
                                       "parameters": [
-                                        "PotionsData[QuestObjectNumber.Count].Number",
+                                        "PotionsData[QuestObjectNumber.Count].Name",
                                         "=",
                                         "JournalQuests[QuestObjectNumber.ID].TargetObject"
                                       ]
@@ -37961,7 +39006,7 @@
                                       "parameters": [
                                         "QuestObjectNumber",
                                         "=",
-                                        "\"[b]\" + ToString(PotionsData[QuestObjectNumber.Count].Number) + \" / \" + ToString(JournalQuests[QuestObjectNumber.ID].TargetNumber)"
+                                        "ToString(PotionsData[QuestObjectNumber.Count].Number) + \"/\"+ToString(JournalQuests[QuestObjectNumber.ID].TargetNumber) "
                                       ]
                                     }
                                   ],
@@ -38272,7 +39317,7 @@
                     "Description_Image",
                     "Animation",
                     "=",
-                    "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 6)"
+                    "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
                   ]
                 },
                 {
@@ -45874,7 +46919,7 @@
                 "DiaryPannel",
                 "ScrollNumber",
                 ">",
-                "-5"
+                "-20"
               ]
             },
             {
