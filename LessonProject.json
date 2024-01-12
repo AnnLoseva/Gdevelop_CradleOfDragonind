@@ -36886,7 +36886,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -36898,6 +36897,12 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -36910,93 +36915,6 @@
                     "State",
                     "=",
                     "Diary_Tab_Button.Type"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "Diary_Tab_Button"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Effect",
-                        "\"Brightness\"",
-                        "\"brightness\"",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Tween",
-                        "\"X position\"",
-                        "150",
-                        "\"easeInQuad\"",
-                        "0.3",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Effect",
-                        "\"Brightness\"",
-                        "\"brightness\"",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Diary_Tab_Button",
-                        "Tween",
-                        "\"X position\"",
-                        "100",
-                        "\"easeInQuad\"",
-                        "0.3",
-                        ""
-                      ]
-                    }
                   ]
                 }
               ]
@@ -37343,6 +37261,92 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Diary_Tab_Button"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "0.7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "150",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Inventory\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "100",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -37359,7 +37363,6 @@
                       "comment": "Brew Potions"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -37525,6 +37528,92 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Diary_Tab_Button"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "0.7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "150",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Potions\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "100",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -37613,6 +37702,99 @@
                             "",
                             "\"Desctiption Image\""
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Diary_Tab_Button"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "0.7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "150",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Quests\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "100",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -37712,6 +37894,99 @@
                             "",
                             "\"Desctiption Image\""
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Diary_Tab_Button"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "0.7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "150",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Type",
+                                "=",
+                                "\"Diary\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Effect",
+                                "\"Brightness\"",
+                                "\"brightness\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Diary_Tab_Button",
+                                "Tween",
+                                "\"X position\"",
+                                "100",
+                                "\"easeInQuad\"",
+                                "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     }
