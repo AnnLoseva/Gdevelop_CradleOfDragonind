@@ -12990,6 +12990,124 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "QuestsButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "TargetNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Brightness",
+          "doubleParameters": {
+            "brightness": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 10
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rectangle 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1386,
+                        "y": 0
+                      },
+                      {
+                        "x": 1386,
+                        "y": 745
+                      },
+                      {
+                        "x": 0,
+                        "y": 745
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13047,6 +13165,9 @@
       {
         "folderName": "Quests",
         "children": [
+          {
+            "objectName": "QuestsButton"
+          },
           {
             "objectName": "QuestObjectImage"
           },
@@ -25195,111 +25316,9 @@
           "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "QuestsButton",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Description",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Rectangle 3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1386,
-                            "y": 0
-                          },
-                          {
-                            "x": 1386,
-                            "y": 745
-                          },
-                          {
-                            "x": 0,
-                            "y": 745
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "QuestsButton"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -29652,6 +29671,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38216,7 +38236,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38736,6 +38755,7 @@
                   "comment": "Number"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -39251,6 +39271,87 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "ID",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Description_Image",
+                        "Animation",
+                        "=",
+                        "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -39327,8 +39428,82 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "QuestsButton"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Brightness\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "yes"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
