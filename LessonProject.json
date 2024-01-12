@@ -13540,12 +13540,10 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "InventoryData",
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -13571,7 +13569,7 @@
               "name": "Tags",
               "persistentUuid": "7f919aba-95cf-4f8c-aa5c-5bea2e085832",
               "type": "string",
-              "value": "Green Red Black"
+              "value": "Green Red "
             },
             {
               "folded": true,
@@ -13582,7 +13580,6 @@
           ]
         },
         {
-          "folded": true,
           "persistentUuid": "cb24ab44-bba3-4ff8-bc65-a17fe6ddfebe",
           "type": "structure",
           "children": [
@@ -13602,7 +13599,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Blue Violet White"
+              "value": "Rainbow Violet "
             },
             {
               "folded": true,
@@ -13614,7 +13611,6 @@
           ]
         },
         {
-          "folded": true,
           "persistentUuid": "04b9661b-9ac9-4afb-8567-08cc1a939961",
           "type": "structure",
           "children": [
@@ -13634,7 +13630,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Rainbow White Violet"
+              "value": "Rainbow White"
             },
             {
               "folded": true,
@@ -13665,7 +13661,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Red Black Violet"
+              "value": "Red Black "
             },
             {
               "folded": true,
@@ -13696,7 +13692,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Blue White Rainbow"
+              "value": "Blue White "
             },
             {
               "folded": true,
@@ -13727,7 +13723,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Black Red Violet"
+              "value": "Black Red"
             },
             {
               "folded": true,
@@ -13758,7 +13754,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Rainbow White Green"
+              "value": "Rainbow White"
             },
             {
               "folded": true,
@@ -13789,7 +13785,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Red White Rainbow"
+              "value": "Red White"
             },
             {
               "folded": true,
@@ -13820,7 +13816,7 @@
               "name": "Tags",
               "persistentUuid": "5f03b568-3edb-4695-88a1-41866972932a",
               "type": "string",
-              "value": "Violet Blue Black"
+              "value": "Violet White"
             },
             {
               "folded": true,
@@ -13834,11 +13830,11 @@
       ]
     },
     {
-      "folded": true,
       "name": "PotionsData",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -13891,6 +13887,7 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "8fa26906-6447-444b-bc36-23f19ad5ab2f",
           "type": "structure",
           "children": [
@@ -14001,6 +13998,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
