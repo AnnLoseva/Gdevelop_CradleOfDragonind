@@ -10000,6 +10000,12 @@
           "name": "Timer_count",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Timer_Time",
+          "type": "string",
+          "value": ""
         }
       ],
       "effects": [
@@ -10025,6 +10031,12 @@
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "animations": [
@@ -21049,7 +21061,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.0967552429702221,
+        "zoomFactor": 0.16448391304937746,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25718,7 +25730,7 @@
           "isLocked": false,
           "name": "Ingridients + Potions",
           "renderingType": "2d",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -25978,7 +25990,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.12203823303706744,
+        "zoomFactor": 1.0536458333333376,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28761,9 +28773,88 @@
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "45827f5ecff9d1cc17847c948a055323dbd4ca63159a0ed696d49ddf18bd071e",
+          "name": "GreenDotBar",
+          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "content": {
+            "BarTopPadding": 3,
+            "BarLeftPadding": 4,
+            "BarRightPadding": 4,
+            "BarBottomPadding": 4,
+            "EasingDuration": 0,
+            "PreviousHighValueDuration": 0,
+            "ShowLabel": false,
+            "InitialValue": 0,
+            "MaxValue": 30
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 4,
+              "height": 26,
+              "leftMargin": 2,
+              "rightMargin": 2,
+              "texture": "Dot Bar Green Border.png",
+              "tiled": false,
+              "topMargin": 3,
+              "width": 118
+            },
+            "Buffer": {
+              "bottomMargin": 0,
+              "height": 19,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Dot Bar Green Fill Bar.png",
+              "tiled": true,
+              "topMargin": 0,
+              "width": 21
+            },
+            "FillBar": {
+              "bottomMargin": 0,
+              "height": 19,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Dot Bar Green Fill Bar.png",
+              "tiled": true,
+              "topMargin": 0,
+              "width": 21
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "2 / 3",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              }
+            }
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "GreenDotBar"
+          }
+        ]
       },
       "events": [
         {
@@ -28899,7 +28990,7 @@
           "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -28931,7 +29022,7 @@
           "isLocked": false,
           "name": "Ingridients + Potions",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -43019,7 +43110,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Clickable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43037,6 +43127,7 @@
               "comment": "Is on Screen"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -43363,132 +43454,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Index"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        ">=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        "<",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Animation",
-                        "=",
-                        "Tree.Animation::Index()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Index"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        ">=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        "-",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Animation",
-                        "=",
-                        "Tree.Animation::Index()"
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -43505,6 +43470,7 @@
               "comment": "Change Animation - Make Loot Spawner Smaller"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -43728,7 +43694,6 @@
               "comment": "Change Animation - Make Loot Spawner Bigger"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -43748,73 +43713,251 @@
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Tree",
-                  "conditions": [
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Index"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        ">",
-                        "0"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "GreenDotBar",
+                            "Tree",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "GreenDotBar",
+                            "=",
+                            "Tree.Info.Timer",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "RepeatEveryXSeconds::Repeat"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Grow\"",
-                        "5",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Timer",
+                            ">=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Index"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Animation",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Animation",
+                            "-",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Animation",
+                            "=",
+                            "Tree.Animation::Index()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Timer",
+                            "-",
+                            "30"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "GreenDotBar"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "GreenDotBar",
+                            "Tree",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "GreenDotBar",
+                            ""
+                          ]
+                        }
                       ]
                     }
-                  ],
-                  "actions": [
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Grow\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Tree",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        "+",
-                        "5"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Tree",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "GreenDotBar",
+                            "Tree",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "GreenDotBar"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Animation",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Animation",
-                        "=",
-                        "Tree.Animation::Index()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Tree",
-                        "Info.Timer",
-                        "=",
-                        "0"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Timer",
+                            "<=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Index"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Animation",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Timer",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -43834,7 +43977,6 @@
               "comment": "Use Global Timer's Time "
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -43895,6 +44037,28 @@
                                 "Info.Timer",
                                 "+",
                                 "Scenes_Timer[\"Array Of Scenes\"][Saves_and_Loads.SceneTImerNumber].Timer"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "GreenDotBar",
+                                "Tree.CenterX() - 50",
+                                "Tree.CenterY() -100",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "GreenDotBar",
+                                "Tree"
                               ]
                             }
                           ]
@@ -44303,6 +44467,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pickable object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
