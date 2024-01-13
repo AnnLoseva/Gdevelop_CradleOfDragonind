@@ -21271,7 +21271,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23689563725446908,
+        "zoomFactor": 0.22169247275005477,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21888,75 +21888,6 @@
               "name": "ID",
               "type": "number",
               "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "c4b1ac9d-b226-4cb0-bdc9-c623a90bdb32",
-          "width": 0,
-          "x": 1773,
-          "y": 366,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Brong me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!1"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
             }
           ]
         },
@@ -25150,7 +25081,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Quest_Type",
@@ -25219,7 +25150,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 3
+              "value": 1
             },
             {
               "name": "Quest_Type",
@@ -25288,7 +25219,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 4
+              "value": 2
             },
             {
               "name": "Quest_Type",
@@ -25305,75 +25236,6 @@
                   "name": "Name",
                   "type": "string",
                   "value": "Let's Make Potion!4"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "d74cf92e-b1d2-422b-a122-b48a29a03b6f",
-          "width": 0,
-          "x": -431,
-          "y": 374,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 5
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Brong me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!5"
                 },
                 {
                   "folded": true,
@@ -41604,36 +41466,23 @@
                                 "",
                                 "TempSave.TempNPC"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "JSONToObjectVariableStructure"
+                              },
+                              "parameters": [
+                                "VariableString(TempSave.TempNPC)",
+                                "NPC",
+                                "Quest_Type"
+                              ]
                             }
                           ],
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "BuiltinCommonInstructions::CompareStrings"
-                                  },
-                                  "parameters": [
-                                    "TempSave.TempNPC",
-                                    "=",
-                                    "\"Empty\""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "JSONToObjectVariableStructure"
-                                  },
-                                  "parameters": [
-                                    "VariableString(TempSave.TempNPC)",
-                                    "NPC",
-                                    "Quest_Type"
-                                  ]
-                                }
-                              ]
+                              "conditions": [],
+                              "actions": []
                             }
                           ]
                         }
@@ -41818,6 +41667,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -41995,6 +41845,7 @@
               "comment": "Save while Changing Level"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -42179,6 +42030,12 @@
                     "Usable",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
