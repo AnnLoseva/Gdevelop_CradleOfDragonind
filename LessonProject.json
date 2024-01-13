@@ -21092,7 +21092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28905162031349585,
+        "zoomFactor": 0.23689563725446908,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21786,144 +21786,6 @@
                   "name": "TargetObject",
                   "type": "string",
                   "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "d1c217d1-4950-47fa-b641-8d924dad82de",
-          "width": 0,
-          "x": 722,
-          "y": 370,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!2"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "ddb7eacc-d30e-45ea-b4ef-9476dad2f2eb",
-          "width": 0,
-          "x": -414,
-          "y": 358,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 2 Base Potions"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!1"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 2
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
                 }
               ]
             }
@@ -25007,489 +24869,6 @@
               "name": "ID",
               "type": "number",
               "value": 7
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "b63d7cec-3429-490a-a112-179a9e75c883",
-          "width": 0,
-          "x": 419,
-          "y": 379,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!3"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "620cce71-4dca-40e3-9cad-85702fcc70ab",
-          "width": 0,
-          "x": -1258,
-          "y": 356,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!4"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "ec4d8e60-d610-44ef-8cf4-df6e48d48e2c",
-          "width": 0,
-          "x": -758,
-          "y": 369,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!5"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "cec24dac-807e-45be-a105-30e1a155724d",
-          "width": 0,
-          "x": 197,
-          "y": 371,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!5"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "2d36b496-0d49-4c1f-9ed1-d0c14f3fbb5d",
-          "width": 0,
-          "x": -106,
-          "y": 367,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!6"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "d6cb61a3-b4da-4f95-9324-da9a12806229",
-          "width": 0,
-          "x": -1697,
-          "y": 364,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!7"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "b98052cc-c564-4cdc-a1fe-edd616757dfd",
-          "width": 0,
-          "x": -2085,
-          "y": 360,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "name": "Quest_Type",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Description",
-                  "type": "string",
-                  "value": "Bring me 5 Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!8"
-                },
-                {
-                  "folded": true,
-                  "name": "RewardNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "RewardObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 5
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "Grass"
-                }
-              ]
             }
           ]
         },
@@ -30616,7 +29995,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31184,7 +30562,19 @@
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.TargetObject",
+                                "=",
+                                "InventoryData[QuestObjectNumber.Count].Name"
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -31199,7 +30589,19 @@
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.TargetObject",
+                                "=",
+                                "PotionsData[QuestObjectNumber.Count].Name"
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -35468,6 +34870,7 @@
               "target": "Scroll"
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Link",
               "include": {
                 "includeConfig": 0
@@ -38801,16 +38204,6 @@
                 },
                 {
                   "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "isNPC",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -38969,7 +38362,6 @@
                       "comment": "Get Next Quests"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -39356,20 +38748,8 @@
                       "actions": [],
                       "events": [
                         {
-                          "disabled": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Name",
-                                "=",
-                                "JournalQuests[QuestCount].Name"
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "ObjectVariableAsBoolean"
@@ -39388,6 +38768,17 @@
                               },
                               "parameters": [
                                 "Arrow"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Effect",
+                                "\"Quest\"",
+                                "no"
                               ]
                             }
                           ]
@@ -39438,7 +38829,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39671,7 +39061,6 @@
                   "comment": "Name"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -40566,13 +39955,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Click Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -40716,6 +40103,15 @@
                         "Instruction",
                         "=",
                         "QuestsButton.Name"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        ""
                       ]
                     }
                   ],
@@ -48683,15 +48079,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Arrow",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "MettreAutour"
