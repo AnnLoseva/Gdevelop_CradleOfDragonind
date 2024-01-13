@@ -24978,6 +24978,282 @@
               "value": "Creatures"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "f6fb2d86-86a9-4e68-a64e-8a6f2363da87",
+          "width": 0,
+          "x": 488,
+          "y": 374,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!2"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "40ed4fb8-466b-406e-983f-538461c9b577",
+          "width": 0,
+          "x": 255,
+          "y": 381,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!3"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "a05be63e-faa4-4e41-a444-2d7f8d196428",
+          "width": 0,
+          "x": -99,
+          "y": 374,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!4"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "d74cf92e-b1d2-422b-a122-b48a29a03b6f",
+          "width": 0,
+          "x": -431,
+          "y": 374,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!5"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [
@@ -39347,7 +39623,6 @@
                   "comment": "Number"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -39505,18 +39780,6 @@
                                         "QuestObjectNumber",
                                         "=",
                                         "ToString(InventoryData[QuestObjectNumber.Count].Number) + \"/\"+ToString(JournalQuests[QuestObjectNumber.ID].TargetNumber) "
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PlaySound"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "New sound effect2",
-                                        "",
-                                        "",
-                                        ""
                                       ]
                                     }
                                   ],
@@ -40006,13 +40269,10 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "Montre"
                   },
                   "parameters": [
-                    "",
-                    "New sound effect2",
-                    "",
-                    "",
+                    "Arrow",
                     ""
                   ]
                 }
@@ -40102,16 +40362,7 @@
                       "parameters": [
                         "Instruction",
                         "=",
-                        "QuestsButton.Name"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Arrow",
-                        ""
+                        "ToString(Arrow.X())"
                       ]
                     }
                   ],
@@ -48087,7 +48338,7 @@
                 "Arrow",
                 "Player",
                 "50",
-                "AngleBetweenPositions(Player.X(),Player.Y(),NPC.X(),NPC.Y())"
+                "10"
               ]
             },
             {
