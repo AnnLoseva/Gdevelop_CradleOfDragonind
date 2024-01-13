@@ -21850,28 +21850,6 @@
           "height": 0,
           "layer": "",
           "name": "Pickable_Object",
-          "persistentUuid": "e9fa8c7f-be52-458f-af63-6c54ba4a765a",
-          "width": 0,
-          "x": 104,
-          "y": 262,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Type",
-              "type": "string",
-              "value": "Rainbow"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Pickable_Object",
           "persistentUuid": "1ecc5778-2e82-43ad-8328-5784e5762f70",
           "width": 0,
           "x": -149,
@@ -35146,7 +35124,6 @@
               "target": "Scroll"
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Link",
               "include": {
                 "includeConfig": 0
@@ -48338,7 +48315,7 @@
                 "Arrow",
                 "Player",
                 "50",
-                "10"
+                "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),NPC.CenterX(),NPC.CenterY())"
               ]
             },
             {
