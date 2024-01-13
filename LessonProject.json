@@ -3340,6 +3340,19 @@
         "metadata": "{\"extension\":\".json\"}",
         "name": "DialogueActive.json2",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Buff Arrow 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Buff Arrow 1_No Shadow.png\",\"extension\":\".png\"}",
+        "name": "c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -5695,6 +5708,11 @@
           "name": "NotEnd",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "Chosen",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -5728,6 +5746,19 @@
           "stringParameters": {
             "newColor": "109;221;115",
             "originalColor": "108;54;60"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glow",
+          "name": "Quest",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
           },
           "booleanParameters": {}
         }
@@ -21061,7 +21092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16448391304937746,
+        "zoomFactor": 0.28905162031349585,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25570,9 +25601,76 @@
           ]
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Arrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 5
+                          },
+                          {
+                            "x": 28,
+                            "y": 5
+                          },
+                          {
+                            "x": 28,
+                            "y": 27
+                          },
+                          {
+                            "x": 4,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Arrow"
+          }
+        ]
       },
       "events": [
         {
@@ -35095,7 +35193,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35369,6 +35466,13 @@
                 "includeConfig": 0
               },
               "target": "Scroll"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "MiniMap"
             }
           ],
           "parameters": []
@@ -37190,6 +37294,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Diary Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38667,7 +38772,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39249,15 +39353,59 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "JournalQuests[QuestCount].Name",
-                            "=",
-                            "\"no\""
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "=",
+                                "JournalQuests[QuestCount].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Chosen",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "Arrow"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Name",
+                                "=",
+                                "\"no\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -39290,6 +39438,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40417,11 +40566,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Click Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -40556,6 +40707,112 @@
                         "\"Outline\"",
                         "yes"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "Instruction",
+                        "=",
+                        "QuestsButton.Name"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "NPC"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Chosen",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Effect",
+                            "\"Quest\"",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "NPC",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ButtonStates::ButtonFSM::IsClicked"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "ButtonFSM",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
+                                "=",
+                                "QuestsButton.Name"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Chosen",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Effect",
+                                "\"Quest\"",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -40563,6 +40820,32 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"Quest\"",
+                "no"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -48374,6 +48657,95 @@
                 "ScrollNumber",
                 "+",
                 "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Experimental level",
+      "lastChangeTimeStamp": 0,
+      "name": "MiniMap",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "NPC",
+                "Chosen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Arrow",
+                "Player",
+                "50",
+                "AngleBetweenPositions(Player.X(),Player.Y(),NPC.X(),NPC.Y())"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Arrow",
+                "NPC.CenterX()",
+                "NPC.CenterY()",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Arrow",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Arrow"
               ]
             }
           ]
