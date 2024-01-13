@@ -13068,6 +13068,12 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "On",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -40119,17 +40125,6 @@
                         "\"brightness\"",
                         "0.7"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "no"
-                      ]
                     }
                   ]
                 },
@@ -40159,17 +40154,6 @@
                         "\"Brightness\"",
                         "\"brightness\"",
                         "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "yes"
                       ]
                     },
                     {
@@ -40243,15 +40227,6 @@
                     "=",
                     "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    ""
-                  ]
                 }
               ],
               "events": [
@@ -40265,6 +40240,17 @@
                       "parameters": [
                         "",
                         "QuestsButton"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "ButtonFSM",
+                        ""
                       ]
                     }
                   ],
@@ -40290,6 +40276,16 @@
                         "Effect",
                         "\"Outline\"",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "False"
                       ]
                     }
                   ]
@@ -40410,6 +40406,16 @@
                                 "=",
                                 "QuestsButton.Name"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "False"
+                              ]
                             }
                           ],
                           "actions": [
@@ -40433,6 +40439,129 @@
                                 "\"Quest\"",
                                 "yes"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "Arrow",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Effect",
+                                "\"Outline\"",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "True"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ButtonStates::ButtonFSM::IsClicked"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "ButtonFSM",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Chosen",
+                                "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Effect",
+                                "\"Quest\"",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "Arrow"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Effect",
+                                "\"Outline\"",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "False"
+                              ]
                             }
                           ]
                         }
@@ -40446,6 +40575,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -40466,6 +40596,17 @@
                 "NPC",
                 "Effect",
                 "\"Quest\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "QuestsButton",
+                "Effect",
+                "\"Outline\"",
                 "no"
               ]
             }
