@@ -13083,7 +13083,7 @@
           "folded": true,
           "name": "On",
           "type": "boolean",
-          "value": true
+          "value": false
         },
         {
           "folded": true,
@@ -21485,7 +21485,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36458333333333914,
+        "zoomFactor": 0.28905162031349635,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21503,6 +21503,7 @@
           "value": 0
         },
         {
+          "folded": true,
           "name": "TempSave",
           "type": "structure",
           "children": [
@@ -21637,10 +21638,8 @@
           "depth": 0,
           "height": 800,
           "layer": "Dialogue",
-          "locked": true,
           "name": "Dialogue_Shadow",
           "persistentUuid": "2e5ab424-0c89-4a31-a80d-58c6b5edd403",
-          "sealed": true,
           "width": 5000,
           "x": -1209,
           "y": 300,
@@ -25393,7 +25392,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "Let's Make Potion!3"
+                  "value": "Let's Make Potion!1"
                 },
                 {
                   "folded": true,
@@ -25462,7 +25461,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "Let's Make Potion!4"
+                  "value": "Let's Make Potion!0"
                 },
                 {
                   "folded": true,
@@ -26002,7 +26001,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -26098,7 +26097,7 @@
           "isLocked": false,
           "name": "Desctiption Image",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -26733,8 +26732,8 @@
           "name": "NPC",
           "persistentUuid": "f17bfc95-abb5-46f1-a883-b81c98a3990c",
           "width": 0,
-          "x": 1893,
-          "y": 549,
+          "x": 852,
+          "y": 578,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -26759,7 +26758,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "Start"
+                  "value": "Start1"
                 },
                 {
                   "folded": true,
@@ -29084,6 +29083,75 @@
               "value": false
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "7eb90368-fd44-4e42-8aeb-7f956cf6738f",
+          "width": 0,
+          "x": 688,
+          "y": 571,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!4"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [
@@ -29595,7 +29663,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.1878173288053039,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29618,6 +29686,62 @@
               "value": 100000
             }
           ]
+        },
+        {
+          "name": "TempSave",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "TempInventory",
+              "persistentUuid": "0dbffafd-f3d4-415b-aef1-9422161226bd",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempJournal",
+              "persistentUuid": "0fd70833-9134-48b4-83c0-838b6a30c1f4",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TempLevel",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TempNPC",
+              "persistentUuid": "b3a752ec-21e0-4059-8687-76c35615e798",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempQuestsState",
+              "persistentUuid": "f91fc3bc-0673-480f-9697-42995cfca46d",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempTree",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "InventoryCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "textScrollSpeed",
+          "type": "number",
+          "value": 0.05
         }
       ],
       "instances": [
@@ -29707,6 +29831,3573 @@
               "value": "Experimental level"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "e168c0b8-bfc1-4050-b7f7-e2b027c90fd3",
+          "width": 0,
+          "x": 754,
+          "y": 479,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC"
+            },
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Brong me 5 Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!3"
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 200,
+          "layer": "Dialogue",
+          "name": "Dialogue_Pannel",
+          "persistentUuid": "21a38262-7fb6-4396-8a5b-80f3da9a1aa1",
+          "width": 400,
+          "x": 1489,
+          "y": 444,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 287,
+          "layer": "Dialogue",
+          "name": "DialogueText",
+          "persistentUuid": "f7e482c7-587f-41b7-96c5-f8c6db72daa2",
+          "width": 385,
+          "x": 1493,
+          "y": 483,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 285,
+          "layer": "Dialogue",
+          "name": "Options",
+          "persistentUuid": "3b886474-0a1a-41ad-9300-a67a66c5478b",
+          "width": 391,
+          "x": 178,
+          "y": 546,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 800,
+          "layer": "Dialogue",
+          "name": "Dialogue_Shadow",
+          "persistentUuid": "9ca63067-f5f8-42fe-96c0-42f15299ad6e",
+          "width": 5000,
+          "x": -1220,
+          "y": 294,
+          "zOrder": 50,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 800,
+          "layer": "Dialogue",
+          "name": "DIalogue_Player",
+          "persistentUuid": "e95424f0-2379-472d-94ea-d4225e7bfa2c",
+          "width": 500,
+          "x": -569,
+          "y": 167,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 800,
+          "layer": "Dialogue",
+          "name": "DIalogue_NPC",
+          "persistentUuid": "aba45b57-8aaf-4a13-8f18-c3079621beb7",
+          "width": 500,
+          "x": 1989,
+          "y": 144,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 200,
+          "layer": "Dialogue",
+          "name": "Options_Pannel",
+          "persistentUuid": "77874e59-9bb2-43be-85b0-163d89c59993",
+          "width": 400,
+          "x": -16,
+          "y": 494,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 200,
+          "layer": "Dialogue",
+          "name": "Cin_Bor_Up",
+          "persistentUuid": "0bc31da5-21d3-4745-9457-69e441bdbdee",
+          "width": 3000,
+          "x": -511,
+          "y": -206,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "Dialogue",
+          "name": "Cin_Bor_Down",
+          "persistentUuid": "53c7f564-8e46-4397-8f36-08dea2a0ac3c",
+          "width": 3000,
+          "x": -511,
+          "y": 1074,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Paw_on_Journal",
+          "persistentUuid": "92099b98-d975-4c72-870a-3086c1efaf81",
+          "width": 0,
+          "x": -48,
+          "y": 709,
+          "zOrder": 300,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Diary_Tab_Button",
+          "persistentUuid": "67c00e79-9161-4a23-aef1-29d6f46a667f",
+          "width": 0,
+          "x": 132,
+          "y": 176,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Quests"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Diary_Tab_Button",
+          "persistentUuid": "42c13047-4c03-48a3-9198-acee5069b8c7",
+          "width": 0,
+          "x": 130,
+          "y": 307,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Diary"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Diary_Tab_Button",
+          "persistentUuid": "8a6e6ddb-3edc-49e3-8903-2f1280290639",
+          "width": 0,
+          "x": 128,
+          "y": 445,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Inventory"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Diary_Tab_Button",
+          "persistentUuid": "a93ed090-7126-4b1e-9b45-c806b8bff080",
+          "width": 0,
+          "x": 122,
+          "y": 587,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Potions"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 900,
+          "layer": "Base Diary",
+          "name": "DiaryPannel",
+          "persistentUuid": "110c7c42-14d8-42e9-8b0b-cbc432d626a3",
+          "width": 1500,
+          "x": 219,
+          "y": 96,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Base Diary",
+          "name": "Scroll_Panel",
+          "persistentUuid": "697216b7-7081-4c44-96a1-09c1cfacd60a",
+          "width": 0,
+          "x": 273,
+          "y": -144,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "89ea5297-beaf-4fa0-b357-2f503227c18a",
+          "width": 200,
+          "x": 1609,
+          "y": 160,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Ingridients"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "7a72d58e-f689-4774-a9f2-6eb077e01da8",
+          "width": 200,
+          "x": 1609,
+          "y": 313,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Potions Info"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "b3cff692-92cb-4c10-ad4a-da9614c7dae1",
+          "width": 200,
+          "x": 1609,
+          "y": 472,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Diseeses"
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "Base Diary",
+          "name": "Info_Tab",
+          "persistentUuid": "9f3b8f54-e9b5-4f70-a42d-f053e4809b44",
+          "width": 200,
+          "x": 1609,
+          "y": 650,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "string",
+              "value": "Creatures"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "1406ea09-0bf8-4d98-9a24-043150c949c5",
+          "width": 158,
+          "x": 317,
+          "y": -25,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "7d35b579-2db6-4bfc-be47-4b7e7e1bd0f7",
+          "width": 73,
+          "x": 399,
+          "y": 69,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "IsPotion",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "cda3dcb2-9f56-4e50-98ed-0f21213e608e",
+          "width": 250,
+          "x": 758,
+          "y": -70,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "0b86f45b-ce9e-4757-b2f2-6567dc2b0c2b",
+          "width": 132,
+          "x": 905,
+          "y": 73,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "4fd61049-58e9-4730-af1e-203c7d170479",
+          "width": 158,
+          "x": 502,
+          "y": -26,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "7e7c004f-ce16-4ea3-8979-cc1134ca0f64",
+          "width": 158,
+          "x": 316,
+          "y": 204,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "d15274a0-f936-48fe-b986-4a4dd9567449",
+          "width": 158,
+          "x": 501,
+          "y": 203,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "5118ba64-2aa9-4755-9994-00c41b5f8ab5",
+          "width": 158,
+          "x": 316,
+          "y": 460,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "8a9e9abd-767e-424f-aadb-ccb638bbaad9",
+          "width": 158,
+          "x": 501,
+          "y": 459,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "03b8e49d-0443-4217-a88b-f1e766cc96ce",
+          "width": 158,
+          "x": 318,
+          "y": 739,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "054e61bb-f261-478b-93f9-370bfa5c0270",
+          "width": 158,
+          "x": 503,
+          "y": 738,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "469b8784-d1f3-4838-a159-9383dd08eed9",
+          "width": 158,
+          "x": 316,
+          "y": 1026,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "80d79ee6-c536-4e1f-9ca5-649dda23cf24",
+          "width": 158,
+          "x": 501,
+          "y": 1025,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "b0efb7a8-e385-4a1b-94f2-be40184ff80f",
+          "width": 158,
+          "x": 309,
+          "y": 1297,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "7ef0f194-16bb-4cd6-953c-7350403de6a6",
+          "width": 158,
+          "x": 494,
+          "y": 1296,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "512c3055-661b-4cb3-aee7-3657a3da4afc",
+          "width": 80,
+          "x": 398,
+          "y": 71,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "dff5a22c-98de-4377-be82-d2a6ce94a352",
+          "width": 73,
+          "x": 603,
+          "y": 77,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "IsPotion",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "2e453378-b549-46f9-9065-bb601cbd53b3",
+          "width": 80,
+          "x": 602,
+          "y": 79,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "f3a2b674-073d-4662-81d5-84fe3b34d480",
+          "width": 73,
+          "x": 413,
+          "y": 307,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "765a480f-b415-4928-9c58-e79dab2a6fb2",
+          "width": 80,
+          "x": 412,
+          "y": 309,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "9b21e385-e003-48df-8997-ea037498535e",
+          "width": 73,
+          "x": 596,
+          "y": 309,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "61459017-977c-4b15-908d-174d9e29d6ce",
+          "width": 80,
+          "x": 595,
+          "y": 311,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "58cce3bc-e5aa-43e6-bae0-df455d0d7d2f",
+          "width": 73,
+          "x": 417,
+          "y": 573,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "bb717642-5087-4618-9f13-5a688b8f5380",
+          "width": 80,
+          "x": 416,
+          "y": 575,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "e31897a6-8c3c-4542-9d1e-087434966ba9",
+          "width": 73,
+          "x": 605,
+          "y": 569,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "28bec55a-56b5-42bc-9d29-2e3d3ed60d8c",
+          "width": 80,
+          "x": 604,
+          "y": 571,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "33838df3-cae5-4b37-af89-5384b3ba9d65",
+          "width": 73,
+          "x": 414,
+          "y": 842,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "07dd6302-69d6-40ec-abc4-bd54c4acea27",
+          "width": 80,
+          "x": 413,
+          "y": 844,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "b9237132-1ce4-4485-9aa0-6dfdfc3c6ae3",
+          "width": 73,
+          "x": 603,
+          "y": 846,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "e4081a99-a963-486d-8732-733e1d1f70b2",
+          "width": 80,
+          "x": 602,
+          "y": 848,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "9ed5d92d-563a-4c6a-8fec-343d00a07cbc",
+          "width": 73,
+          "x": 412,
+          "y": 1124,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "db3816d4-5363-44a6-b47b-492478a2b0b4",
+          "width": 80,
+          "x": 411,
+          "y": 1126,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "caf94bda-b3c4-4ebb-8c41-b6460a249ed6",
+          "width": 73,
+          "x": 598,
+          "y": 1136,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "c3ba783a-2045-4c8c-ab64-9450bd63f184",
+          "width": 80,
+          "x": 597,
+          "y": 1138,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "67b5c17e-10ee-4edb-9205-9ed6b0556c49",
+          "width": 73,
+          "x": 404,
+          "y": 1398,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "f5aac607-983c-4a9d-b7eb-c4f85f4d7d5a",
+          "width": 80,
+          "x": 403,
+          "y": 1400,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "6c66d688-b5a4-4a41-b2b4-90c35265757f",
+          "width": 130,
+          "x": 902,
+          "y": 76,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "82e5e0f4-d283-4300-b154-2c3ca7f8481e",
+          "width": 250,
+          "x": 758,
+          "y": 301,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "ee3bfc95-5396-4446-ac0d-89ff772514bf",
+          "width": 132,
+          "x": 905,
+          "y": 444,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "7b57568a-e8e3-4ed5-828c-8ab7f812eb97",
+          "width": 130,
+          "x": 902,
+          "y": 447,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "e2fe1aca-6bee-45f3-9cac-fc7beced7fc8",
+          "width": 250,
+          "x": 766,
+          "y": 615,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "be18dcfe-8278-4923-9586-2c41757ce6b7",
+          "width": 132,
+          "x": 913,
+          "y": 758,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "9f554740-69a5-4ab0-8d60-fe89c0814036",
+          "width": 130,
+          "x": 910,
+          "y": 761,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "61eaea65-a5ba-48ef-974c-37d6cd9063cb",
+          "width": 250,
+          "x": 760,
+          "y": 925,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "9989deb4-a5ec-4a54-9fde-0fe8aaf5a2b5",
+          "width": 132,
+          "x": 907,
+          "y": 1068,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "8fa895a8-af29-462a-afd7-24770c2eb3bc",
+          "width": 130,
+          "x": 904,
+          "y": 1071,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "be4dd8b9-d40b-44be-a68a-c85515ebcd97",
+          "width": 250,
+          "x": 756,
+          "y": 1234,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "b89cc4f0-336b-43aa-a314-78784ab80f9f",
+          "width": 132,
+          "x": 903,
+          "y": 1377,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "6b3a0640-9b62-44a4-bbe0-e4b133743c43",
+          "width": 130,
+          "x": 900,
+          "y": 1380,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "ec8608b8-d848-4f91-bbfd-1ae0e6cc87a7",
+          "width": 250,
+          "x": 753,
+          "y": 1537,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "3564cbe3-5e53-47af-b479-99403fd51b37",
+          "width": 132,
+          "x": 900,
+          "y": 1680,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "5b8153a6-e69e-40b7-ba01-10e4aa3d4776",
+          "width": 130,
+          "x": 897,
+          "y": 1683,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "2c43daea-bb0e-4728-84c4-d23f1c3f3712",
+          "width": 250,
+          "x": 753,
+          "y": 1840,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "43abbcfc-c5bd-4068-a76e-1ec9ef44fb5a",
+          "width": 132,
+          "x": 900,
+          "y": 1983,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "b65e573d-57e8-4b66-8183-45fce9a55463",
+          "width": 130,
+          "x": 897,
+          "y": 1986,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "46d38808-d2aa-4c79-a06b-8ddf20ace16d",
+          "width": 250,
+          "x": 749,
+          "y": 2149,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "36a0e7fc-0eb4-49da-8cf8-2b3c41f3f1ba",
+          "width": 132,
+          "x": 896,
+          "y": 2292,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "fb865dab-e2ce-4769-91ed-00b34f863200",
+          "width": 130,
+          "x": 893,
+          "y": 2295,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "dcd2d2d7-60b4-4c03-bf5a-c164010773e1",
+          "width": 250,
+          "x": 743,
+          "y": 2443,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "1530902a-5e8b-472c-853c-e52469f081aa",
+          "width": 132,
+          "x": 890,
+          "y": 2586,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "62d0e6ed-7e2e-4070-9e52-3deb05e4a0aa",
+          "width": 130,
+          "x": 887,
+          "y": 2589,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "60bbcfdf-0e8a-45cd-a97e-b37d79f92563",
+          "width": 250,
+          "x": 746,
+          "y": 2754,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "a539fedc-f9ed-49ed-b339-09096909685b",
+          "width": 132,
+          "x": 893,
+          "y": 2897,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "01e48bb0-e536-4dc0-8c45-5304e26b1001",
+          "width": 130,
+          "x": 890,
+          "y": 2900,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Potion",
+          "persistentUuid": "5963216b-2583-43e4-9bdf-aab0134c9093",
+          "width": 250,
+          "x": 746,
+          "y": 3044,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "Potion_Number",
+          "persistentUuid": "acad0855-eb75-4779-8a09-b435477b0464",
+          "width": 132,
+          "x": 893,
+          "y": 3187,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "7099c782-ee49-4bfb-8584-325ce0b9b9ce",
+          "width": 130,
+          "x": 890,
+          "y": 3190,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "a6dfb8f4-c6c0-44f7-a637-205168493927",
+          "width": 73,
+          "x": 586,
+          "y": 1414,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "86e0d04a-6884-4459-be1e-6e3fba253515",
+          "width": 80,
+          "x": 585,
+          "y": 1416,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "c46baf93-c9fe-4e52-b9e9-a19dd56c42ac",
+          "width": 158,
+          "x": 308,
+          "y": 1569,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "76d39b17-d87c-47f5-a3ba-fd96dc9c5245",
+          "width": 158,
+          "x": 493,
+          "y": 1568,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "e562c235-69b5-46b6-98b1-f6539b657544",
+          "width": 158,
+          "x": 301,
+          "y": 1840,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "d82657aa-f6d9-4f8c-8422-d521e58df0a7",
+          "width": 158,
+          "x": 486,
+          "y": 1839,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "871f9715-02a0-4a86-bde4-5036370ec60c",
+          "width": 73,
+          "x": 404,
+          "y": 1667,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "b0503df6-2b62-4a67-9195-331341da926a",
+          "width": 80,
+          "x": 403,
+          "y": 1669,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "5fbe1bef-65da-48f8-89c6-a3c16ee7c9a1",
+          "width": 73,
+          "x": 590,
+          "y": 1679,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "06c2b34b-d9f7-41cb-b33d-b6e6ffed2dea",
+          "width": 80,
+          "x": 589,
+          "y": 1681,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "4ac36d57-6a70-49bd-acc4-7812d8de95b7",
+          "width": 73,
+          "x": 396,
+          "y": 1941,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "f7ef24f5-da10-4d28-b53d-c3727cd4e726",
+          "width": 80,
+          "x": 395,
+          "y": 1943,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "bb5221b4-5135-4c0c-a936-ec85faed4e03",
+          "width": 73,
+          "x": 578,
+          "y": 1957,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "30233724-77ac-40b5-bccd-36913b2bd7a5",
+          "width": 80,
+          "x": 577,
+          "y": 1959,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "c079affd-f032-4601-8354-3c2f26bd330b",
+          "width": 158,
+          "x": 304,
+          "y": 2142,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "9e6d9363-b534-4cd5-a14f-17455c6daa82",
+          "width": 158,
+          "x": 489,
+          "y": 2141,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "37c64bb3-d99b-4a76-96d3-a807a1a3ec5f",
+          "width": 158,
+          "x": 297,
+          "y": 2413,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "5f10ddab-5691-4e3d-81f4-0b44473cc52c",
+          "width": 158,
+          "x": 482,
+          "y": 2412,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "f257687d-af82-45d7-b468-273bf71ac3f6",
+          "width": 73,
+          "x": 400,
+          "y": 2240,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "2712b3cb-772b-4c6b-88e2-70ec899e9d84",
+          "width": 80,
+          "x": 399,
+          "y": 2242,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "73c84cbd-c530-4600-8d14-99db59cca5ef",
+          "width": 73,
+          "x": 586,
+          "y": 2252,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "3562dfd5-6b00-475c-aa87-fe32762f80b3",
+          "width": 80,
+          "x": 585,
+          "y": 2254,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "7ecbad00-d0a3-4e44-8208-ff45864502ef",
+          "width": 73,
+          "x": 392,
+          "y": 2514,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "b8000b3a-24d6-478d-ba63-de718e03383f",
+          "width": 80,
+          "x": 391,
+          "y": 2516,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "27823dab-0153-46f8-98d7-3df2482acf9d",
+          "width": 73,
+          "x": 574,
+          "y": 2530,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "d30d46e0-7796-4eff-90c7-20510b2d2bfa",
+          "width": 80,
+          "x": 573,
+          "y": 2532,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "6c265ca0-8670-4669-8409-4e7d7841a001",
+          "width": 158,
+          "x": 294,
+          "y": 2680,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "84150984-7785-44d0-b3b1-db70b8590f2c",
+          "width": 158,
+          "x": 479,
+          "y": 2679,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "f1dd97fa-01ff-43f2-bc6e-80b1b1121cff",
+          "width": 158,
+          "x": 287,
+          "y": 2951,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "layer": "Ingridients + Potions",
+          "name": "Inventory_Item",
+          "persistentUuid": "991031c6-2f00-4ab4-ad7e-8f5134d86942",
+          "width": 158,
+          "x": 472,
+          "y": 2950,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "92169bc0-5d11-40e6-b9ed-1453ba7e73a5",
+          "width": 73,
+          "x": 390,
+          "y": 2778,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "979ce7dd-3ba2-404d-ad3b-769901b6b19a",
+          "width": 80,
+          "x": 389,
+          "y": 2780,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "1d078394-aeb1-46a1-bca3-be68f6320dfa",
+          "width": 73,
+          "x": 576,
+          "y": 2790,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "a09f6e9e-8531-4216-9463-0dfc4e1b4e35",
+          "width": 80,
+          "x": 575,
+          "y": 2792,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "f6a407d2-9294-43c9-b2c4-5234ae1a6c50",
+          "width": 73,
+          "x": 382,
+          "y": 3052,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "71a89b0a-fe48-448e-a060-90ffc153790b",
+          "width": 80,
+          "x": 381,
+          "y": 3054,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "layer": "Ingridients + Potions",
+          "name": "Item_Number",
+          "persistentUuid": "e01bd5e7-fdbd-4d48-9152-e7b5d0258355",
+          "width": 73,
+          "x": 564,
+          "y": 3068,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Ingridients + Potions",
+          "name": "NumberDot",
+          "persistentUuid": "0760dbcc-377d-49a4-a20c-4cd142103413",
+          "width": 80,
+          "x": 563,
+          "y": 3070,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "06aa31da-c451-454e-b9ff-ddcd5dfa6262",
+          "width": 396,
+          "x": 384,
+          "y": -69,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "9b356c1c-cfe8-4c65-930c-81cca005d1fb",
+          "width": 559,
+          "x": 385,
+          "y": 34,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "d51c50c0-9abd-460a-a273-706b463633b9",
+          "width": 164,
+          "x": 756,
+          "y": -71,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "f832814d-54d6-4514-98ec-7b327ccf974e",
+          "width": 402,
+          "x": 379,
+          "y": 179,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "723eaa8e-189e-4ade-8944-f8d3867fb633",
+          "width": 561,
+          "x": 376,
+          "y": 267,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "cf83b16e-978b-47a5-8117-8d5f94db619a",
+          "width": 161,
+          "x": 756,
+          "y": 191,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "66f56e68-9cc0-426e-a777-b7f0bd04d641",
+          "width": 389,
+          "x": 377,
+          "y": 451,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "73890070-ea19-4fbd-b115-10382d3615fc",
+          "width": 589,
+          "x": 375,
+          "y": 544,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "318b1517-bda6-4fb7-bd7a-d0acabc139c3",
+          "width": 167,
+          "x": 752,
+          "y": 469,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "022e1adb-3abf-4d0e-bc68-67a3cf091655",
+          "width": 396,
+          "x": 384,
+          "y": 766,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "16e36286-b8bf-4323-9781-6571d06f8c0b",
+          "width": 561,
+          "x": 392,
+          "y": 851,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "aa7f32db-8802-45ca-9a4c-947afef7e5e7",
+          "width": 164,
+          "x": 765,
+          "y": 780,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "bd7fba3c-61c9-4fa4-bcfe-d7b9f7b398ed",
+          "width": 383,
+          "x": 377,
+          "y": 1047,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "009075a9-0dea-4da3-8164-4eda250d2d7e",
+          "width": 574,
+          "x": 378,
+          "y": 1124,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "62389064-b31b-4e54-9ae2-34e0dfa04923",
+          "width": 161,
+          "x": 763,
+          "y": 1047,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "a4485315-3d61-4c04-97ed-6cb9e41b186d",
+          "width": 370,
+          "x": 377,
+          "y": 1378,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "63da8622-f619-47a4-8905-2c6658c386ff",
+          "width": 569,
+          "x": 375,
+          "y": 1471,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "a5a2b55d-e79c-4a00-81cc-aec6cdd01842",
+          "width": 167,
+          "x": 761,
+          "y": 1387,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "823c8332-b126-44de-8dde-e5c72667ddbb",
+          "width": 396,
+          "x": 388,
+          "y": 1672,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "12f61679-4cc2-4920-b08e-c22a4fdb2bf2",
+          "width": 542,
+          "x": 396,
+          "y": 1757,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "3b932ea0-1cac-44e5-af9f-cafc840c447d",
+          "width": 164,
+          "x": 771,
+          "y": 1679,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "5e5db222-665c-443b-8218-b350843f8d36",
+          "width": 596,
+          "x": 370,
+          "y": -80,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "On",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "56222b1f-5cb0-43a1-8cf4-b40309a008af",
+          "width": 596,
+          "x": 362,
+          "y": 179,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "dcbfbe0a-3173-482e-8fdd-4700e7a675a0",
+          "width": 596,
+          "x": 369,
+          "y": 456,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "4f15b1c0-34ba-45d2-92ab-2dd1dbafdfdc",
+          "width": 596,
+          "x": 374,
+          "y": 766,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "96ce7951-afa3-45fa-b9ac-4ddc6251284f",
+          "width": 596,
+          "x": 367,
+          "y": 1045,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "2a31df5a-1894-4168-8c38-5da90b400266",
+          "width": 596,
+          "x": 363,
+          "y": 1369,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "6072d114-9618-4ca8-b3b7-be12ca6fdb73",
+          "width": 596,
+          "x": 363,
+          "y": 1663,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "d24040ea-0bf1-4a82-9f8c-5e3c2d049b1b",
+          "width": 370,
+          "x": 381,
+          "y": 1966,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "7ba6b6cc-8433-4f59-a447-1478f2f80941",
+          "width": 569,
+          "x": 379,
+          "y": 2059,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "fe53bc05-a64f-49e2-9661-1c2127c64c85",
+          "width": 167,
+          "x": 765,
+          "y": 1975,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "49e5e2aa-629a-4107-8d5b-b971fc1088b2",
+          "width": 396,
+          "x": 392,
+          "y": 2260,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "972ca425-bdbd-4413-a3b2-dd7604c32b1e",
+          "width": 542,
+          "x": 400,
+          "y": 2345,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "f6695598-037e-4324-be02-bef1ef5fc785",
+          "width": 164,
+          "x": 775,
+          "y": 2267,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "8d08e027-5165-4fdf-9255-d069ac6fe383",
+          "width": 596,
+          "x": 367,
+          "y": 1957,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "25471e27-4336-429c-9b0e-2d9e249c70fe",
+          "width": 596,
+          "x": 367,
+          "y": 2251,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Quests",
+          "name": "QuestName",
+          "persistentUuid": "e3ba704e-83e6-4e76-aaf4-34e6de3d6e48",
+          "width": 396,
+          "x": 396,
+          "y": 2538,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "93f753d5-5303-4a86-9dcf-0012c97f768f",
+          "width": 542,
+          "x": 404,
+          "y": 2623,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Quests",
+          "name": "QuestObjectNumber",
+          "persistentUuid": "98240c3f-a95c-4bda-8397-bd586b0fb0e8",
+          "width": 164,
+          "x": 779,
+          "y": 2545,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "layer": "Quests",
+          "name": "QuestsButton",
+          "persistentUuid": "f5e18d7c-6c8b-4950-a848-5ecf0f219a0e",
+          "width": 596,
+          "x": 371,
+          "y": 2529,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "4c55a1c1-dbb9-4db8-922c-f4a76e4fdefa",
+          "width": 365,
+          "x": 383,
+          "y": -15,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "d0d8ffd6-dbf4-4963-b16c-11a140af5146",
+          "width": 365,
+          "x": 375,
+          "y": 224,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "fd9872cc-4714-40f5-838d-79579e496088",
+          "width": 365,
+          "x": 384,
+          "y": 500,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "082373da-ba4f-4abd-94ab-195b96c91c1e",
+          "width": 365,
+          "x": 391,
+          "y": 813,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "4260b79d-2795-471b-a2cf-e8961aefdfdf",
+          "width": 365,
+          "x": 387,
+          "y": 1088,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "51f3d3c7-5857-4281-a4bf-bdd929b7ad70",
+          "width": 365,
+          "x": 386,
+          "y": 1422,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "648c34aa-851d-4665-be7e-c0ba44e0e6d8",
+          "width": 365,
+          "x": 398,
+          "y": 1719,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "81c234d0-535a-46fc-8dc1-833c1abe6cb0",
+          "width": 365,
+          "x": 393,
+          "y": 2011,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "8b690d62-3c9d-41d9-b473-9c6191ed18af",
+          "width": 365,
+          "x": 402,
+          "y": 2301,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "e1eaec0a-a5bf-480f-b5e4-d49f2fdaacb8",
+          "width": 365,
+          "x": 400,
+          "y": 2582,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "5485d632-04fa-4c69-a7ad-86896862233a",
+          "width": 491,
+          "x": 419,
+          "y": 66,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "392e2c3e-8c7b-49da-8e39-eb2ba38563c0",
+          "width": 461,
+          "x": 427,
+          "y": 79,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "6007b56b-6c36-4a2b-8144-b1ed06c9ae89",
+          "width": 491,
+          "x": 423,
+          "y": 182,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "e9299416-6af3-4539-8f85-1ad137cfac68",
+          "width": 456,
+          "x": 431,
+          "y": 195,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "b7d00439-8685-4aa8-a391-de34775c5af5",
+          "width": 491,
+          "x": 424,
+          "y": 293,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "fa9084ed-425b-4ec2-a636-a103af189d76",
+          "width": 459,
+          "x": 432,
+          "y": 306,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "c6eb0fe7-af45-4653-94e7-0844322e05f3",
+          "width": 491,
+          "x": 425,
+          "y": 402,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "33d0488e-1251-4485-aa5c-8e555c7d080c",
+          "width": 447,
+          "x": 433,
+          "y": 415,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "11ca456a-252d-4295-8688-f4ea7bb055b7",
+          "width": 451,
+          "x": 434,
+          "y": 535,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "84a1b6d1-5274-45da-b2b4-9e8715856783",
+          "width": 454,
+          "x": 437,
+          "y": 650,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "589febf6-3b2d-45bc-854e-b84882e510a6",
+          "width": 451,
+          "x": 442,
+          "y": 765,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "Diary",
+          "name": "Diary_Object_Name",
+          "persistentUuid": "ce310a10-916d-4361-aa61-c91067dfb2e3",
+          "width": 447,
+          "x": 436,
+          "y": 876,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "14d86f07-3998-4df5-98cc-16a0a19d29db",
+          "width": 491,
+          "x": 418,
+          "y": 522,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "c9305407-140a-43a9-af58-a34375ea1140",
+          "width": 491,
+          "x": 418,
+          "y": 635,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "8c543ab3-bf67-4444-9cd7-1b222e3ef482",
+          "width": 491,
+          "x": 417,
+          "y": 747,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "layer": "Diary",
+          "name": "Diary_Name_Panel",
+          "persistentUuid": "7d8011ab-bde9-49cd-8c0c-007b2661884d",
+          "width": 491,
+          "x": 411,
+          "y": 861,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Potions",
+          "name": "BrewButton",
+          "persistentUuid": "ed70388f-2f47-42cd-b180-23682dc4a59b",
+          "width": 0,
+          "x": 1192,
+          "y": 643,
+          "zOrder": 305,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 800,
+          "layer": "Desctiption Image",
+          "name": "Description_Image",
+          "persistentUuid": "cbd4d469-5bab-416e-89d5-ce89fd95d502",
+          "width": 600,
+          "x": 1064,
+          "y": 121,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Instruction",
+          "persistentUuid": "8ce719ee-da35-4753-b7af-d93b98e30817",
+          "width": 0,
+          "x": 1081,
+          "y": 263,
+          "zOrder": 306,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -29748,6 +33439,230 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Base Diary",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Ingridients + Potions",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Quests",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Diary",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Potions",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Desctiption Image",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -32138,7 +36053,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue text is \"Text\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32181,7 +36095,6 @@
                   "actions": [],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -32292,7 +36205,7 @@
                                     "audio\\Cat1.mp3",
                                     "NPC.Animation::Duration()",
                                     "",
-                                    "300",
+                                    "30",
                                     "RandomFloatInRange(0.8,1)"
                                   ]
                                 }
@@ -32322,7 +36235,7 @@
                                     "audio\\videoplayback (mp3cut.net) (1).mp3",
                                     "NPC.Animation::Duration()",
                                     "",
-                                    "100",
+                                    "30",
                                     "RandomFloatInRange(0.8,1)"
                                   ]
                                 }
@@ -41867,6 +45780,33 @@
           "conditions": [
             {
               "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "QuestsButton",
+                "On",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "Saves_and_Loads.QuestLevelName",
+                "=",
+                "QuestsButton.Location"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "DepartScene"
               },
               "parameters": [
@@ -42200,7 +46140,17 @@
                         {
                           "type": "BuiltinCommonInstructions::ForEach",
                           "object": "QuestsButton",
-                          "conditions": [],
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GroupExists"
+                              },
+                              "parameters": [
+                                "\"Save\"",
+                                "\"QuestState + ToString(QuestsState.ID)\""
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -42288,7 +46238,6 @@
                       "comment": "NPCs"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -42297,7 +46246,7 @@
                           },
                           "parameters": [
                             "\"Save\"",
-                            "\"NPC1\""
+                            "\"NPC0\""
                           ]
                         }
                       ],
@@ -42306,7 +46255,17 @@
                         {
                           "type": "BuiltinCommonInstructions::ForEach",
                           "object": "NPC",
-                          "conditions": [],
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GroupExists"
+                              },
+                              "parameters": [
+                                "\"Save\"",
+                                "\"NPC\" + ToString(NPC.ID)"
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -49817,6 +53776,16 @@
                 "value": "MettreY"
               },
               "parameters": [
+                "QuestLocation",
+                "=",
+                "QuestLocation.Y() + 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
                 "QuestObjectNumber",
                 "=",
                 "QuestObjectNumber.Y() + 50"
@@ -49997,6 +53966,16 @@
                 "value": "MettreY"
               },
               "parameters": [
+                "QuestLocation",
+                "=",
+                "QuestLocation.Y() - 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
                 "QuestsButton",
                 "=",
                 "QuestsButton.Y() - 50"
@@ -50154,16 +54133,6 @@
             },
             {
               "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "Saves_and_Loads.MyLevelName"
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -50204,6 +54173,22 @@
               },
               "parameters": [
                 "Arrow"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "Saves_and_Loads.MyLevelName"
               ]
             }
           ]
