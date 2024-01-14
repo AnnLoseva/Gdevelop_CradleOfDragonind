@@ -5658,6 +5658,12 @@
           "type": "structure",
           "children": [
             {
+              "name": "Chosen",
+              "persistentUuid": "d5f931f4-d096-4733-9525-ca12f6883ace",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "folded": true,
               "name": "Description",
               "type": "string",
@@ -5717,11 +5723,6 @@
           "name": "NotEnd",
           "type": "boolean",
           "value": true
-        },
-        {
-          "name": "Chosen",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [
@@ -13081,8 +13082,8 @@
         {
           "folded": true,
           "name": "On",
-          "type": "boolean",
-          "value": false
+          "type": "string",
+          "value": "Off"
         },
         {
           "folded": true,
@@ -14670,6 +14671,77 @@
           "name": "QuestLevelName",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "QuestsState",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "80bf9727-8ae5-4141-87e0-a71412ce97d1",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "310f1a0d-c58d-4795-801e-259c864ba753",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "4e2f3daf-c3d9-45b6-a29b-374b1f654cfb",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "c3e43c11-8692-4e9a-84c9-253e6e181b5c",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "a7fdfb63-1d66-42a6-9a83-3c75b980cc8f",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "e5134571-6f3e-42c8-890a-61b888ae4221",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "2a75339f-83bc-4d10-ad02-41156c04cd07",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "2bbef6b9-c479-4fce-803c-a804a6aac98b",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "53727755-4fcc-429d-863e-ce26fce76f7b",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "persistentUuid": "e31c9909-4c13-419e-91f6-83e267d7bea8",
+              "type": "boolean",
+              "value": false
+            }
+          ]
         },
         {
           "folded": true,
@@ -21431,7 +21503,6 @@
           "value": 0
         },
         {
-          "folded": true,
           "name": "TempSave",
           "type": "structure",
           "children": [
@@ -21457,6 +21528,13 @@
             {
               "name": "TempNPC",
               "persistentUuid": "b3a752ec-21e0-4059-8687-76c35615e798",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempQuestsState",
+              "persistentUuid": "f91fc3bc-0673-480f-9697-42995cfca46d",
               "type": "string",
               "value": ""
             },
@@ -26190,6 +26268,13 @@
               "persistentUuid": "b3a752ec-21e0-4059-8687-76c35615e798",
               "type": "string",
               "value": "Empty"
+            },
+            {
+              "folded": true,
+              "name": "TempQuestsState",
+              "persistentUuid": "778aa043-b2ef-4469-b0db-986e6d14b9f1",
+              "type": "string",
+              "value": ""
             },
             {
               "name": "TempTree",
@@ -39380,7 +39465,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39992,7 +40076,7 @@
                               },
                               "parameters": [
                                 "NPC",
-                                "Chosen",
+                                "Quest_Type.Chosen",
                                 "True"
                               ]
                             }
@@ -41308,6 +41392,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Image"
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -41447,31 +41543,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Brightness\"",
-                        "\"brightness\"",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "yes"
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -41493,7 +41565,7 @@
                           },
                           "parameters": [
                             "NPC",
-                            "Chosen",
+                            "Quest_Type.Chosen",
                             ""
                           ]
                         },
@@ -41558,7 +41630,7 @@
                               },
                               "parameters": [
                                 "NPC",
-                                "Chosen",
+                                "Quest_Type.Chosen",
                                 "True"
                               ]
                             },
@@ -41606,7 +41678,7 @@
                               },
                               "parameters": [
                                 "NPC",
-                                "Chosen",
+                                "Quest_Type.Chosen",
                                 "False"
                               ]
                             },
@@ -41652,11 +41724,14 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Montre"
+                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                           },
                           "parameters": [
-                            "Arrow",
-                            ""
+                            "QuestsButton",
+                            "Effect",
+                            "\"Brightness\"",
+                            "\"brightness\"",
+                            "1"
                           ]
                         },
                         {
@@ -41672,6 +41747,25 @@
                         },
                         {
                           "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestLevelName",
+                            "=",
+                            "QuestsButton.Location"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Arrow",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -41680,12 +41774,13 @@
                         },
                         {
                           "type": {
-                            "value": "SetObjectVariableAsBoolean"
+                            "value": "ModVarObjetTxt"
                           },
                           "parameters": [
                             "QuestsButton",
                             "On",
-                            "True"
+                            "=",
+                            "\"On\""
                           ]
                         }
                       ]
@@ -41744,12 +41839,13 @@
                         },
                         {
                           "type": {
-                            "value": "SetObjectVariableAsBoolean"
+                            "value": "ModVarObjetTxt"
                           },
                           "parameters": [
                             "QuestsButton",
                             "On",
-                            "False"
+                            "=",
+                            "\"Off\""
                           ]
                         }
                       ]
@@ -41760,6 +41856,157 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "QuestCount",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "QuestsButton",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "ID",
+                        "=",
+                        "QuestCount"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "JournalQuests[QuestCount].Name",
+                        "=",
+                        "\"no\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "QuestsButton"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "ID",
+                        "=",
+                        "QuestCount"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "JournalQuests[QuestCount].Name",
+                        "=",
+                        "\"no\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Name",
+                        "=",
+                        "JournalQuests[QuestCount].Name"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Location",
+                        "=",
+                        "JournalQuests[QuestCount].Location"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -41938,6 +42185,53 @@
                         "textG": 0,
                         "textR": 0
                       },
+                      "comment": "QuetsState"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "QuestsButton",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "LireFichierTxt"
+                              },
+                              "parameters": [
+                                "\"Save\"",
+                                "\"QuestState + ToString(QuestsState.ID)\"",
+                                "",
+                                "TempSave.TempQuestsState"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "JSONToObjectVariableStructure"
+                              },
+                              "parameters": [
+                                "TempSave.TempQuestsState",
+                                "QuestsButton",
+                                "On"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
                       "comment": "Quests"
                     },
                     {
@@ -41989,6 +42283,7 @@
                       "comment": "NPCs"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -42159,7 +42454,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Save",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42706,6 +43000,16 @@
                         "\"Save\"",
                         "\"Inventory\"",
                         "GlobalVarToJSON(InventoryData)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Save\"",
+                        "\"QuestState + ToString(QuestsState.ID)\"",
+                        "ObjectVarToJSON(QuestsButton, On)"
                       ]
                     }
                   ]
@@ -49722,12 +50026,22 @@
               },
               "parameters": [
                 "NPC",
-                "Chosen",
+                "Quest_Type.Chosen",
                 "True"
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Arrow",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -49797,11 +50111,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -49846,6 +50155,15 @@
                 "Instruction",
                 "=",
                 "Saves_and_Loads.MyLevelName"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Arrow",
+                ""
               ]
             }
           ]
