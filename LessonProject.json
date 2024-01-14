@@ -13082,8 +13082,8 @@
         {
           "folded": true,
           "name": "On",
-          "type": "string",
-          "value": "Off"
+          "type": "boolean",
+          "value": true
         },
         {
           "folded": true,
@@ -24754,7 +24754,14 @@
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "On",
+              "type": "boolean",
+              "value": false
+            }
+          ]
         },
         {
           "angle": 0,
@@ -41774,13 +41781,12 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarObjetTxt"
+                            "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "QuestsButton",
                             "On",
-                            "=",
-                            "\"On\""
+                            "True"
                           ]
                         }
                       ]
@@ -41839,13 +41845,12 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarObjetTxt"
+                            "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "QuestsButton",
                             "On",
-                            "=",
-                            "\"Off\""
+                            "="
                           ]
                         }
                       ]
