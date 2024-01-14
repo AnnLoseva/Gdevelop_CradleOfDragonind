@@ -13557,6 +13557,37 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "QuestLocation",
+      "type": "BBText::BBText",
+      "variables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Count",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b] Name",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13625,6 +13656,9 @@
           },
           {
             "objectName": "QuestName"
+          },
+          {
+            "objectName": "QuestLocation"
           },
           {
             "objectName": "QuestObjectNumber"
@@ -14215,7 +14249,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -14230,31 +14263,7 @@
             },
             {
               "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "d770ba39-ec2d-4eac-a86e-44c489032a5b",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14280,11 +14289,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "27f59f7c-ac9c-4685-a8f8-3cfefed13635",
+          "persistentUuid": "289c24c9-4bd4-4706-abc2-2a734eb931b0",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14310,11 +14325,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "69ba4eb9-2cd1-4f00-b850-7173fe892b85",
+          "persistentUuid": "be740305-a98f-42f9-98f0-fc0f179576da",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14340,11 +14361,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "ffc6eea6-3793-4722-aca9-29a8f99cf45a",
+          "persistentUuid": "a4aef74e-f16d-4c19-817d-46c4f41b15c7",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14370,11 +14397,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "c3b192c7-ebc3-424e-9c25-93153076df7f",
+          "persistentUuid": "63b1b3d8-9faf-47b2-9c09-2726b65867af",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14400,11 +14433,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "f8a7bf54-2a0b-408f-b2e1-95935f50fc9c",
+          "persistentUuid": "addfd08e-c0dd-48ce-93a6-a34f2ac3b42c",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14430,11 +14469,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "9246a320-1120-407d-a452-48c1c173c1e6",
+          "persistentUuid": "d7a2a02c-d3f1-4b4c-a087-483dea440ecb",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14460,11 +14505,17 @@
         },
         {
           "folded": true,
-          "persistentUuid": "14d671dc-aabf-4e38-8cb7-99fa5bbb81eb",
+          "persistentUuid": "df7a6955-e3d0-4cd6-8cf2-654dfa594ae9",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14490,11 +14541,89 @@
         },
         {
           "folded": true,
-          "persistentUuid": "786745b5-7b81-4e61-af44-fbe664da5aae",
+          "persistentUuid": "4516acac-ffcf-4456-8f73-73d9deba7587",
           "type": "structure",
           "children": [
             {
               "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "32caef24-7a67-4841-98b9-e9f0e4308c13",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "0689f9b4-cf60-4371-9f62-c016fdfcac41",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Location",
               "type": "string",
               "value": ""
             },
@@ -14521,6 +14650,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "Saves_and_Loads",
       "type": "structure",
       "children": [
@@ -21271,7 +21401,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22169247275005477,
+        "zoomFactor": 0.36458333333333914,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21679,13 +21809,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 157,
+          "height": 121,
           "layer": "Quests",
           "name": "QuestDescription",
           "persistentUuid": "92b8fafa-5e0f-4e21-a48a-571b8c36a47e",
           "width": 559,
           "x": 398,
-          "y": 188,
+          "y": 224,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -24762,7 +24892,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 8
             }
           ]
         },
@@ -24785,7 +24915,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 8
             }
           ]
         },
@@ -24808,7 +24938,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 8
             }
           ]
         },
@@ -24877,7 +25007,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 9
             }
           ]
         },
@@ -24900,7 +25030,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 9
             }
           ]
         },
@@ -24923,7 +25053,7 @@
               "folded": true,
               "name": "ID",
               "type": "number",
-              "value": 7
+              "value": 9
             }
           ]
         },
@@ -25358,6 +25488,244 @@
               "value": "Scene 3"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "8609af08-e8f7-4e0f-9a8e-f9170c811782",
+          "width": 365,
+          "x": 396,
+          "y": 175,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "dafa05a4-43f0-460d-b83b-a86d37dee3c2",
+          "width": 365,
+          "x": 388,
+          "y": 414,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "a1ba9a37-d420-4614-8bd0-4822e491b517",
+          "width": 365,
+          "x": 397,
+          "y": 690,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "89798d97-6070-4246-b4ac-3a5a9e89dbd8",
+          "width": 365,
+          "x": 404,
+          "y": 1003,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "05d03fdb-999c-4bba-ad7f-e6a58d57cb6f",
+          "width": 365,
+          "x": 400,
+          "y": 1278,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "b6d681eb-2a16-4a99-b3a8-74d034c69d36",
+          "width": 365,
+          "x": 399,
+          "y": 1612,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "15c75b5b-d0a3-47dd-809d-fca3f58e3699",
+          "width": 365,
+          "x": 411,
+          "y": 1909,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "c8ab55bf-06b5-4171-90d6-b49083b5e437",
+          "width": 365,
+          "x": 406,
+          "y": 2201,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "044b54b0-fa46-44a7-91b1-633f7faccbd9",
+          "width": 365,
+          "x": 415,
+          "y": 2491,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "Quests",
+          "name": "QuestLocation",
+          "persistentUuid": "d8a1da73-8fec-4d23-aa7c-4b9217d623b0",
+          "width": 365,
+          "x": 413,
+          "y": 2772,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Quests",
+          "name": "Instruction",
+          "persistentUuid": "a04de5b2-5347-48bf-9b7d-a61b2a43ff96",
+          "width": 0,
+          "x": 1284,
+          "y": 537,
+          "zOrder": 305,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -25552,7 +25920,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -39202,6 +39570,16 @@
                             "=",
                             "NPC.Quest_Type.Description"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "JournalQuests[QuestCount].Location",
+                            "=",
+                            "CurrentSceneName()"
+                          ]
                         }
                       ]
                     },
@@ -39313,6 +39691,16 @@
                               },
                               "parameters": [
                                 "JournalQuests[QuestCount-1].Description",
+                                "=",
+                                "JournalQuests[QuestCount].Description"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Location",
                                 "=",
                                 "JournalQuests[QuestCount].Description"
                               ]
@@ -39543,6 +39931,16 @@
                                 "JournalQuests[QuestCount].Description",
                                 "=",
                                 "NPC.Quest_Type.Description"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Location",
+                                "=",
+                                "CurrentSceneName()"
                               ]
                             }
                           ]
@@ -39917,6 +40315,7 @@
                   "comment": "Name"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -40028,6 +40427,148 @@
                                 "QuestName",
                                 "=",
                                 "\"[b]\" + JournalQuests[QuestCount].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "QuestCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Location"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "QuestLocation",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "QuestLocation",
+                                "ID",
+                                "=",
+                                "QuestCount"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Name",
+                                "=",
+                                "\"no\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "QuestLocation"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "QuestCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "QuestLocation",
+                                "ID",
+                                "=",
+                                "QuestCount"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Name",
+                                "=",
+                                "\"no\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "QuestLocation",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BBText::SetBBText"
+                              },
+                              "parameters": [
+                                "QuestLocation",
+                                "=",
+                                "\"[b]\" + JournalQuests[QuestCount].Location"
                               ]
                             },
                             {
@@ -40203,6 +40744,7 @@
                   "comment": "Number"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -41607,6 +42149,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Save",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
