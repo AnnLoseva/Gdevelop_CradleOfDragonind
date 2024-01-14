@@ -13083,6 +13083,12 @@
           "name": "On",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "string",
+          "value": ""
         }
       ],
       "effects": [
@@ -14249,6 +14255,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -14650,7 +14657,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "Saves_and_Loads",
       "type": "structure",
       "children": [
@@ -14658,6 +14664,12 @@
           "name": "MyLevelName",
           "type": "string",
           "value": "Experimental level"
+        },
+        {
+          "folded": true,
+          "name": "QuestLevelName",
+          "type": "string",
+          "value": ""
         },
         {
           "folded": true,
@@ -25711,21 +25723,6 @@
               "value": 9
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Quests",
-          "name": "Instruction",
-          "persistentUuid": "a04de5b2-5347-48bf-9b7d-a61b2a43ff96",
-          "width": 0,
-          "x": 1284,
-          "y": 537,
-          "zOrder": 305,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -26613,8 +26610,8 @@
           "name": "Instruction",
           "persistentUuid": "d5d704bc-4f7b-4b60-a7a2-ba890bcae3c7",
           "width": 0,
-          "x": 661,
-          "y": 358,
+          "x": -217,
+          "y": 366,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -35921,22 +35918,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "Instruction",
-                        "=",
-                        "CurrentSceneName()"
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -39399,6 +39380,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40083,6 +40065,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40458,6 +40441,7 @@
                   "comment": "Location"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -40600,7 +40584,6 @@
                   "comment": "Image"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -40713,6 +40696,17 @@
                                 "Name",
                                 "=",
                                 "JournalQuests[QuestCount].Name"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Location",
+                                "=",
+                                "JournalQuests[QuestCount].Location"
                               ]
                             },
                             {
@@ -41366,6 +41360,16 @@
                     "=",
                     "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestLevelName",
+                    "=",
+                    "QuestsButton.Location"
+                  ]
                 }
               ],
               "events": [
@@ -41465,16 +41469,6 @@
                         "Effect",
                         "\"Outline\"",
                         "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "Instruction",
-                        "=",
-                        "ToString(Arrow.X())"
                       ]
                     }
                   ],
@@ -41578,44 +41572,6 @@
                                 "\"Quest\"",
                                 "yes"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "Montre"
-                              },
-                              "parameters": [
-                                "Arrow",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Effect",
-                                "\"Outline\"",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "On",
-                                "True"
-                              ]
                             }
                           ]
                         },
@@ -41664,44 +41620,136 @@
                                 "\"Quest\"",
                                 "no"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "Arrow"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Effect",
-                                "\"Outline\"",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "On",
-                                "False"
-                              ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "On",
+                            "False"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Arrow",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Effect",
+                            "\"Outline\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "On",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "On",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Arrow"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Effect",
+                            "\"Outline\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "On",
+                            "False"
                           ]
                         }
                       ]
@@ -41712,44 +41760,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "NPC",
-                "Effect",
-                "\"Quest\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "QuestsButton",
-                "Effect",
-                "\"Outline\"",
-                "no"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -49717,7 +49727,106 @@
               ]
             }
           ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Rotate in same scene"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestLevelName",
+                    "=",
+                    "CurrentSceneName()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "NPC.CenterX()",
+                    "NPC.CenterY()",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Player",
+                    "50",
+                    "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),NPC.CenterX(),NPC.CenterY())"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Rotate in direction of scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Saves_and_Loads.QuestLevelName",
+                "=",
+                "Map_End_Teleport.Scene"
+              ]
+            }
+          ],
           "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Arrow",
+                "Map_End_Teleport.CenterX()",
+                "Map_End_Teleport.CenterY()",
+                "1000",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "MettreAutour"
@@ -49726,19 +49835,17 @@
                 "Arrow",
                 "Player",
                 "50",
-                "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),NPC.CenterX(),NPC.CenterY())"
+                "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),Map_End_Teleport.CenterX(),Map_End_Teleport.CenterY())"
               ]
             },
             {
               "type": {
-                "value": "RotateTowardPosition"
+                "value": "BBText::SetBBText"
               },
               "parameters": [
-                "Arrow",
-                "NPC.CenterX()",
-                "NPC.CenterY()",
-                "1000",
-                ""
+                "Instruction",
+                "=",
+                "Saves_and_Loads.MyLevelName"
               ]
             }
           ]
@@ -49748,9 +49855,11 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "DepartScene"
               },
-              "parameters": []
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
