@@ -43686,9 +43686,9 @@
                                 "value": "ModVarGlobalTxt"
                               },
                               "parameters": [
-                                "JournalQuests[QuestCount].Location",
+                                "JournalQuests[QuestCount-1].Location",
                                 "=",
-                                "JournalQuests[QuestCount].Description"
+                                "JournalQuests[QuestCount].Location"
                               ]
                             },
                             {
@@ -45796,6 +45796,16 @@
               },
               "parameters": [
                 "Saves_and_Loads.QuestLevelName",
+                "=",
+                "QuestsButton.Location"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
                 "=",
                 "QuestsButton.Location"
               ]
@@ -54137,6 +54147,18 @@
               },
               "parameters": [
                 "Arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect2",
+                "",
+                "",
                 ""
               ]
             }
