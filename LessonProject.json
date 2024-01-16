@@ -5023,8 +5023,8 @@
             {
               "name": "Chosen",
               "persistentUuid": "d5f931f4-d096-4733-9525-ca12f6883ace",
-              "type": "boolean",
-              "value": false
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -12958,6 +12958,79 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "45827f5ecff9d1cc17847c948a055323dbd4ca63159a0ed696d49ddf18bd071e",
+      "name": "GreenDotBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "BarBottomPadding": 4,
+        "EasingDuration": 0,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false,
+        "InitialValue": 0,
+        "MaxValue": 30
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 26,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Dot Bar Green Border.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 118
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 19,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Dot Bar Green Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 21
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 19,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Dot Bar Green Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 21
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "2 / 3",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13113,6 +13186,9 @@
       {
         "folderName": "Objects",
         "children": [
+          {
+            "objectName": "GreenDotBar"
+          },
           {
             "objectName": "Map_End_Teleport"
           },
@@ -25651,7 +25727,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28905162031349635,
+        "zoomFactor": 0.15392788923483505,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25742,7 +25818,7 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "b6acf357-ad4d-42e7-b0f9-177fabb45223",
-          "width": 5274,
+          "width": 6691,
           "x": -2951,
           "y": 434,
           "zOrder": 2,
@@ -29343,21 +29419,6 @@
           ]
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Instruction",
-          "persistentUuid": "c415196b-4b78-43c4-8f79-39af60f51bca",
-          "width": 0,
-          "x": 799,
-          "y": 266,
-          "zOrder": 301,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 180,
           "customSize": true,
           "depth": 0,
@@ -29664,8 +29725,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "e4bf47ed-8214-4f24-872b-d3761d5b8e00",
           "width": 0,
-          "x": 1541,
-          "y": 324,
+          "x": 2695,
+          "y": 294,
           "zOrder": 302,
           "numberProperties": [],
           "stringProperties": [],
@@ -29719,7 +29780,7 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "dc5d2297-84cf-4731-b950-ab144df61c56",
           "width": 0,
-          "x": -601,
+          "x": -1448,
           "y": 316,
           "zOrder": 302,
           "numberProperties": [],
@@ -29988,6 +30049,147 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "4f924cb0-881f-495d-a31f-2588d2edb730",
+          "width": 129,
+          "x": 1057,
+          "y": 267,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Info",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "ID",
+                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "Number of Objects",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "name": "Object",
+                  "type": "string",
+                  "value": "BasePotion"
+                },
+                {
+                  "folded": true,
+                  "name": "Timer",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "f58fd827-e971-4cac-91f9-499a988deb8f",
+          "width": 129,
+          "x": 1307,
+          "y": 268,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Info",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "ID",
+                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "folded": true,
+                  "name": "Number of Objects",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "name": "Object",
+                  "type": "string",
+                  "value": "Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Timer",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "d0c05475-d626-47c7-a795-5f7ce9de2db9",
+          "width": 129,
+          "x": 798,
+          "y": 270,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Info",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "ID",
+                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "Number of Objects",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "name": "Object",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "folded": true,
+                  "name": "Timer",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [],
@@ -30442,7 +30644,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21446078431372703,
+        "zoomFactor": 0.27050126039625677,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30531,7 +30733,7 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "f8e4293b-2e84-4eca-9c05-e02ac5d2fbdb",
-          "width": 2911,
+          "width": 3351,
           "x": -799,
           "y": 659,
           "zOrder": 1,
@@ -30905,21 +31107,6 @@
               ]
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Instruction",
-          "persistentUuid": "d5d704bc-4f7b-4b60-a7a2-ba890bcae3c7",
-          "width": 0,
-          "x": -217,
-          "y": 366,
-          "zOrder": 96,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -33271,8 +33458,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "09ec8a64-369c-41ef-ac4f-8dc69d832883",
           "width": 0,
-          "x": 1561,
-          "y": 556,
+          "x": 2109,
+          "y": 549,
           "zOrder": 301,
           "numberProperties": [],
           "stringProperties": [],
@@ -33382,88 +33569,9 @@
           "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "assetStoreId": "45827f5ecff9d1cc17847c948a055323dbd4ca63159a0ed696d49ddf18bd071e",
-          "name": "GreenDotBar",
-          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Sticker",
-              "type": "Sticker::Sticker",
-              "OnlyFollowPosition": false,
-              "IsDestroyedWithParent": false
-            }
-          ],
-          "content": {
-            "BarTopPadding": 3,
-            "BarLeftPadding": 4,
-            "BarRightPadding": 4,
-            "BarBottomPadding": 4,
-            "EasingDuration": 0,
-            "PreviousHighValueDuration": 0,
-            "ShowLabel": false,
-            "InitialValue": 0,
-            "MaxValue": 30
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 4,
-              "height": 26,
-              "leftMargin": 2,
-              "rightMargin": 2,
-              "texture": "Dot Bar Green Border.png",
-              "tiled": false,
-              "topMargin": 3,
-              "width": 118
-            },
-            "Buffer": {
-              "bottomMargin": 0,
-              "height": 19,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Dot Bar Green Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 21
-            },
-            "FillBar": {
-              "bottomMargin": 0,
-              "height": 19,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Dot Bar Green Fill Bar.png",
-              "tiled": true,
-              "topMargin": 0,
-              "width": 21
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "2 / 3",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              }
-            }
-          }
-        }
-      ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "GreenDotBar"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -34013,8 +34121,8 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "2b1f55a6-0fb3-43b4-ba69-25997c3dbaf7",
-          "width": 1445,
-          "x": 262,
+          "width": 2284,
+          "x": -168,
           "y": 559,
           "zOrder": 1,
           "numberProperties": [],
@@ -34088,7 +34196,7 @@
               "folded": true,
               "name": "Scene",
               "type": "string",
-              "value": "Experimental level"
+              "value": "Experimental level2"
             }
           ]
         },
@@ -37648,21 +37756,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "Instruction",
-          "persistentUuid": "8ce719ee-da35-4753-b7af-d93b98e30817",
-          "width": 0,
-          "x": 1081,
-          "y": 263,
-          "zOrder": 306,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "Layer",
           "name": "Instruction",
           "persistentUuid": "d51a0722-907d-433d-9ff4-c3a886fe355b",
@@ -39417,16 +39510,6 @@
                     "Animation",
                     "=",
                     "\"Wants to Talk\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Instruction",
-                    "=",
-                    "NPC.Quest_Type.Name"
                   ]
                 }
               ],
@@ -48284,12 +48367,13 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "ObjectVariableAsBoolean"
+                                "value": "VarObjet"
                               },
                               "parameters": [
                                 "NPC",
                                 "Quest_Type.Chosen",
-                                "True"
+                                "=",
+                                "1"
                               ]
                             }
                           ],
@@ -49771,16 +49855,6 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "NPC",
-                            "Quest_Type.Chosen",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
@@ -49788,6 +49862,17 @@
                             "Effect",
                             "\"Quest\"",
                             "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Chosen",
+                            "=",
+                            "0"
                           ]
                         }
                       ]
@@ -49836,12 +49921,13 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "SetObjectVariableAsBoolean"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
                                 "NPC",
                                 "Quest_Type.Chosen",
-                                "True"
+                                "=",
+                                "1"
                               ]
                             },
                             {
@@ -49884,16 +49970,6 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Chosen",
-                                "False"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "EffectCapability::EffectBehavior::EnableEffect"
                               },
                               "parameters": [
@@ -49901,6 +49977,17 @@
                                 "Effect",
                                 "\"Quest\"",
                                 "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Chosen",
+                                "=",
+                                "0"
                               ]
                             }
                           ]
@@ -50076,7 +50163,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -50375,7 +50461,6 @@
                       "comment": "Clickable loot spawner"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -50388,43 +50473,98 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "InventoryCount",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::ForEach",
                           "object": "Tree",
                           "conditions": [],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "LireFichierTxt"
-                              },
-                              "parameters": [
-                                "\"Save\"",
-                                "\"Tree\" + ToString(Tree.Info.ID)",
-                                "",
-                                "TempSave.TempTree"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Tree",
+                                    "ID",
+                                    "=",
+                                    "InventoryCount"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "GroupExists"
+                                  },
+                                  "parameters": [
+                                    "\"Save\"",
+                                    "\"Tree\" + ToString(InventoryCount)"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "LireFichierTxt"
+                                  },
+                                  "parameters": [
+                                    "\"Save\"",
+                                    "\"Tree\" + ToString(Tree.Info.ID)",
+                                    "",
+                                    "TempSave.TempTree"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "JSONToObjectVariableStructure"
+                                  },
+                                  "parameters": [
+                                    "VariableString(TempSave.TempTree)",
+                                    "Tree",
+                                    "Info"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                                  },
+                                  "parameters": [
+                                    "Tree",
+                                    "Animation",
+                                    "=",
+                                    "Tree.Info.Animation"
+                                  ]
+                                }
                               ]
                             },
                             {
-                              "type": {
-                                "value": "JSONToObjectVariableStructure"
-                              },
-                              "parameters": [
-                                "VariableString(TempSave.TempTree)",
-                                "Tree",
-                                "Info"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                              },
-                              "parameters": [
-                                "Tree",
-                                "Animation",
-                                "=",
-                                "Tree.Info.Animation"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "InventoryCount",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -50639,7 +50779,7 @@
                                   "parameters": [
                                     "InventoryCount",
                                     "+",
-                                    "0"
+                                    "1"
                                   ]
                                 }
                               ]
@@ -58355,12 +58495,13 @@
           "conditions": [
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
+                "value": "VarObjet"
               },
               "parameters": [
                 "NPC",
                 "Quest_Type.Chosen",
-                "True"
+                "=",
+                "1"
               ]
             }
           ],
@@ -58527,7 +58668,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -58538,7 +58678,7 @@
               "parameters": [
                 "Instruction",
                 "=",
-                "Saves_and_Loads.MyLevelName"
+                "CurrentSceneName()"
               ]
             }
           ]
