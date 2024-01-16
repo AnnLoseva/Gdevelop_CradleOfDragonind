@@ -8583,11 +8583,18 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
+      "name": "Static_platform",
       "texture": "assets\\tiled_Wall for Green Floor.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Variable",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -13066,17 +13073,17 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "JumpThrew_Platform",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -13156,6 +13163,17 @@
         "volume": 100,
         "videoResource": "assets\\x2mate.com-Toothless Dragon Dancing - Green Screen.mp4"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Fake_Platform",
+      "texture": "assets\\tiled_Wall for Green Floor.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -13318,7 +13336,7 @@
             "objectName": "New_Ability"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "JumpThrew_Platform"
           },
           {
             "objectName": "GreenDotBar"
@@ -13354,7 +13372,10 @@
             "objectName": "GreenButton"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "Static_platform"
+          },
+          {
+            "objectName": "Fake_Platform"
           },
           {
             "objectName": "NPC"
@@ -21083,7 +21104,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20746499616301822,
+        "zoomFactor": 0.2144607843137312,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21172,7 +21193,7 @@
           "depth": 1,
           "height": 812,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "b6acf357-ad4d-42e7-b0f9-177fabb45223",
           "width": 2554,
           "x": -148,
@@ -24717,7 +24738,7 @@
           "depth": 2,
           "height": 1816,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "5374a846-6ca2-463f-9cf2-bce55b5e0497",
           "width": 550,
           "x": -542,
@@ -24735,8 +24756,8 @@
           "name": "Player",
           "persistentUuid": "d77c3005-b089-4edd-b99f-c2af82da6c2f",
           "width": 0,
-          "x": 4968,
-          "y": 295,
+          "x": 6892,
+          "y": 386,
           "zOrder": 305,
           "numberProperties": [],
           "stringProperties": [],
@@ -24782,7 +24803,7 @@
               "folded": true,
               "name": "Text",
               "type": "string",
-              "value": "Press A or D to run"
+              "value": "[b] Press [color=yellow] A [color=black] to move Left\n[b] Press [color=yellow] D [color=black] to move Right\n"
             }
           ]
         },
@@ -24804,7 +24825,7 @@
               "folded": true,
               "name": "Text",
               "type": "string",
-              "value": "Press Space to jump"
+              "value": "Press [color=Yellow] Space[color=black] to Jump"
             }
           ]
         },
@@ -24814,7 +24835,7 @@
           "depth": 1,
           "height": 32,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "7e2b2ef4-1ab2-4002-b9d4-0b21c25cd9ba",
           "width": 741,
           "x": 1609,
@@ -24830,7 +24851,7 @@
           "depth": 1,
           "height": 32,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "ec70d34e-e200-48c5-af72-bbdf467828b6",
           "width": 518,
           "x": 1833,
@@ -24846,7 +24867,7 @@
           "depth": 1,
           "height": 63,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "78ab8533-08d9-408f-8380-df630e780750",
           "width": 2600,
           "x": 2343,
@@ -24862,7 +24883,7 @@
           "depth": 1,
           "height": 31,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "f965aad7-508f-4f3d-8dc2-3957ee1f77a1",
           "width": 374,
           "x": 4422,
@@ -24891,7 +24912,7 @@
               "folded": true,
               "name": "Text",
               "type": "string",
-              "value": "To jump higher you need a running start"
+              "value": "To [color=yellow] jump [collor=black]higher you need a running start"
             }
           ]
         },
@@ -24901,7 +24922,7 @@
           "depth": 1,
           "height": 31,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "c91c9203-9010-4f5d-8a1f-03cb6404cdec",
           "width": 374,
           "x": 3879,
@@ -24917,7 +24938,7 @@
           "depth": 1,
           "height": 31,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "74a6d6f7-0f5e-4f21-b136-c6e550bc2d61",
           "width": 374,
           "x": 4431,
@@ -24933,9 +24954,9 @@
           "depth": 1,
           "height": 498,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "c5aef6fb-882a-4ffc-ae50-eb144b75a6e5",
-          "width": 374,
+          "width": 536,
           "x": 4917,
           "y": 347,
           "zOrder": 308,
@@ -24961,7 +24982,7 @@
               "folded": true,
               "name": "Text",
               "type": "string",
-              "value": "Hold Space to jump higher"
+              "value": "[color=yellow] Hold Space [color=black] to jump higher"
             }
           ]
         },
@@ -24971,7 +24992,7 @@
           "depth": 1,
           "height": 63,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "58e8a388-77d6-423e-9fa5-24af912ddb0c",
           "width": 280,
           "x": 2546,
@@ -24987,7 +25008,7 @@
           "depth": 1,
           "height": 112,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "4be39327-13c5-4497-a4ed-a1a0d7c70842",
           "width": 294,
           "x": 2795,
@@ -25003,11 +25024,11 @@
           "depth": 1,
           "height": 498,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "85badd4a-f549-4e17-ac1d-a68f42748991",
           "width": 1268,
-          "x": 5285,
-          "y": 253,
+          "x": 5429,
+          "y": 245,
           "zOrder": 308,
           "numberProperties": [],
           "stringProperties": [],
@@ -25022,8 +25043,8 @@
           "name": "Tree",
           "persistentUuid": "472e5eb2-9d92-495b-8cf9-f9c8f2376174",
           "width": 144,
-          "x": 5540,
-          "y": 104,
+          "x": 5684,
+          "y": 96,
           "zOrder": 309,
           "numberProperties": [],
           "stringProperties": [],
@@ -25072,11 +25093,11 @@
           "depth": 1,
           "height": 31,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "c953b696-1b97-4509-b780-bdf9dc4a4ca4",
           "width": 374,
-          "x": 6080,
-          "y": 149,
+          "x": 6224,
+          "y": 133,
           "zOrder": 308,
           "numberProperties": [],
           "stringProperties": [],
@@ -25088,11 +25109,11 @@
           "depth": 1,
           "height": 31,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "b702566f-d662-4f53-a777-824bfcf70d06",
           "width": 374,
-          "x": 5602,
-          "y": 35,
+          "x": 5746,
+          "y": 27,
           "zOrder": 308,
           "numberProperties": [],
           "stringProperties": [],
@@ -25104,11 +25125,11 @@
           "depth": 1,
           "height": 16,
           "layer": "",
-          "name": "NewSprite",
+          "name": "JumpThrew_Platform",
           "persistentUuid": "fd22d108-0e77-48db-95a2-d8462e1113cf",
           "width": 143,
-          "x": 5609,
-          "y": -176,
+          "x": 5753,
+          "y": -184,
           "zOrder": 310,
           "numberProperties": [],
           "stringProperties": [],
@@ -25120,11 +25141,11 @@
           "depth": 1,
           "height": 426,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "dc84592a-2045-419b-831b-ab188559a17d",
           "width": 32,
-          "x": 5577,
-          "y": -358,
+          "x": 5721,
+          "y": -366,
           "zOrder": 311,
           "numberProperties": [],
           "stringProperties": [],
@@ -25136,11 +25157,11 @@
           "depth": 1,
           "height": 23,
           "layer": "",
-          "name": "NewSprite",
+          "name": "JumpThrew_Platform",
           "persistentUuid": "8a045118-3bc9-4c73-ae39-e4128d2a849e",
           "width": 144,
-          "x": 5602,
-          "y": -99,
+          "x": 5746,
+          "y": -107,
           "zOrder": 312,
           "numberProperties": [],
           "stringProperties": [],
@@ -25152,11 +25173,11 @@
           "depth": 1,
           "height": 123,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "40269cd6-51d6-45df-a6b4-65ccb2f75731",
           "width": 826,
-          "x": 5740,
-          "y": -197,
+          "x": 5884,
+          "y": -205,
           "zOrder": 311,
           "numberProperties": [],
           "stringProperties": [],
@@ -25168,11 +25189,11 @@
           "depth": 1,
           "height": 59,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "3b205f67-d369-45cb-9baf-5873a88e39c0",
           "width": 78,
-          "x": 5598,
-          "y": -23,
+          "x": 5742,
+          "y": -31,
           "zOrder": 313,
           "numberProperties": [],
           "stringProperties": [],
@@ -25187,8 +25208,8 @@
           "name": "Instruction",
           "persistentUuid": "4c27f317-0235-4026-8b7e-d0aa14336b37",
           "width": 145,
-          "x": 5393,
-          "y": 131,
+          "x": 5529,
+          "y": 123,
           "zOrder": 307,
           "numberProperties": [],
           "stringProperties": [],
@@ -25197,7 +25218,7 @@
               "folded": true,
               "name": "Text",
               "type": "string",
-              "value": "Press E several times to shake the tree"
+              "value": "Press [color=yellow] E [color=black] several times to shake the tree"
             }
           ]
         },
@@ -25210,8 +25231,8 @@
           "name": "Instruction",
           "persistentUuid": "b4b97536-298c-4a87-93bd-27179f8bea68",
           "width": 145,
-          "x": 5777,
-          "y": -70,
+          "x": 5921,
+          "y": -78,
           "zOrder": 307,
           "numberProperties": [],
           "stringProperties": [],
@@ -25230,11 +25251,11 @@
           "depth": 1,
           "height": 371,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "0a75843b-621c-4413-bc93-7343b10352d6",
           "width": 32,
-          "x": 6524,
-          "y": -106,
+          "x": 6668,
+          "y": -114,
           "zOrder": 314,
           "numberProperties": [],
           "stringProperties": [],
@@ -25258,14 +25279,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
           "layer": "",
           "name": "Cutscene",
           "persistentUuid": "61eea54f-6075-4250-9498-4af2c2e28f96",
-          "width": 0,
-          "x": 6852,
-          "y": -83,
+          "width": 45,
+          "x": 7581,
+          "y": 302,
           "zOrder": 316,
           "numberProperties": [],
           "stringProperties": [],
@@ -25277,11 +25299,11 @@
           "depth": 1,
           "height": 23,
           "layer": "",
-          "name": "NewSprite",
+          "name": "JumpThrew_Platform",
           "persistentUuid": "709ed60a-f560-49ce-bde9-8f1779778437",
-          "width": 1206,
-          "x": 6546,
-          "y": 553,
+          "width": 463,
+          "x": 6690,
+          "y": 545,
           "zOrder": 312,
           "numberProperties": [],
           "stringProperties": [],
@@ -25293,12 +25315,99 @@
           "depth": 1,
           "height": 804,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Static_platform",
           "persistentUuid": "df8947e9-dd69-40ae-b79c-efff5ec1eeb0",
           "width": 32,
-          "x": 7718,
-          "y": -234,
+          "x": 7117,
+          "y": -231,
           "zOrder": 311,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Fake_Platform",
+          "persistentUuid": "4afd9986-25f7-4280-861c-35dff6469312",
+          "width": 421,
+          "x": 6699,
+          "y": -196,
+          "zOrder": 317,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "layer": "",
+          "name": "Instruction",
+          "persistentUuid": "415dc9fa-5849-4d43-8efe-fad1877ed8e6",
+          "width": 145,
+          "x": 6754,
+          "y": 439,
+          "zOrder": 307,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Text",
+              "type": "string",
+              "value": "Press [color=yellow] S [color=black] to get down"
+            }
+          ]
+        },
+        {
+          "angle": 40,
+          "customSize": true,
+          "depth": 2,
+          "height": 1088,
+          "layer": "",
+          "name": "Static_platform",
+          "persistentUuid": "0eac04bd-e9d3-47c2-8f0f-5cf0ffe7c16a",
+          "width": 27,
+          "x": 6815,
+          "y": 435,
+          "zOrder": 314,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 150,
+          "customSize": true,
+          "depth": 2,
+          "height": 1088,
+          "layer": "",
+          "name": "Static_platform",
+          "persistentUuid": "904b3b10-fd90-46cd-8055-19bfcf112127",
+          "width": 27,
+          "x": 6228,
+          "y": 1292,
+          "zOrder": 314,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 40,
+          "customSize": true,
+          "depth": 2,
+          "height": 1088,
+          "layer": "",
+          "name": "Static_platform",
+          "persistentUuid": "a6df6f86-4545-4eb9-858f-d86f5b92ebb6",
+          "width": 27,
+          "x": 6684,
+          "y": 2173,
+          "zOrder": 314,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25371,6 +25480,35 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -25378,6 +25516,12 @@
         "children": [
           {
             "objectName": "Cutscene"
+          },
+          {
+            "objectName": "NewBBText"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -31683,6 +31827,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31737,6 +31882,14 @@
                   },
                   "parameters": [
                     "NewVideo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Cutscene"
                   ]
                 }
               ],
@@ -32103,14 +32256,6 @@
                     "PlatformerObject",
                     "\"Left\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Cutscene"
-                  ]
                 }
               ]
             },
@@ -32211,7 +32356,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32221,7 +32365,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -32239,7 +32382,6 @@
                   "comment": "Camera, Flips & High/Low Jump "
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32477,7 +32619,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32796,7 +32937,6 @@
                   "comment": "Turn on/off controlls"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32819,7 +32959,7 @@
                       "parameters": [
                         "Player",
                         "PlatformerObject",
-                        "no"
+                        "yes"
                       ]
                     }
                   ],
@@ -32958,6 +33098,48 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Down"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "s"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateDownKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -33003,7 +33185,6 @@
                   "comment": "Map"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -33166,7 +33347,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Jumps",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33537,7 +33717,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Jumping Platfrom",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33852,7 +34031,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Timer Platform",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33958,7 +34136,6 @@
                   "comment": "Timer"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34080,7 +34257,6 @@
               "comment": "Just opened Diary pannel Brightness\n"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34235,7 +34411,6 @@
               "comment": "Click Tab Button"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35529,104 +35704,521 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Cutscene",
-                "Already_played",
-                "False"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Cutscene",
+                    "Player",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Cutscene",
+                    "Already_played",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::Ended"
+                  },
+                  "parameters": [
+                    "NewVideo"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Video\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Cutscene",
-                "Player",
-                "500",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Cutscene",
+                    "Already_played",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Cutscene",
+                    "Player",
+                    "200",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Cutscene",
+                    "Already_played",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Video\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::Play"
+                  },
+                  "parameters": [
+                    "NewVideo"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "<",
+                    "90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "180 -Static_platform.Angle() ",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "360 -Static_platform.Angle() "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Slide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    ">",
+                    "90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "180 -Static_platform.Angle() ",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "180 - Static_platform.Angle() "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Slide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Static_platform",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "Angle"
+                          },
+                          "parameters": [
+                            "Static_platform",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Static_platform",
+                            "Player",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Slide\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Static_platform",
+                    "Variable",
+                    "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Tween",
+                        "\"JumpStrech\"",
+                        "360",
+                        "\"linear\"",
+                        "0.3",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Tween",
+                        "\"JumpStrech\"",
+                        "0",
+                        "\"linear\"",
+                        "0.3",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Cutscene",
-                "Already_played",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Video\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::Play"
-              },
-              "parameters": [
-                "NewVideo"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Cutscene",
-                "Player",
-                "500",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Cutscene",
-                "Already_played",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::Ended"
-              },
-              "parameters": [
-                "NewVideo"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Video\""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ]
     },
@@ -36546,7 +37138,6 @@
                   "comment": "Name"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -36985,7 +37576,6 @@
                   "comment": "Number"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -37360,7 +37950,6 @@
                   "comment": "Description"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -38836,7 +39425,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -39014,7 +39602,6 @@
               "comment": "Save while Changing Level"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -39351,7 +39938,6 @@
               "comment": "CheckPoint"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -39608,7 +40194,7 @@
       ]
     },
     {
-      "associatedLayout": "Scene 2",
+      "associatedLayout": "Experimental level",
       "lastChangeTimeStamp": 0,
       "name": "Inventory",
       "events": [
@@ -39617,7 +40203,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Open/Close Inventory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41055,7 +41640,7 @@
       ]
     },
     {
-      "associatedLayout": "Scene 2",
+      "associatedLayout": "Experimental level",
       "lastChangeTimeStamp": 0,
       "name": "Loot ",
       "events": [
