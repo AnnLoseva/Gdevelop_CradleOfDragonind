@@ -52226,18 +52226,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -52333,6 +52322,22 @@
                     "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].TargetNumber"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "Instruction.Text"
               ]
             }
           ]
