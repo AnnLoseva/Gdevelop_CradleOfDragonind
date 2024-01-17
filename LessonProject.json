@@ -5065,6 +5065,12 @@
             },
             {
               "folded": true,
+              "name": "QuestNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
               "name": "RewardNumber",
               "type": "number",
               "value": 0
@@ -5099,12 +5105,6 @@
           "name": "Count",
           "type": "number",
           "value": 0
-        },
-        {
-          "folded": true,
-          "name": "isNPC",
-          "type": "boolean",
-          "value": true
         },
         {
           "folded": true,
@@ -8598,9 +8598,9 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
@@ -13460,7 +13460,6 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "InventoryData",
       "type": "array",
       "children": [
@@ -13483,7 +13482,7 @@
               "folded": true,
               "name": "Number",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13513,7 +13512,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13544,7 +13543,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13575,7 +13574,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13606,7 +13605,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13637,7 +13636,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13668,7 +13667,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13699,7 +13698,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -13730,7 +13729,7 @@
               "name": "Number",
               "persistentUuid": "111fac58-d3d2-492f-8f5c-e517ac75ac2c",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
@@ -14322,6 +14321,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "Saves_and_Loads",
       "type": "structure",
       "children": [
@@ -14352,7 +14352,7 @@
         {
           "name": "MyLevelName",
           "type": "string",
-          "value": "Experimental level"
+          "value": "Tutorial Level"
         },
         {
           "folded": true,
@@ -15096,7 +15096,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "Experimental level"
+              "value": "Tutorial Level"
             }
           ]
         },
@@ -25565,7 +25565,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.0967552429702234,
+        "zoomFactor": 0.3768772036750978,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25643,6 +25643,256 @@
               "name": "Right",
               "type": "number",
               "value": 100000
+            }
+          ]
+        },
+        {
+          "name": "NPCQuests",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": "I'll teach you to brew"
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Let's Make Potion!0"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 10
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": "Gold"
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "BasePotion"
+                    }
+                  ]
+                },
+                {
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": "I am soooo sick"
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Sell me Potion!0"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 10
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": "Gold"
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "BasePotion"
+                    }
+                  ]
+                },
+                {
+                  "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Start0"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "persistentUuid": "e2958301-f523-48d5-9cb8-536d1818b2ff",
+              "type": "array",
+              "children": [
+                {
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": "I am soooo sick"
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Sell me Potion!1"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 10
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": "Gold"
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "BasePotion"
+                    }
+                  ]
+                },
+                {
+                  "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": "I'll teach you to brew"
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Let's Make Potion!1"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 10
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": "Gold"
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "BasePotion"
+                    }
+                  ]
+                },
+                {
+                  "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Description",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "Name",
+                      "type": "string",
+                      "value": "Start0"
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardNumber",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "folded": true,
+                      "name": "RevardObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "TargetNumber",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "folded": true,
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -29217,8 +29467,8 @@
           "name": "Player",
           "persistentUuid": "d77c3005-b089-4edd-b99f-c2af82da6c2f",
           "width": 0,
-          "x": 6516,
-          "y": 5260,
+          "x": 1907,
+          "y": 2490,
           "zOrder": 305,
           "numberProperties": [],
           "stringProperties": [],
@@ -29914,6 +30164,177 @@
               "name": "Right_Border",
               "type": "boolean",
               "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "16fb3918-b29b-4c05-8ba2-71357758a196",
+          "width": 0,
+          "x": 2196,
+          "y": 2530,
+          "zOrder": 319,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC1"
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Chosen",
+                  "persistentUuid": "d5f931f4-d096-4733-9525-ca12f6883ace",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Aslkdjlkasdj"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "no"
+                },
+                {
+                  "folded": true,
+                  "name": "QuestNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Checks",
+          "name": "Instruction",
+          "persistentUuid": "21b2f7af-3ff6-4256-ae6c-abb57b9b4ca2",
+          "width": 0,
+          "x": 1669,
+          "y": 18,
+          "zOrder": 320,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "ab7ebfe0-a8e8-4cce-8f8c-35771478c1d9",
+          "width": 0,
+          "x": 3045,
+          "y": 2519,
+          "zOrder": 319,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC1"
+            },
+            {
+              "name": "Quest_Type",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Chosen",
+                  "persistentUuid": "d5f931f4-d096-4733-9525-ca12f6883ace",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Aslkdjlkasdj"
+                },
+                {
+                  "folded": true,
+                  "name": "Name",
+                  "type": "string",
+                  "value": "no"
+                },
+                {
+                  "folded": true,
+                  "name": "QuestNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "RewardNumber",
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "folded": true,
+                  "name": "RewardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                }
+              ]
             }
           ]
         }
@@ -36254,16 +36675,6 @@
                 },
                 {
                   "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "Instruction",
-                    "=",
-                    "Instruction.Text"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "HideLayer"
                   },
                   "parameters": [
@@ -36759,6 +37170,13 @@
                 "includeConfig": 0
               },
               "target": "Teleportation threw end of map"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Give NPC a Quest"
             }
           ],
           "parameters": []
@@ -41091,6 +41509,18 @@
                                 "=",
                                 "CurrentSceneName()"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "New sound effect3",
+                                "",
+                                "",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -41125,7 +41555,7 @@
                                 "NPC",
                                 "Quest_Type.Name",
                                 "=",
-                                "ToString(JournalQuests[QuestCount].Name) + \"Complete\""
+                                "GlobalVariableString(JournalQuests[QuestCount].Name) + \"Complete\""
                               ]
                             }
                           ]
@@ -41186,6 +41616,28 @@
                               },
                               "parameters": [
                                 "JournalQuests[QuestCount].Name",
+                                "=",
+                                "\"no\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.QuestNumber",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Name",
                                 "=",
                                 "\"no\""
                               ]
@@ -51647,6 +52099,240 @@
                 "100000",
                 "",
                 ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Tutorial Level",
+      "lastChangeTimeStamp": 0,
+      "name": "Give NPC a Quest",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NPC",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "=",
+                    "\"no\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.RewardNumber",
+                    "=",
+                    "NPCQuests[NPC.ID][0].RevardNumber"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.RewardObject",
+                    "=",
+                    "NPCQuests[NPC.ID][0].RevardObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.TargetObject",
+                    "=",
+                    "NPCQuests[NPC.ID][0].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Description",
+                    "=",
+                    "NPCQuests[NPC.ID][0].Description"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "=",
+                    "NPCQuests[NPC.ID][0].Name"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.TargetNumber",
+                    "=",
+                    "NPCQuests[NPC.ID][0].TargetNumber"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NPC",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.QuestNumber",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "=",
+                    "\"no\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.RewardNumber",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].RevardNumber"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.RewardObject",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].RevardObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.TargetObject",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Description",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Description"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Name"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.TargetNumber",
+                    "=",
+                    "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].TargetNumber"
+                  ]
+                }
               ]
             }
           ]
