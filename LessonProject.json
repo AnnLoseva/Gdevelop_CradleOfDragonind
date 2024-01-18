@@ -2959,6 +2959,12 @@
           "name": "Level",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "Can_Take_Quest",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -13460,6 +13466,257 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
+      "name": "NPCQuests",
+      "type": "array",
+      "children": [
+        {
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "I'll teach you to brew"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!1"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "I am soooo sick"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Sell me Potion!1"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            },
+            {
+              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Start1"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "persistentUuid": "e2958301-f523-48d5-9cb8-536d1818b2ff",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "I am soooo sick"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Sell me Potion!2"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            },
+            {
+              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "I'll teach you to brew"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!2"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            },
+            {
+              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Start2"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
       "name": "InventoryData",
       "type": "array",
       "children": [
@@ -25565,7 +25822,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3768772036750978,
+        "zoomFactor": 0.22169247275005777,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25643,256 +25900,6 @@
               "name": "Right",
               "type": "number",
               "value": 100000
-            }
-          ]
-        },
-        {
-          "name": "NPCQuests",
-          "type": "array",
-          "children": [
-            {
-              "folded": true,
-              "type": "array",
-              "children": [
-                {
-                  "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": "I'll teach you to brew"
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Let's Make Potion!0"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 10
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": "Gold"
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 1
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": "BasePotion"
-                    }
-                  ]
-                },
-                {
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": "I am soooo sick"
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Sell me Potion!0"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 10
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": "Gold"
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 1
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": "BasePotion"
-                    }
-                  ]
-                },
-                {
-                  "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Start0"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "persistentUuid": "e2958301-f523-48d5-9cb8-536d1818b2ff",
-              "type": "array",
-              "children": [
-                {
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": "I am soooo sick"
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Sell me Potion!1"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 10
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": "Gold"
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 1
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": "BasePotion"
-                    }
-                  ]
-                },
-                {
-                  "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": "I'll teach you to brew"
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Let's Make Potion!1"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 10
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": "Gold"
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 1
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": "BasePotion"
-                    }
-                  ]
-                },
-                {
-                  "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "Description",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "name": "Name",
-                      "type": "string",
-                      "value": "Start0"
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardNumber",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "folded": true,
-                      "name": "RevardObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "name": "TargetNumber",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "folded": true,
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }
@@ -30241,21 +30248,6 @@
               ]
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Checks",
-          "name": "Instruction",
-          "persistentUuid": "21b2f7af-3ff6-4256-ae6c-abb57b9b4ca2",
-          "width": 0,
-          "x": 1669,
-          "y": 18,
-          "zOrder": 320,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -40980,7 +40972,7 @@
                   "parameters": [
                     "NPC",
                     "Player",
-                    "150",
+                    "200",
                     ""
                   ]
                 },
@@ -41088,6 +41080,16 @@
                             "Quest_Type.TargetNumber",
                             "=",
                             "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Can_Take_Quest",
+                            "False"
                           ]
                         },
                         {
@@ -41454,6 +41456,16 @@
                             },
                             {
                               "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Can_Take_Quest",
+                                "False"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": []
@@ -41508,18 +41520,6 @@
                                 "JournalQuests[QuestCount].Location",
                                 "=",
                                 "CurrentSceneName()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "New sound effect3",
-                                "",
-                                "",
-                                ""
                               ]
                             }
                           ]
@@ -41610,6 +41610,16 @@
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Can_Take_Quest",
+                                "True"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "ModVarGlobalTxt"
@@ -52221,7 +52231,7 @@
               "parameters": [
                 "Player",
                 "NPC",
-                "500",
+                "200",
                 ""
               ]
             }
@@ -52320,6 +52330,24 @@
                     "Quest_Type.TargetNumber",
                     "=",
                     "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].TargetNumber"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Can_Take_Quest",
+                    "False"
                   ]
                 }
               ]
