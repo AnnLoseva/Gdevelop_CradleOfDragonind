@@ -19629,8 +19629,8 @@
           "name": "MapPoints",
           "persistentUuid": "be96213c-a414-4782-84c9-93da8240e4ab",
           "width": 0,
-          "x": 149,
-          "y": 864,
+          "x": 191,
+          "y": 1845,
           "zOrder": 321,
           "numberProperties": [],
           "stringProperties": [],
@@ -19657,8 +19657,8 @@
           "name": "MapPoints",
           "persistentUuid": "9a63cb9f-cb0f-4234-95c9-2e4c99a9630a",
           "width": 0,
-          "x": 262,
-          "y": 488,
+          "x": 304,
+          "y": 1469,
           "zOrder": 322,
           "numberProperties": [],
           "stringProperties": [],
@@ -19685,12 +19685,18 @@
           "name": "MapPoints",
           "persistentUuid": "27c19e64-38b4-4beb-9092-7632900e3c18",
           "width": 0,
-          "x": 641,
-          "y": 737,
+          "x": 683,
+          "y": 1718,
           "zOrder": 323,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -19707,8 +19713,8 @@
           "name": "MapPoints",
           "persistentUuid": "6aa3f66b-d53f-4a20-9439-032e70776229",
           "width": 0,
-          "x": 1058,
-          "y": 383,
+          "x": 1100,
+          "y": 1364,
           "zOrder": 324,
           "numberProperties": [],
           "stringProperties": [],
@@ -19729,8 +19735,8 @@
           "name": "MapPoints",
           "persistentUuid": "9e98a44f-3dcd-4c25-99ea-b5837c7253a3",
           "width": 0,
-          "x": 1288,
-          "y": 735,
+          "x": 1330,
+          "y": 1716,
           "zOrder": 325,
           "numberProperties": [],
           "stringProperties": [],
@@ -19751,8 +19757,8 @@
           "name": "MapPoints",
           "persistentUuid": "bc955a96-dbff-4a82-a0df-eca6db1b5430",
           "width": 0,
-          "x": 1476,
-          "y": 387,
+          "x": 1518,
+          "y": 1368,
           "zOrder": 326,
           "numberProperties": [],
           "stringProperties": [],
@@ -19773,8 +19779,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "3e2b108a-bddf-42a1-af96-1d5904fbef89",
           "width": 0,
-          "x": 207,
-          "y": 867,
+          "x": 249,
+          "y": 1848,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -19801,8 +19807,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "c7f35d87-d14c-4fa6-84b1-804b9c8034b1",
           "width": 0,
-          "x": 317,
-          "y": 490,
+          "x": 359,
+          "y": 1471,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -19829,12 +19835,18 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "42605f59-28ce-4d97-a0a9-c0d3aea833a3",
           "width": 0,
-          "x": 699,
-          "y": 738,
+          "x": 741,
+          "y": 1719,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -19851,8 +19863,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "028761a9-6b61-465f-83f9-031b038f1b93",
           "width": 0,
-          "x": 1106,
-          "y": 384,
+          "x": 1148,
+          "y": 1365,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -19873,8 +19885,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "be4c327a-0e32-463d-9fa8-c5729e544d24",
           "width": 0,
-          "x": 1337,
-          "y": 740,
+          "x": 1379,
+          "y": 1721,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -19895,8 +19907,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "f9940925-1c11-4e57-abbb-b9121986ffb9",
           "width": 0,
-          "x": 1528,
-          "y": 386,
+          "x": 1570,
+          "y": 1367,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -20167,6 +20179,38 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Map",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
           "visibility": false,
@@ -20392,38 +20436,6 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Video",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Map",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -30341,8 +30353,8 @@
           "name": "MapPoints",
           "persistentUuid": "be96213c-a414-4782-84c9-93da8240e4ab",
           "width": 0,
-          "x": 149,
-          "y": 864,
+          "x": 192,
+          "y": 1998,
           "zOrder": 321,
           "numberProperties": [],
           "stringProperties": [],
@@ -30369,8 +30381,8 @@
           "name": "MapPoints",
           "persistentUuid": "9a63cb9f-cb0f-4234-95c9-2e4c99a9630a",
           "width": 0,
-          "x": 262,
-          "y": 488,
+          "x": 305,
+          "y": 1622,
           "zOrder": 322,
           "numberProperties": [],
           "stringProperties": [],
@@ -30397,12 +30409,18 @@
           "name": "MapPoints",
           "persistentUuid": "27c19e64-38b4-4beb-9092-7632900e3c18",
           "width": 0,
-          "x": 641,
-          "y": 737,
+          "x": 684,
+          "y": 1871,
           "zOrder": 323,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -30419,8 +30437,8 @@
           "name": "MapPoints",
           "persistentUuid": "6aa3f66b-d53f-4a20-9439-032e70776229",
           "width": 0,
-          "x": 1058,
-          "y": 383,
+          "x": 1101,
+          "y": 1517,
           "zOrder": 324,
           "numberProperties": [],
           "stringProperties": [],
@@ -30441,8 +30459,8 @@
           "name": "MapPoints",
           "persistentUuid": "9e98a44f-3dcd-4c25-99ea-b5837c7253a3",
           "width": 0,
-          "x": 1288,
-          "y": 735,
+          "x": 1331,
+          "y": 1869,
           "zOrder": 325,
           "numberProperties": [],
           "stringProperties": [],
@@ -30463,8 +30481,8 @@
           "name": "MapPoints",
           "persistentUuid": "bc955a96-dbff-4a82-a0df-eca6db1b5430",
           "width": 0,
-          "x": 1476,
-          "y": 387,
+          "x": 1519,
+          "y": 1521,
           "zOrder": 326,
           "numberProperties": [],
           "stringProperties": [],
@@ -30485,8 +30503,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "3e2b108a-bddf-42a1-af96-1d5904fbef89",
           "width": 0,
-          "x": 207,
-          "y": 867,
+          "x": 250,
+          "y": 2001,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -30513,8 +30531,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "c7f35d87-d14c-4fa6-84b1-804b9c8034b1",
           "width": 0,
-          "x": 317,
-          "y": 490,
+          "x": 360,
+          "y": 1624,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -30541,12 +30559,18 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "42605f59-28ce-4d97-a0a9-c0d3aea833a3",
           "width": 0,
-          "x": 699,
-          "y": 738,
+          "x": 742,
+          "y": 1872,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -30563,8 +30587,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "028761a9-6b61-465f-83f9-031b038f1b93",
           "width": 0,
-          "x": 1106,
-          "y": 384,
+          "x": 1149,
+          "y": 1518,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -30585,8 +30609,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "be4c327a-0e32-463d-9fa8-c5729e544d24",
           "width": 0,
-          "x": 1337,
-          "y": 740,
+          "x": 1380,
+          "y": 1874,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -30607,8 +30631,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "f9940925-1c11-4e57-abbb-b9121986ffb9",
           "width": 0,
-          "x": 1528,
-          "y": 386,
+          "x": 1571,
+          "y": 1520,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -30850,6 +30874,38 @@
           "name": "Chose scene",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Map",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -31124,38 +31180,6 @@
               "booleanParameters": {}
             }
           ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Map",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
         }
       ],
       "behaviorsSharedData": [
@@ -31269,7 +31293,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491660225,
+        "zoomFactor": 0.08473489146618077,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35576,40 +35600,6 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Map_End_Teleport",
-          "persistentUuid": "4ac3d3f3-7b1c-4dcc-b694-15efe7965380",
-          "width": 0,
-          "x": 6216,
-          "y": 5207,
-          "zOrder": 318,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Scene",
-              "type": "string",
-              "value": "Tutorial Village"
-            },
-            {
-              "folded": true,
-              "name": "Right",
-              "type": "boolean",
-              "value": true
-            },
-            {
-              "folded": true,
-              "name": "Right_Border",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "NPC",
           "persistentUuid": "16fb3918-b29b-4c05-8ba2-71357758a196",
           "width": 0,
@@ -35785,8 +35775,8 @@
           "name": "MapPoints",
           "persistentUuid": "be96213c-a414-4782-84c9-93da8240e4ab",
           "width": 0,
-          "x": 149,
-          "y": 864,
+          "x": 137,
+          "y": 1844,
           "zOrder": 321,
           "numberProperties": [],
           "stringProperties": [],
@@ -35813,8 +35803,8 @@
           "name": "MapPoints",
           "persistentUuid": "9a63cb9f-cb0f-4234-95c9-2e4c99a9630a",
           "width": 0,
-          "x": 262,
-          "y": 488,
+          "x": 250,
+          "y": 1468,
           "zOrder": 322,
           "numberProperties": [],
           "stringProperties": [],
@@ -35841,12 +35831,18 @@
           "name": "MapPoints",
           "persistentUuid": "27c19e64-38b4-4beb-9092-7632900e3c18",
           "width": 0,
-          "x": 641,
-          "y": 737,
+          "x": 629,
+          "y": 1717,
           "zOrder": 323,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -35863,8 +35859,8 @@
           "name": "MapPoints",
           "persistentUuid": "6aa3f66b-d53f-4a20-9439-032e70776229",
           "width": 0,
-          "x": 1058,
-          "y": 383,
+          "x": 1046,
+          "y": 1363,
           "zOrder": 324,
           "numberProperties": [],
           "stringProperties": [],
@@ -35885,8 +35881,8 @@
           "name": "MapPoints",
           "persistentUuid": "9e98a44f-3dcd-4c25-99ea-b5837c7253a3",
           "width": 0,
-          "x": 1288,
-          "y": 735,
+          "x": 1276,
+          "y": 1715,
           "zOrder": 325,
           "numberProperties": [],
           "stringProperties": [],
@@ -35907,8 +35903,8 @@
           "name": "MapPoints",
           "persistentUuid": "bc955a96-dbff-4a82-a0df-eca6db1b5430",
           "width": 0,
-          "x": 1476,
-          "y": 387,
+          "x": 1464,
+          "y": 1367,
           "zOrder": 326,
           "numberProperties": [],
           "stringProperties": [],
@@ -35929,8 +35925,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "3e2b108a-bddf-42a1-af96-1d5904fbef89",
           "width": 0,
-          "x": 207,
-          "y": 867,
+          "x": 195,
+          "y": 1847,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -35957,8 +35953,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "c7f35d87-d14c-4fa6-84b1-804b9c8034b1",
           "width": 0,
-          "x": 317,
-          "y": 490,
+          "x": 305,
+          "y": 1470,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -35985,12 +35981,18 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "42605f59-28ce-4d97-a0a9-c0d3aea833a3",
           "width": 0,
-          "x": 699,
-          "y": 738,
+          "x": 687,
+          "y": 1718,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
             {
               "folded": true,
               "name": "PlaceY",
@@ -36007,8 +36009,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "028761a9-6b61-465f-83f9-031b038f1b93",
           "width": 0,
-          "x": 1106,
-          "y": 384,
+          "x": 1094,
+          "y": 1364,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -36029,8 +36031,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "be4c327a-0e32-463d-9fa8-c5729e544d24",
           "width": 0,
-          "x": 1337,
-          "y": 740,
+          "x": 1325,
+          "y": 1720,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -36051,8 +36053,8 @@
           "name": "MapPlayerPoint",
           "persistentUuid": "f9940925-1c11-4e57-abbb-b9121986ffb9",
           "width": 0,
-          "x": 1528,
-          "y": 386,
+          "x": 1516,
+          "y": 1366,
           "zOrder": 327,
           "numberProperties": [],
           "stringProperties": [],
@@ -36471,6 +36473,38 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Map",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
           "visibility": false,
@@ -36698,38 +36732,6 @@
           "name": "Video",
           "renderingType": "",
           "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Map",
-          "renderingType": "",
-          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -44093,15 +44095,44 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Tween::TweenCameraZoom2"
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
-                            "",
-                            "",
-                            "2",
-                            "",
-                            "\"linear\"",
-                            "1"
+                            "MapSprite",
+                            "Tween",
+                            "\"Hide\"",
+                            "1080",
+                            "\"easeOutQuad\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "MapPoints",
+                            "Tween",
+                            "\"Hide\"",
+                            "2000",
+                            "\"easeOutQuad\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "MapPlayerPoint",
+                            "Tween",
+                            "\"Hide\"",
+                            "2000",
+                            "\"easeOutQuad\"",
+                            "1",
+                            ""
                           ]
                         },
                         {
@@ -44117,72 +44148,10 @@
                         },
                         {
                           "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                            "value": "CacheSouris"
                           },
                           "parameters": [
-                            "MapSprite",
-                            "Tween",
-                            "\"Mpve\"",
-                            "1080",
-                            "\"easeOutQuad\"",
-                            "1",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                          },
-                          "parameters": [
-                            "MapPoints",
-                            "Tween",
-                            "\"Mpve\"",
-                            "2000",
-                            "\"easeOutQuad\"",
-                            "1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                          },
-                          "parameters": [
-                            "MapPlayerPoint",
-                            "Tween",
-                            "\"Mpve\"",
-                            "2000",
-                            "\"easeOutQuad\"",
-                            "1",
-                            ""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Tween::HasFinished"
-                              },
-                              "parameters": [
-                                "MapSprite",
-                                "Tween",
-                                "\"Mpve\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "HideLayer"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Map\""
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -44226,19 +44195,6 @@
                         },
                         {
                           "type": {
-                            "value": "Tween::TweenCameraZoom2"
-                          },
-                          "parameters": [
-                            "",
-                            "",
-                            "0.7",
-                            "",
-                            "\"linear\"",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "ShowLayer"
                           },
                           "parameters": [
@@ -44253,7 +44209,7 @@
                           "parameters": [
                             "MapSprite",
                             "Tween",
-                            "\"Mpve\"",
+                            "\"Move\"",
                             "0",
                             "\"easeOutQuad\"",
                             "1",
@@ -44267,7 +44223,7 @@
                           "parameters": [
                             "MapPoints",
                             "Tween",
-                            "\"Mpve\"",
+                            "\"Move\"",
                             "MapPoints.PlaceY",
                             "\"easeOutQuad\"",
                             "1",
@@ -44281,10 +44237,18 @@
                           "parameters": [
                             "MapPlayerPoint",
                             "Tween",
-                            "\"Mpve\"",
+                            "\"Move\"",
                             "MapPlayerPoint.PlaceY",
                             "\"easeOutQuad\"",
                             "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MontreSouris"
+                          },
+                          "parameters": [
                             ""
                           ]
                         }
