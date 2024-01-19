@@ -14890,6 +14890,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -15345,7 +15346,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "Saves_and_Loads",
       "type": "structure",
       "children": [
@@ -15382,6 +15382,12 @@
         {
           "folded": true,
           "name": "QuestLevelName",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "QuestName",
           "type": "string",
           "value": ""
         },
@@ -42737,6 +42743,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43270,7 +43277,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44355,6 +44361,35 @@
                               },
                               "parameters": [
                                 "MapPlayerPoint",
+                                "Animation",
+                                "=",
+                                "\"Chosen\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "MapPoints",
+                                "Name",
+                                "=",
+                                "Saves_and_Loads.QuestLevelName"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "MapPoints",
                                 "Animation",
                                 "=",
                                 "\"Chosen\""
@@ -49250,7 +49285,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -49460,17 +49494,6 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "EffectCapability::EffectBehavior::EnableEffect"
-                          },
-                          "parameters": [
-                            "NPC",
-                            "Effect",
-                            "\"Quest\"",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -49489,123 +49512,6 @@
                             "Animation",
                             "=",
                             "\"Not\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "NPC",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Name",
-                                "contains",
-                                "QuestsButton.Name"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "On",
-                                "False"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Chosen",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Effect",
-                                "\"Quest\"",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "On",
-                                "True"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Effect",
-                                "\"Quest\"",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Chosen",
-                                "=",
-                                "0"
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -49917,23 +49823,12 @@
             },
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "Instruction",
+                "Saves_and_Loads.QuestName",
                 "=",
-                "QuestsButton.Location"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "QuestsButton",
-                "Effect",
-                "\"Outline\"",
-                "yes"
+                "QuestsButton.Name"
               ]
             },
             {
@@ -50007,71 +49902,6 @@
                         "1"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Quest_Type.Name",
-                    "contains",
-                    "QuestsButton.Name"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Quest_Type.Chosen",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Effect",
-                    "\"Quest\"",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "New sound effect3",
-                    "",
-                    "",
-                    ""
                   ]
                 }
               ]
@@ -58372,13 +58202,13 @@
           "conditions": [
             {
               "type": {
-                "value": "VarObjet"
+                "value": "VarObjetTxt"
               },
               "parameters": [
                 "NPC",
-                "Quest_Type.Chosen",
-                "=",
-                "1"
+                "Quest_Type.Name",
+                "contains",
+                "Saves_and_Loads.QuestName"
               ]
             }
           ],
@@ -58390,6 +58220,17 @@
               "parameters": [
                 "Arrow",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"Quest\"",
+                "yes"
               ]
             }
           ],
@@ -58567,6 +58408,36 @@
               },
               "parameters": [
                 "Arrow"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "NPC",
+                "Quest_Type.Name",
+                "contains",
+                "Saves_and_Loads.QuestName"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"Quest\"",
+                "no"
               ]
             }
           ]
