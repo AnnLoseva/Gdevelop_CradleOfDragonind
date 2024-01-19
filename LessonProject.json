@@ -13689,6 +13689,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -14889,7 +14890,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -14903,40 +14903,9 @@
               "value": ""
             },
             {
-              "folded": true,
-              "name": "Location",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "289c24c9-4bd4-4706-abc2-2a734eb931b0",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
-              "type": "string",
-              "value": ""
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -14966,13 +14935,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "be740305-a98f-42f9-98f0-fc0f179576da",
+          "persistentUuid": "00776a9b-faf0-4b62-b558-6418ce4aeb4b",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15002,13 +14976,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "a4aef74e-f16d-4c19-817d-46c4f41b15c7",
+          "persistentUuid": "3ef25e85-7363-4789-9d34-a0c73bc46c24",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15038,13 +15017,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "63b1b3d8-9faf-47b2-9c09-2726b65867af",
+          "persistentUuid": "3069a0e5-d0cf-46e7-a5a3-6cf5bdc206f8",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15074,13 +15058,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "addfd08e-c0dd-48ce-93a6-a34f2ac3b42c",
+          "persistentUuid": "e860b220-87ab-40b2-99d7-b70d0c8ed8a8",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15110,13 +15099,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "d7a2a02c-d3f1-4b4c-a087-483dea440ecb",
+          "persistentUuid": "1bb7f4cc-7082-4586-bab6-b8daf62c15f8",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15146,13 +15140,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "df7a6955-e3d0-4cd6-8cf2-654dfa594ae9",
+          "persistentUuid": "a6456efa-a138-474f-8862-a5234261f4a0",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15182,13 +15181,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "4516acac-ffcf-4456-8f73-73d9deba7587",
+          "persistentUuid": "51e8dfdb-c342-43df-9ea9-faba954c8145",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15218,13 +15222,18 @@
         },
         {
           "folded": true,
-          "persistentUuid": "32caef24-7a67-4841-98b9-e9f0e4308c13",
+          "persistentUuid": "0f5c5450-9489-45d7-837d-2ae27eb64624",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15254,13 +15263,59 @@
         },
         {
           "folded": true,
-          "persistentUuid": "0689f9b4-cf60-4371-9f62-c016fdfcac41",
+          "persistentUuid": "d6531af7-1c50-4681-bc6e-e3590cc176fa",
           "type": "structure",
           "children": [
             {
               "name": "Description",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "9d7ba75d-f435-4a41-9235-b45eb2400fe2",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Is On",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -15296,6 +15351,7 @@
       "type": "structure",
       "children": [
         {
+          "folded": true,
           "name": "Abilities",
           "type": "structure",
           "children": [
@@ -15329,78 +15385,6 @@
           "name": "QuestLevelName",
           "type": "string",
           "value": ""
-        },
-        {
-          "folded": true,
-          "name": "QuestsState",
-          "type": "array",
-          "children": [
-            {
-              "folded": true,
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "80bf9727-8ae5-4141-87e0-a71412ce97d1",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "310f1a0d-c58d-4795-801e-259c864ba753",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "4e2f3daf-c3d9-45b6-a29b-374b1f654cfb",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "c3e43c11-8692-4e9a-84c9-253e6e181b5c",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "a7fdfb63-1d66-42a6-9a83-3c75b980cc8f",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "e5134571-6f3e-42c8-890a-61b888ae4221",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "2a75339f-83bc-4d10-ad02-41156c04cd07",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "2bbef6b9-c479-4fce-803c-a804a6aac98b",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "53727755-4fcc-429d-863e-ce26fce76f7b",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "persistentUuid": "e31c9909-4c13-419e-91f6-83e267d7bea8",
-              "type": "boolean",
-              "value": false
-            }
-          ]
         },
         {
           "folded": true,
@@ -48585,6 +48569,60 @@
                                 "1"
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[QuestCount][\"Is On\"]",
+                                    "="
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "On",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[QuestCount][\"Is On\"]",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "On",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -49122,6 +49160,17 @@
                         "\"brightness\"",
                         "0.7"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
                     }
                   ]
                 },
@@ -49162,6 +49211,54 @@
                         "Animation",
                         "=",
                         "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestLevelName",
+                        "=",
+                        "QuestsButton.Location"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "Instruction",
+                        "=",
+                        "QuestsButton.Location"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "yes"
                       ]
                     }
                   ]
@@ -49305,6 +49402,57 @@
                         "QuestsButton",
                         "On",
                         "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount][\"Is On\"]",
+                                "False"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "QuestCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -49588,6 +49736,67 @@
                       ],
                       "events": [
                         {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "10",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "ButtonFSM",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "Name",
+                                    "=",
+                                    "JournalQuests[QuestCount].Name"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetGlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[QuestCount][\"Is On\"]",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "QuestCount",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -49689,6 +49898,16 @@
                             "=",
                             "QuestsButton.Location"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "QuestCount",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "events": [
@@ -49717,6 +49936,45 @@
                                 "Animation",
                                 "=",
                                 "\"Not\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "10",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetGlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[QuestCount][\"Is On\"]",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "QuestCount",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -49763,6 +50021,17 @@
                 "Instruction",
                 "=",
                 "QuestsButton.Location"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "QuestsButton",
+                "Effect",
+                "\"Outline\"",
+                "yes"
               ]
             }
           ]
