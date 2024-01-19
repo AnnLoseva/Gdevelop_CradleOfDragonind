@@ -13838,7 +13838,6 @@
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -16701,6 +16700,50 @@
               "name": "Float",
               "type": "boolean",
               "value": false
+            }
+          ]
+        },
+        {
+          "name": "LevelLoot",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Tutorial Level",
+              "persistentUuid": "b546558e-e549-409a-aeed-acf72e02424a",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Loot",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "Tutorial Village",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Loot",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "Tutorial Village2",
+              "persistentUuid": "6dc96ac2-a75d-481e-96b7-8c17430fc891",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Loot",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
             }
           ]
         },
@@ -21353,6 +21396,12 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
               "name": "ID",
               "type": "number",
               "value": 4
@@ -21373,6 +21422,12 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
             {
               "folded": true,
               "name": "ID",
@@ -21407,52 +21462,22 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 273,
+          "height": 172,
           "layer": "",
           "name": "Tree",
-          "persistentUuid": "eadac398-0b0e-434a-98d2-6716fd12cb73",
-          "width": 243,
-          "x": 1538,
-          "y": 455,
+          "persistentUuid": "51c0a32b-06bd-43ef-9344-322d8eb0d83d",
+          "width": 143,
+          "x": 1489,
+          "y": 553,
           "zOrder": 335,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
-              "name": "Info",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Animation",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "ID",
-                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "Number of Objects",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "name": "Object",
-                  "type": "string",
-                  "value": "Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Timer",
-                  "type": "number",
-                  "value": 0
-                }
-              ]
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
             }
           ]
         }
@@ -32187,6 +32212,12 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "folded": true,
               "name": "ID",
               "type": "number",
               "value": 3
@@ -32732,7 +32763,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15911838846839027,
+        "zoomFactor": 0.3895856273827413,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36381,21 +36412,6 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Player",
-          "persistentUuid": "d77c3005-b089-4edd-b99f-c2af82da6c2f",
-          "width": 0,
-          "x": 1907,
-          "y": 2490,
-          "zOrder": 305,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "Instruction",
           "persistentUuid": "c4f3ee39-eaec-4834-9993-71bb8db892b3",
           "width": 0,
@@ -36639,59 +36655,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 156,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "472e5eb2-9d92-495b-8cf9-f9c8f2376174",
-          "width": 144,
-          "x": 6859,
-          "y": 1858,
-          "zOrder": 309,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Info",
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "Animation",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "ID",
-                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "Number of Objects",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "name": "Object",
-                  "type": "string",
-                  "value": "Grass"
-                },
-                {
-                  "folded": true,
-                  "name": "Timer",
-                  "type": "number",
-                  "value": 0
-                }
-              ]
-            }
-          ]
         },
         {
           "angle": 0,
@@ -37042,8 +37005,8 @@
           "name": "NPC",
           "persistentUuid": "16fb3918-b29b-4c05-8ba2-71357758a196",
           "width": 0,
-          "x": 2196,
-          "y": 2530,
+          "x": 2095,
+          "y": 2568,
           "zOrder": 319,
           "numberProperties": [],
           "stringProperties": [],
@@ -37052,7 +37015,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": ""
+              "value": "no"
             },
             {
               "name": "Quest_Type",
@@ -37133,7 +37096,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": ""
+              "value": "no"
             },
             {
               "name": "Quest_Type",
@@ -37589,6 +37552,21 @@
               "value": "no"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "8ea1f06f-bf1c-4191-934d-1e9a764e4a88",
+          "width": 0,
+          "x": 1895,
+          "y": 2570,
+          "zOrder": 335,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -40339,6 +40317,18 @@
                             "contains",
                             "Saves_and_Loads.QuestName"
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "=",
+                            "\"0\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -40641,17 +40631,6 @@
                       },
                       "parameters": [
                         "QuestsButton",
-                        "StepNumber",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "QuestsButton",
                         "Count",
                         "+",
                         "0"
@@ -40663,20 +40642,8 @@
                       },
                       "parameters": [
                         "Saves_and_Loads.StepNumber",
-                        "=",
-                        "QuestsButton.StepNumber"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "New sound effect",
-                        "",
-                        "",
-                        ""
+                        "+",
+                        "1"
                       ]
                     }
                   ],
@@ -40710,7 +40677,7 @@
                               "parameters": [
                                 "JournalQuests[QuestsButton.Count].StepNumber",
                                 "=",
-                                "QuestsButton.StepNumber"
+                                "Saves_and_Loads.StepNumber"
                               ]
                             }
                           ]
@@ -51067,7 +51034,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -51312,22 +51278,22 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "Saves_and_Loads.QuestLevelName",
-                            "=",
-                            "QuestsButton.Location"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
                             "QuestCount",
                             "=",
                             "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestLevelName",
+                            "=",
+                            "\"no\""
                           ]
                         }
                       ],
@@ -51447,16 +51413,6 @@
             },
             {
               "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "Saves_and_Loads.QuestLevelName + Saves_and_Loads.QuestName"
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -51507,6 +51463,36 @@
                         "JournalQuests[QuestCount].IsOn",
                         "=",
                         "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "DiaryPannel",
+                            "State",
+                            "=",
+                            "\"Quests\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.StepNumber",
+                            "=",
+                            "JournalQuests[QuestsButton.Count].StepNumber"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -51679,6 +51665,22 @@
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "Saves_and_Loads.QuestName +  Saves_and_Loads.QuestLevelName"
               ]
             }
           ]
@@ -51880,6 +51882,16 @@
                                     "Animation",
                                     "=",
                                     "Tree.Info.Animation"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "Saves_and_Loads.LevelLoot[\"CurrentSceneName()\"]",
+                                    "+",
+                                    "Tree.Info.Object"
                                   ]
                                 }
                               ]
@@ -59833,6 +59845,28 @@
                 "contains",
                 "Saves_and_Loads.QuestName"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "NPC",
+                "Name",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "QuestsButton",
+                "On",
+                "True"
+              ]
             }
           ],
           "actions": [
@@ -59961,13 +59995,6 @@
                 ""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
           ]
         },
         {
@@ -60036,9 +60063,58 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "NPC.Name"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Saves_and_Loads.QuestLevelName",
+                "=",
+                "\"no\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Arrow"
+              ]
+            }
+          ]
         }
       ]
     },
