@@ -12584,6 +12584,7 @@
           "value": ""
         },
         {
+          "folded": true,
           "name": "Steps",
           "type": "array",
           "children": [
@@ -12647,6 +12648,11 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Count",
+          "type": "number",
+          "value": 0
         },
         {
           "folded": true,
@@ -16718,6 +16724,13 @@
         {
           "folded": true,
           "name": "SceneTImerNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "StepNumber",
+          "persistentUuid": "338431d1-1558-4713-82d3-89a05d4ad5ca",
           "type": "number",
           "value": 0
         },
@@ -40632,6 +40645,94 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Count",
+                        "+",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.StepNumber",
+                        "=",
+                        "QuestsButton.StepNumber"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "New sound effect",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Name",
+                                "=",
+                                "JournalQuests[QuestsButton.Count].Name"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestsButton.Count].StepNumber",
+                                "=",
+                                "QuestsButton.StepNumber"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Count",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -49460,7 +49561,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49693,6 +49793,7 @@
                   "comment": "Name"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49835,6 +49936,7 @@
                   "comment": "Location"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49974,7 +50076,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Image"
+                  "comment": "Quests Button\n"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -50091,6 +50193,17 @@
                                 "=",
                                 "JournalQuests[QuestCount].Location"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "StepNumber",
+                                "=",
+                                "JournalQuests[QuestCount].StepNumber"
+                              ]
                             }
                           ],
                           "events": [
@@ -50205,6 +50318,7 @@
                   "comment": "Number"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -50579,6 +50693,7 @@
                   "comment": "Description"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -51317,7 +51432,7 @@
               "parameters": [
                 "Saves_and_Loads.QuestLevelName",
                 "=",
-                "QuestsButton.Steps[QuestsButton.StepNumber].Location"
+                "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
               ]
             },
             {
@@ -51327,7 +51442,17 @@
               "parameters": [
                 "Saves_and_Loads.QuestName",
                 "=",
-                "QuestsButton.Steps[QuestsButton.StepNumber].TargetObject"
+                "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "Saves_and_Loads.QuestLevelName + Saves_and_Loads.QuestName"
               ]
             },
             {
@@ -51339,21 +51464,10 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "QuestsButton.Steps[QuestsButton.StepNumber].TargetObject + QuestsButton.Steps[QuestsButton.StepNumber].Location"
-              ]
             }
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Repeat",
               "repeatExpression": "10",
               "conditions": [],
