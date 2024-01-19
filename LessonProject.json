@@ -9504,6 +9504,12 @@
             },
             {
               "folded": true,
+              "name": "Chosen",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
               "name": "ID",
               "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
               "type": "number",
@@ -13871,7 +13877,6 @@
                   "type": "array",
                   "children": [
                     {
-                      "folded": true,
                       "type": "structure",
                       "children": [
                         {
@@ -13900,7 +13905,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                       "type": "structure",
                       "children": [
@@ -14503,7 +14507,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -14538,7 +14541,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -16704,6 +16706,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "LevelLoot",
           "type": "structure",
           "children": [
@@ -16761,6 +16764,13 @@
         {
           "folded": true,
           "name": "QuestName",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "QuestStepObject",
+          "persistentUuid": "49c35253-86d2-4c2b-846a-0a09c2a6bfcf",
           "type": "string",
           "value": ""
         },
@@ -48771,7 +48781,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48963,15 +48972,47 @@
                             "=",
                             "CurrentSceneName()"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "JournalQuests[QuestCount].Steps",
-                            "=",
-                            "NPC.Quest_Type.Steps"
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "10",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[QuestCount].Steps[InventoryCount].TargetObject",
+                                    "=",
+                                    "NPC.Quest_Type.Steps[InventoryCount].TargetObject"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "InventoryCount",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -51491,6 +51532,46 @@
                             "Saves_and_Loads.StepNumber",
                             "=",
                             "JournalQuests[QuestsButton.Count].StepNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Object",
+                            "=",
+                            "JournalQuests[0].Steps[1].TargetObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Tree",
+                            "Info.Chosen",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\Cat1.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -59936,6 +60017,108 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "QuestsButton",
+                "On",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Tree",
+                "Info.Chosen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Arrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"Quest\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Rotate in same scene"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Tree.CenterX()",
+                    "Tree.CenterY()",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Player",
+                    "50",
+                    "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),Tree.CenterX(),Tree.CenterY())"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -60406,9 +60589,42 @@
                   },
                   "parameters": [
                     "NPC",
+                    "Quest_Type.Steps[0].TargetObject",
+                    "=",
+                    "NPCQuests[NPC.ID][0].Steps[0].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Steps[1].TargetObject",
+                    "=",
+                    "NPCQuests[NPC.ID][0].Steps[1].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Steps[2].TargetObject",
+                    "=",
+                    "NPCQuests[NPC.ID][0].Steps[0].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
                     "Quest_Type.Description",
                     "=",
-                    "NPCQuests[NPC.ID][0].Description"
+                    "NPCQuests[NPC.ID][2].Description"
                   ]
                 },
                 {
