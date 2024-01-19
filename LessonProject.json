@@ -14894,7 +14894,6 @@
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -14903,9 +14902,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -14935,7 +14934,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "00776a9b-faf0-4b62-b558-6418ce4aeb4b",
+          "persistentUuid": "7a37cbbd-d416-4da7-b879-1553e686f143",
           "type": "structure",
           "children": [
             {
@@ -14944,9 +14943,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -14976,7 +14975,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "3ef25e85-7363-4789-9d34-a0c73bc46c24",
+          "persistentUuid": "14c60ae6-ad59-45e0-8793-e5eb9fa66609",
           "type": "structure",
           "children": [
             {
@@ -14985,9 +14984,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15017,7 +15016,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "3069a0e5-d0cf-46e7-a5a3-6cf5bdc206f8",
+          "persistentUuid": "ddc92ae1-e3e6-4997-8a65-0fb27b3e17d0",
           "type": "structure",
           "children": [
             {
@@ -15026,9 +15025,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15058,7 +15057,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "e860b220-87ab-40b2-99d7-b70d0c8ed8a8",
+          "persistentUuid": "014ee74e-b035-47d8-9fe4-77e8f120f4eb",
           "type": "structure",
           "children": [
             {
@@ -15067,9 +15066,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15099,7 +15098,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "1bb7f4cc-7082-4586-bab6-b8daf62c15f8",
+          "persistentUuid": "d211090e-b6f8-4cd7-bb27-435e9e8af005",
           "type": "structure",
           "children": [
             {
@@ -15108,9 +15107,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15140,7 +15139,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "a6456efa-a138-474f-8862-a5234261f4a0",
+          "persistentUuid": "ae6e9d37-6905-454a-a591-233885bd7f40",
           "type": "structure",
           "children": [
             {
@@ -15149,9 +15148,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15181,7 +15180,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "51e8dfdb-c342-43df-9ea9-faba954c8145",
+          "persistentUuid": "4af24c56-bfb8-428d-a433-6f9668fa54cc",
           "type": "structure",
           "children": [
             {
@@ -15190,9 +15189,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15222,7 +15221,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "0f5c5450-9489-45d7-837d-2ae27eb64624",
+          "persistentUuid": "d79249c7-0711-489d-9113-d370d9e26e1f",
           "type": "structure",
           "children": [
             {
@@ -15231,9 +15230,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15263,7 +15262,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "d6531af7-1c50-4681-bc6e-e3590cc176fa",
+          "persistentUuid": "bdcfdb3d-16af-484b-bcee-5c4234f86a0f",
           "type": "structure",
           "children": [
             {
@@ -15272,9 +15271,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -15304,7 +15303,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "9d7ba75d-f435-4a41-9235-b45eb2400fe2",
+          "persistentUuid": "aacc189e-4ac8-4fe2-90f4-68551269c2ec",
           "type": "structure",
           "children": [
             {
@@ -15313,9 +15312,9 @@
               "value": ""
             },
             {
-              "name": "Is On",
-              "type": "boolean",
-              "value": false
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
             },
             {
               "folded": true,
@@ -42738,7 +42737,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43272,6 +43270,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48488,16 +48487,6 @@
                               "parameters": [
                                 "QuestsButton"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "QuestCount",
-                                "+",
-                                "1"
-                              ]
                             }
                           ]
                         },
@@ -48558,16 +48547,6 @@
                                 "=",
                                 "JournalQuests[QuestCount].Location"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "QuestCount",
-                                "+",
-                                "1"
-                              ]
                             }
                           ],
                           "events": [
@@ -48576,11 +48555,12 @@
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "GlobalVariableAsBoolean"
+                                    "value": "VarGlobal"
                                   },
                                   "parameters": [
-                                    "JournalQuests[QuestCount][\"Is On\"]",
-                                    "="
+                                    "JournalQuests[QuestCount].IsOn",
+                                    "=",
+                                    "0"
                                   ]
                                 }
                               ],
@@ -48594,6 +48574,17 @@
                                     "On",
                                     "False"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "Effect",
+                                    "\"Outline\"",
+                                    "no"
+                                  ]
                                 }
                               ]
                             },
@@ -48602,11 +48593,12 @@
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "GlobalVariableAsBoolean"
+                                    "value": "VarGlobal"
                                   },
                                   "parameters": [
-                                    "JournalQuests[QuestCount][\"Is On\"]",
-                                    "True"
+                                    "JournalQuests[QuestCount].IsOn",
+                                    "=",
+                                    "1"
                                   ]
                                 }
                               ],
@@ -48620,7 +48612,34 @@
                                     "On",
                                     "True"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "QuestsButton",
+                                    "Effect",
+                                    "\"Outline\"",
+                                    "yes"
+                                  ]
                                 }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "QuestCount",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -49160,17 +49179,6 @@
                         "\"brightness\"",
                         "0.7"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "no"
-                      ]
                     }
                   ]
                 },
@@ -49214,54 +49222,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "On",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarGlobalTxt"
-                      },
-                      "parameters": [
-                        "Saves_and_Loads.QuestLevelName",
-                        "=",
-                        "QuestsButton.Location"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "Instruction",
-                        "=",
-                        "QuestsButton.Location"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "yes"
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -49290,6 +49250,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -49385,17 +49346,6 @@
                     },
                     {
                       "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Effect",
-                        "\"Outline\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
@@ -49413,6 +49363,17 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
                     }
                   ],
                   "events": [
@@ -49428,11 +49389,12 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "SetGlobalVariableAsBoolean"
+                                "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "JournalQuests[QuestCount][\"Is On\"]",
-                                "False"
+                                "JournalQuests[QuestCount].IsOn",
+                                "=",
+                                "0"
                               ]
                             }
                           ]
@@ -49736,67 +49698,6 @@
                       ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Repeat",
-                          "repeatExpression": "10",
-                          "conditions": [],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                                  },
-                                  "parameters": [
-                                    "QuestsButton",
-                                    "ButtonFSM",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "VarObjetTxt"
-                                  },
-                                  "parameters": [
-                                    "QuestsButton",
-                                    "Name",
-                                    "=",
-                                    "JournalQuests[QuestCount].Name"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetGlobalVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "JournalQuests[QuestCount][\"Is On\"]",
-                                    "True"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "QuestCount",
-                                    "+",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -49952,11 +49853,12 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "SetGlobalVariableAsBoolean"
+                                    "value": "ModVarGlobal"
                                   },
                                   "parameters": [
-                                    "JournalQuests[QuestCount][\"Is On\"]",
-                                    "False"
+                                    "JournalQuests[QuestCount].IsOn",
+                                    "=",
+                                    "0"
                                   ]
                                 }
                               ]
@@ -50033,6 +49935,146 @@
                 "\"Outline\"",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "QuestCount",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "10",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Name",
+                        "=",
+                        "JournalQuests[QuestCount].Name"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "JournalQuests[QuestCount].IsOn",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "contains",
+                    "QuestsButton.Name"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Chosen",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Effect",
+                    "\"Quest\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -50062,6 +50104,7 @@
           ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "QuestsButton",
               "conditions": [],
@@ -50744,6 +50787,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Save",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -58364,18 +58408,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "Saves_and_Loads.QuestLevelName",
-                    "=",
-                    "CurrentSceneName()"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -58534,34 +58567,6 @@
               },
               "parameters": [
                 "Arrow"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "Instruction",
-                "Text",
-                "=",
-                "\"no\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "Saves_and_Loads.QuestLevelName + Map_End_Teleport.Scene"
               ]
             }
           ]
