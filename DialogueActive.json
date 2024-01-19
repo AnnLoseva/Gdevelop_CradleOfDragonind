@@ -98,5 +98,15 @@
 			"y": -564
 		},
 		"colorID": 0
+	},
+	{
+		"title": "Quest",
+		"tags": "",
+		"body": "<<step>> \nCompleted [[Answer:End|End]]",
+		"position": {
+			"x": 1297,
+			"y": -82
+		},
+		"colorID": 0
 	}
 ]

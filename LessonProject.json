@@ -5106,6 +5106,73 @@
               "value": ""
             },
             {
+              "name": "Steps",
+              "persistentUuid": "c156c38b-b7ad-40b6-874b-1b5802a49dbe",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": "Tutorial Village"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "NPC2"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": "Dialogue"
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                      "type": "string",
+                      "value": "Tutorial Village2"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 10
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "Grass"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": "Collect"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "TargetNumber",
               "type": "number",
               "value": 0
@@ -12515,6 +12582,77 @@
           "name": "Location",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "Steps",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Location",
+                  "type": "string",
+                  "value": "Tutorial Village"
+                },
+                {
+                  "folded": true,
+                  "name": "Number",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "NPC1"
+                },
+                {
+                  "folded": true,
+                  "name": "Type",
+                  "type": "string",
+                  "value": "Dialogue"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Location",
+                  "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                  "type": "string",
+                  "value": "Tutorial Village2"
+                },
+                {
+                  "folded": true,
+                  "name": "Number",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Type",
+                  "type": "string",
+                  "value": "Collect"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "StepNumber",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [
@@ -13724,6 +13862,72 @@
                   "value": "Gold"
                 },
                 {
+                  "name": "Steps",
+                  "type": "array",
+                  "children": [
+                    {
+                      "folded": true,
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": "Tutorial Village"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 1
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "NPC2"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Type",
+                          "type": "string",
+                          "value": "Dialogue"
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "Tutorial Village2"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 10
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "Grass"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Type",
+                          "type": "string",
+                          "value": "Collect"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "name": "TargetNumber",
                   "type": "number",
                   "value": 1
@@ -13737,51 +13941,14 @@
               ]
             },
             {
+              "folded": true,
+              "persistentUuid": "8d7874a5-b5fe-4b01-b4b7-eae14b10aed7",
               "type": "structure",
               "children": [
                 {
                   "name": "Description",
                   "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!1"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
+                  "value": "I'll teach you to brew"
                 },
                 {
                   "name": "Name",
@@ -13792,51 +13959,6 @@
                   "folded": true,
                   "name": "RevardNumber",
                   "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "e2958301-f523-48d5-9cb8-536d1818b2ff",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!2"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
                   "value": 10
                 },
                 {
@@ -13844,6 +13966,59 @@
                   "name": "RevardObject",
                   "type": "string",
                   "value": "Gold"
+                },
+                {
+                  "name": "Steps",
+                  "type": "array",
+                  "children": [
+                    {
+                      "folded": true,
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": ""
+                        },
+                        {
+                          "folded": true,
+                          "name": "Type",
+                          "type": "string",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": ""
+                        },
+                        {
+                          "folded": true,
+                          "name": "Type",
+                          "type": "string",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "name": "TargetNumber",
@@ -13855,573 +14030,6 @@
                   "name": "TargetObject",
                   "type": "string",
                   "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!2"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start2"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "7875cb77-a506-4c88-9843-f556be4fb4e8",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!3"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!3"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start3"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "persistentUuid": "8279c570-83e0-420a-95d9-e5b7fc68f74c",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!4"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!4"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start4"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "persistentUuid": "468b7a60-1e38-4c81-be43-c97d40bcb7b1",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!5"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!5"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start5"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "persistentUuid": "cbc8eb90-a236-485b-bcfd-e85c34b0d251",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I am soooo sick"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Sell me Potion!6"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Let's Make Potion!6"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "persistentUuid": "33e7be2a-2688-4c3f-876f-ad505ea3ad4e",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start6"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
                 }
               ]
             }
@@ -14920,6 +14528,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -14935,7 +14699,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "7a37cbbd-d416-4da7-b879-1553e686f143",
+          "persistentUuid": "69880586-e1a1-4cc0-b74b-fb219dacdeb7",
           "type": "structure",
           "children": [
             {
@@ -14961,6 +14725,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -14976,7 +14896,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "14c60ae6-ad59-45e0-8793-e5eb9fa66609",
+          "persistentUuid": "fdff1d25-c11e-4ed3-b50e-cbbc2c84f2a7",
           "type": "structure",
           "children": [
             {
@@ -15002,6 +14922,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15017,7 +15093,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "ddc92ae1-e3e6-4997-8a65-0fb27b3e17d0",
+          "persistentUuid": "980d9a60-2431-4305-b8fa-d2fe2e1bbe42",
           "type": "structure",
           "children": [
             {
@@ -15043,6 +15119,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15058,7 +15290,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "014ee74e-b035-47d8-9fe4-77e8f120f4eb",
+          "persistentUuid": "8f20c295-5afe-4649-9b5b-d7f755a72325",
           "type": "structure",
           "children": [
             {
@@ -15084,6 +15316,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15099,7 +15487,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "d211090e-b6f8-4cd7-bb27-435e9e8af005",
+          "persistentUuid": "cd09b30e-d927-4523-9d83-967203e36a98",
           "type": "structure",
           "children": [
             {
@@ -15125,6 +15513,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15140,7 +15684,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "ae6e9d37-6905-454a-a591-233885bd7f40",
+          "persistentUuid": "cec065c5-4402-4872-851a-cd2e51f985cc",
           "type": "structure",
           "children": [
             {
@@ -15166,6 +15710,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15181,7 +15881,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "4af24c56-bfb8-428d-a433-6f9668fa54cc",
+          "persistentUuid": "1492f9c3-ca62-4be4-b477-7c190371ec7e",
           "type": "structure",
           "children": [
             {
@@ -15207,6 +15907,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15222,7 +16078,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "d79249c7-0711-489d-9113-d370d9e26e1f",
+          "persistentUuid": "5d35ad7a-6242-418f-88da-26ef645b0305",
           "type": "structure",
           "children": [
             {
@@ -15248,6 +16104,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15263,7 +16275,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "bdcfdb3d-16af-484b-bcee-5c4234f86a0f",
+          "persistentUuid": "8cc96fdf-8d96-4bbb-af43-f43903c8273a",
           "type": "structure",
           "children": [
             {
@@ -15289,6 +16301,162 @@
               "value": "no"
             },
             {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "name": "TargetNumber",
               "type": "number",
@@ -15304,7 +16472,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "aacc189e-4ac8-4fe2-90f4-68551269c2ec",
+          "persistentUuid": "acb1969a-6d8f-40af-862d-59491285b1a5",
           "type": "structure",
           "children": [
             {
@@ -15328,6 +16496,162 @@
               "name": "Name",
               "type": "string",
               "value": "no"
+            },
+            {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Type",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
             },
             {
               "folded": true,
@@ -20063,6 +21387,59 @@
               "name": "Text",
               "type": "string",
               "value": "no"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 273,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "eadac398-0b0e-434a-98d2-6716fd12cb73",
+          "width": 243,
+          "x": 1538,
+          "y": 455,
+          "zOrder": 335,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Info",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Animation",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "ID",
+                  "persistentUuid": "ee67d056-7e70-48a2-9945-7b8efe00ca3f",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "Number of Objects",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "name": "Object",
+                  "type": "string",
+                  "value": "Grass"
+                },
+                {
+                  "folded": true,
+                  "name": "Timer",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
             }
           ]
         }
@@ -30744,7 +32121,14 @@
           "zOrder": 331,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "State",
+              "type": "string",
+              "value": ""
+            }
+          ]
         },
         {
           "angle": 0,
@@ -30760,6 +32144,12 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC1"
+            },
             {
               "folded": true,
               "name": "ID",
@@ -35649,7 +37039,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC1"
+              "value": ""
             },
             {
               "name": "Quest_Type",
@@ -35730,7 +37120,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC1"
+              "value": ""
             },
             {
               "name": "Quest_Type",
@@ -38822,6 +40212,18 @@
                             "contains",
                             "\"Active\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "contains",
+                            "Saves_and_Loads.QuestName"
+                          ]
                         }
                       ],
                       "actions": [
@@ -38859,6 +40261,18 @@
                             "Quest_Type.Name",
                             "contains",
                             "\"Active\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "contains",
+                            "Saves_and_Loads.QuestName"
                           ]
                         }
                       ],
@@ -38898,6 +40312,32 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "contains",
+                            "Saves_and_Loads.QuestName"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"Quest\""
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -38914,6 +40354,7 @@
                   "comment": "Quest Compleated"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -39154,6 +40595,42 @@
                             }
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::IsCommandCalled"
+                      },
+                      "parameters": [
+                        "\"step\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "StepNumber",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -47226,6 +48703,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -47417,6 +48895,16 @@
                             "=",
                             "CurrentSceneName()"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "JournalQuests[QuestCount].Steps",
+                            "=",
+                            "NPC.Quest_Type.Steps"
+                          ]
                         }
                       ]
                     },
@@ -47540,6 +49028,16 @@
                                 "JournalQuests[QuestCount-1].Location",
                                 "=",
                                 "JournalQuests[QuestCount].Location"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount-1].Steps",
+                                "=",
+                                "JournalQuests[QuestCount].Steps"
                               ]
                             },
                             {
@@ -47789,6 +49287,16 @@
                                 "=",
                                 "CurrentSceneName()"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].Steps",
+                                "=",
+                                "NPC.Quest_Type.Steps"
+                              ]
                             }
                           ]
                         }
@@ -47952,6 +49460,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49264,18 +50773,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Image"
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -49342,6 +50839,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -49454,6 +50952,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -49818,7 +51317,7 @@
               "parameters": [
                 "Saves_and_Loads.QuestLevelName",
                 "=",
-                "QuestsButton.Location"
+                "QuestsButton.Steps[QuestsButton.StepNumber].Location"
               ]
             },
             {
@@ -49828,7 +51327,7 @@
               "parameters": [
                 "Saves_and_Loads.QuestName",
                 "=",
-                "QuestsButton.Name"
+                "QuestsButton.Steps[QuestsButton.StepNumber].TargetObject"
               ]
             },
             {
@@ -49839,6 +51338,16 @@
                 "QuestCount",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "QuestsButton.Steps[QuestsButton.StepNumber].TargetObject + QuestsButton.Steps[QuestsButton.StepNumber].Location"
               ]
             }
           ],
@@ -58206,7 +59715,7 @@
               },
               "parameters": [
                 "NPC",
-                "Quest_Type.Name",
+                "Name",
                 "contains",
                 "Saves_and_Loads.QuestName"
               ]
@@ -58272,36 +59781,6 @@
                     "Player",
                     "50",
                     "AngleBetweenPositions(Player.CenterX(),Player.CenterY(),NPC.CenterX(),NPC.CenterY())"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Instruction",
-                        "Text",
-                        "=",
-                        "\"no\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "Instruction",
-                        "=",
-                        "Saves_and_Loads.QuestLevelName"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -58441,6 +59920,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
