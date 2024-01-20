@@ -5066,6 +5066,7 @@
           "value": 0
         },
         {
+          "folded": true,
           "name": "Quest_Type",
           "type": "structure",
           "children": [
@@ -5194,6 +5195,12 @@
         {
           "folded": true,
           "name": "Count",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "StepCount",
           "type": "number",
           "value": 0
         },
@@ -12590,7 +12597,6 @@
           "value": ""
         },
         {
-          "folded": true,
           "name": "Steps",
           "type": "array",
           "children": [
@@ -12612,7 +12618,7 @@
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": "NPC1"
+                  "value": "NPC2"
                 },
                 {
                   "folded": true,
@@ -12623,7 +12629,6 @@
               ]
             },
             {
-              "folded": true,
               "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
               "type": "structure",
               "children": [
@@ -12650,6 +12655,36 @@
                   "name": "Type",
                   "type": "string",
                   "value": "Collect"
+                }
+              ]
+            },
+            {
+              "persistentUuid": "56663eeb-66fc-440a-9c89-78ba3f670b30",
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "Location",
+                  "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                  "type": "string",
+                  "value": "Tutorial Level"
+                },
+                {
+                  "folded": true,
+                  "name": "Number",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "NPC1"
+                },
+                {
+                  "folded": true,
+                  "name": "Type",
+                  "type": "string",
+                  "value": "Finish"
                 }
               ]
             }
@@ -13894,7 +13929,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "NPC2"
+                          "value": "NPC1"
                         },
                         {
                           "folded": true,
@@ -14507,6 +14542,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -14546,7 +14582,6 @@
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
@@ -16756,23 +16791,34 @@
           "value": "Tutorial Level"
         },
         {
-          "folded": true,
-          "name": "QuestLevelName",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "folded": true,
-          "name": "QuestName",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "folded": true,
-          "name": "QuestStepObject",
-          "persistentUuid": "49c35253-86d2-4c2b-846a-0a09c2a6bfcf",
-          "type": "string",
-          "value": ""
+          "name": "QuestSteps",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Quest Finished",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "QuestLevelName",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "QuestName",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "QuestStepObject",
+              "persistentUuid": "49c35253-86d2-4c2b-846a-0a09c2a6bfcf",
+              "type": "string",
+              "value": ""
+            }
+          ]
         },
         {
           "folded": true,
@@ -17375,7 +17421,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30887412163427397,
+        "zoomFactor": 0.23689563725447244,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21620,7 +21666,7 @@
           "isLocked": false,
           "name": "Map",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -28156,7 +28202,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2531414001298697,
+        "zoomFactor": 0.20746499616301964,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32196,7 +32242,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC1"
+              "value": "NPC2"
             },
             {
               "folded": true,
@@ -32773,7 +32819,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3895856273827413,
+        "zoomFactor": 0.37687720367509975,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37025,7 +37071,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "no"
+              "value": "NPC1"
             },
             {
               "name": "Quest_Type",
@@ -37165,322 +37211,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1080,
-          "layer": "Map",
-          "name": "MapSprite",
-          "persistentUuid": "64afa6fc-236c-4115-a561-28fd7a225fa2",
-          "width": 1920,
-          "x": 0,
-          "y": 1080,
-          "zOrder": 320,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "be96213c-a414-4782-84c9-93da8240e4ab",
-          "width": 0,
-          "x": 137,
-          "y": 1844,
-          "zOrder": 321,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 864
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Level"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "9a63cb9f-cb0f-4234-95c9-2e4c99a9630a",
-          "width": 0,
-          "x": 250,
-          "y": 1468,
-          "zOrder": 322,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 488
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Village"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "27c19e64-38b4-4beb-9092-7632900e3c18",
-          "width": 0,
-          "x": 629,
-          "y": 1717,
-          "zOrder": 323,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Village2"
-            },
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 737
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "6aa3f66b-d53f-4a20-9439-032e70776229",
-          "width": 0,
-          "x": 1046,
-          "y": 1363,
-          "zOrder": 324,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 383
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "9e98a44f-3dcd-4c25-99ea-b5837c7253a3",
-          "width": 0,
-          "x": 1276,
-          "y": 1715,
-          "zOrder": 325,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 735
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPoints",
-          "persistentUuid": "bc955a96-dbff-4a82-a0df-eca6db1b5430",
-          "width": 0,
-          "x": 1464,
-          "y": 1367,
-          "zOrder": 326,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 387
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "3e2b108a-bddf-42a1-af96-1d5904fbef89",
-          "width": 0,
-          "x": 195,
-          "y": 1847,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Level"
-            },
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 865
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "c7f35d87-d14c-4fa6-84b1-804b9c8034b1",
-          "width": 0,
-          "x": 305,
-          "y": 1470,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Village"
-            },
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 491
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "42605f59-28ce-4d97-a0a9-c0d3aea833a3",
-          "width": 0,
-          "x": 687,
-          "y": 1718,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "Tutorial Village2"
-            },
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 738
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "028761a9-6b61-465f-83f9-031b038f1b93",
-          "width": 0,
-          "x": 1094,
-          "y": 1364,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 384
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "be4c327a-0e32-463d-9fa8-c5729e544d24",
-          "width": 0,
-          "x": 1325,
-          "y": 1720,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 740
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Map",
-          "name": "MapPlayerPoint",
-          "persistentUuid": "f9940925-1c11-4e57-abbb-b9121986ffb9",
-          "width": 0,
-          "x": 1516,
-          "y": 1366,
-          "zOrder": 327,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "PlaceY",
-              "type": "number",
-              "value": 386
-            }
-          ]
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -37577,228 +37307,327 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        }
-      ],
-      "objects": [
+        },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Map",
           "name": "MapSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\photo_2023-12-15_18-19-23.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1280,
-                            "y": 0
-                          },
-                          {
-                            "x": 1280,
-                            "y": 720
-                          },
-                          {
-                            "x": 0,
-                            "y": 720
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "persistentUuid": "04d34646-2916-4ff1-85a6-56e56b474904",
+          "width": 1920,
+          "x": 1,
+          "y": 1078,
+          "zOrder": 320,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
           "name": "MapPoints",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": ""
-            },
+          "persistentUuid": "171071c3-6dc7-47e2-a1c1-2da507d5676d",
+          "width": 0,
+          "x": 193,
+          "y": 1996,
+          "zOrder": 321,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
             {
               "folded": true,
               "name": "PlaceY",
               "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Not",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
+              "value": 864
             },
             {
-              "name": "Chosen",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\PassiveDialoguePannel2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Level"
             }
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "MapPlayerPoint",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPoints",
+          "persistentUuid": "8684c16c-91c8-4447-b707-fa31d4edeed4",
+          "width": 0,
+          "x": 306,
+          "y": 1620,
+          "zOrder": 322,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 488
+            },
             {
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": ""
+              "value": "Tutorial Village"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPoints",
+          "persistentUuid": "a7d8782c-4192-4d81-892f-99496f095dad",
+          "width": 0,
+          "x": 685,
+          "y": 1869,
+          "zOrder": 323,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
             },
             {
               "folded": true,
               "name": "PlaceY",
               "type": "number",
-              "value": 0
+              "value": 737
             }
-          ],
-          "effects": [],
-          "behaviors": [
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPoints",
+          "persistentUuid": "3f893eb7-359e-45cf-bc20-bd78c454488a",
+          "width": 0,
+          "x": 1102,
+          "y": 1515,
+          "zOrder": 324,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
             {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 383
             }
-          ],
-          "animations": [
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPoints",
+          "persistentUuid": "57f6957b-596d-4ba5-8dcb-7c55dac1188e",
+          "width": 0,
+          "x": 1332,
+          "y": 1867,
+          "zOrder": 325,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
             {
-              "name": "Not",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 735
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPoints",
+          "persistentUuid": "06f5c76c-d408-496f-84bc-cf34e4915d79",
+          "width": 0,
+          "x": 1520,
+          "y": 1519,
+          "zOrder": 326,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 387
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "b6d19414-fdd6-46f8-a037-9a61d51f7ace",
+          "width": 0,
+          "x": 251,
+          "y": 1999,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Level"
             },
             {
-              "name": "Chosen",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dance-of-love-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 865
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "94aa02a0-04d2-499d-af80-79fe7128838a",
+          "width": 0,
+          "x": 361,
+          "y": 1622,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village"
+            },
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 491
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "2450f5db-e728-41d3-aa4a-9ed91331a385",
+          "width": 0,
+          "x": 743,
+          "y": 1870,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Tutorial Village2"
+            },
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 738
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "f24b4442-8f3c-4f2e-bb74-d1ffa558807b",
+          "width": 0,
+          "x": 1150,
+          "y": 1516,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 384
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "745dde3e-86c9-4916-872c-9f7b15f07dd5",
+          "width": 0,
+          "x": 1381,
+          "y": 1872,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 740
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Map",
+          "name": "MapPlayerPoint",
+          "persistentUuid": "c0c3efc8-1aa4-484f-8a3a-da18fa0de060",
+          "width": 0,
+          "x": 1572,
+          "y": 1518,
+          "zOrder": 327,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "PlaceY",
+              "type": "number",
+              "value": 386
             }
           ]
         }
       ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "MapSprite"
-          },
-          {
-            "objectName": "MapPoints"
-          },
-          {
-            "objectName": "MapPlayerPoint"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -40223,7 +40052,7 @@
                             "NPC",
                             "Name",
                             "contains",
-                            "Saves_and_Loads.QuestName"
+                            "Saves_and_Loads.QuestSteps.QuestName"
                           ]
                         }
                       ],
@@ -40273,7 +40102,7 @@
                             "NPC",
                             "Name",
                             "contains",
-                            "Saves_and_Loads.QuestName"
+                            "Saves_and_Loads.QuestSteps.QuestName"
                           ]
                         }
                       ],
@@ -40325,7 +40154,7 @@
                             "NPC",
                             "Name",
                             "contains",
-                            "Saves_and_Loads.QuestName"
+                            "Saves_and_Loads.QuestSteps.QuestName"
                           ]
                         },
                         {
@@ -40339,6 +40168,15 @@
                             "=",
                             "\"0\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -40348,6 +40186,53 @@
                           },
                           "parameters": [
                             "\"Quest\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "contains",
+                            "Saves_and_Loads.QuestSteps.QuestName"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Name",
+                            "=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::StartDialogueFromBranch"
+                          },
+                          "parameters": [
+                            "\"Complete\""
                           ]
                         }
                       ]
@@ -40642,7 +40527,7 @@
                       "parameters": [
                         "QuestsButton",
                         "Count",
-                        "+",
+                        "=",
                         "0"
                       ]
                     },
@@ -45714,7 +45599,7 @@
                             "MapSprite",
                             "Tween",
                             "\"Hide\"",
-                            "1080",
+                            "2000",
                             "\"easeOutQuad\"",
                             "1",
                             ""
@@ -45725,7 +45610,7 @@
                             "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
-                            "MapPoints",
+                            "MapPlayerPoint",
                             "Tween",
                             "\"Hide\"",
                             "2000",
@@ -45739,7 +45624,7 @@
                             "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
-                            "MapPlayerPoint",
+                            "MapPoints",
                             "Tween",
                             "\"Hide\"",
                             "2000",
@@ -45774,23 +45659,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "ObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "Player",
                             "Map",
-                            ""
+                            "False"
                           ]
                         }
                       ],
@@ -45817,15 +45691,9 @@
                         },
                         {
                           "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                            "value": "MontreSouris"
                           },
                           "parameters": [
-                            "MapSprite",
-                            "Tween",
-                            "\"Move\"",
-                            "0",
-                            "\"easeOutQuad\"",
-                            "1",
                             ""
                           ]
                         },
@@ -45834,10 +45702,10 @@
                             "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
-                            "MapPoints",
+                            "MapSprite",
                             "Tween",
-                            "\"Move\"",
-                            "MapPoints.PlaceY",
+                            "\"Show\"",
+                            "0",
                             "\"easeOutQuad\"",
                             "1",
                             ""
@@ -45850,7 +45718,7 @@
                           "parameters": [
                             "MapPlayerPoint",
                             "Tween",
-                            "\"Move\"",
+                            "\"Show\"",
                             "MapPlayerPoint.PlaceY",
                             "\"easeOutQuad\"",
                             "1",
@@ -45859,9 +45727,15 @@
                         },
                         {
                           "type": {
-                            "value": "MontreSouris"
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
+                            "MapPoints",
+                            "Tween",
+                            "\"Show\"",
+                            "MapPoints.PlaceY",
+                            "\"easeOutQuad\"",
+                            "1",
                             ""
                           ]
                         }
@@ -45876,11 +45750,31 @@
                           },
                           "parameters": [
                             "",
+                            "MapPoints"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
                             "MapPlayerPoint"
                           ]
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "MapPoints",
+                            "Animation",
+                            "=",
+                            "\"Not\""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -45934,7 +45828,19 @@
                                 "MapPoints",
                                 "Name",
                                 "=",
-                                "Saves_and_Loads.QuestLevelName"
+                                "Saves_and_Loads.QuestSteps.QuestLevelName"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "MapPoints",
+                                "Name",
+                                "=",
+                                "\"0\""
                               ]
                             }
                           ],
@@ -48781,6 +48687,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48972,6 +48879,17 @@
                             "=",
                             "CurrentSceneName()"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "StepCount",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "events": [
@@ -48990,9 +48908,9 @@
                                     "value": "ModVarGlobalTxt"
                                   },
                                   "parameters": [
-                                    "JournalQuests[QuestCount].Steps[InventoryCount].TargetObject",
+                                    "JournalQuests[0].Steps[NPC.StepCount].TargetObject",
                                     "=",
-                                    "NPC.Quest_Type.Steps[InventoryCount].TargetObject"
+                                    "NPC.Quest_Type.Steps[NPC.StepCount].TargetObject"
                                   ]
                                 }
                               ]
@@ -49003,10 +48921,11 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "ModVarGlobal"
+                                    "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "InventoryCount",
+                                    "NPC",
+                                    "StepCount",
                                     "+",
                                     "1"
                                   ]
@@ -49569,6 +49488,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50900,6 +50820,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Click Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -51101,15 +51022,6 @@
                             "",
                             "NPC"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "AjoutObjConcern"
-                          },
-                          "parameters": [
-                            "",
-                            "MapPoints"
-                          ]
                         }
                       ],
                       "actions": [
@@ -51122,17 +51034,6 @@
                             "Quest_Type.Chosen",
                             "=",
                             "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "MapPoints",
-                            "Animation",
-                            "=",
-                            "\"Not\""
                           ]
                         }
                       ]
@@ -51226,32 +51127,8 @@
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "MapPoints",
-                                "Name",
-                                "=",
-                                "QuestsButton.Location"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "MapPoints",
-                                "Animation",
-                                "=",
-                                "\"Chosen\""
-                              ]
-                            }
-                          ]
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -51341,32 +51218,8 @@
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "MapPoints",
-                                "Name",
-                                "=",
-                                "QuestsButton.Location"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "MapPoints",
-                                "Animation",
-                                "=",
-                                "\"Not\""
-                              ]
-                            }
-                          ]
+                          "conditions": [],
+                          "actions": []
                         },
                         {
                           "type": "BuiltinCommonInstructions::Repeat",
@@ -51437,7 +51290,7 @@
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "Saves_and_Loads.QuestLevelName",
+                "Saves_and_Loads.QuestSteps.QuestLevelName",
                 "=",
                 "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
               ]
@@ -51447,7 +51300,7 @@
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
-                "Saves_and_Loads.QuestName",
+                "Saves_and_Loads.QuestSteps.QuestName",
                 "=",
                 "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
               ]
@@ -51547,7 +51400,7 @@
                             "Tree",
                             "Info.Object",
                             "=",
-                            "JournalQuests[0].Steps[1].TargetObject"
+                            "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
                           ]
                         }
                       ],
@@ -51560,18 +51413,6 @@
                             "Tree",
                             "Info.Chosen",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "audio\\Cat1.mp3",
-                            "",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -51592,6 +51433,33 @@
                         "1"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "QuestsButton",
+                    "Steps[Saves_and_Loads.StepNumber].Type",
+                    "=",
+                    "\"Finish\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                    "True"
                   ]
                 }
               ]
@@ -51751,6 +51619,35 @@
           ]
         },
         {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "NPC",
+                "Player",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "NPC.Quest_Type.Steps[0].TargetObject + NPC.Quest_Type.Steps[1].TargetObject + NPC.Quest_Type.Steps[2].TargetObject"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -51761,10 +51658,152 @@
               "parameters": [
                 "Instruction",
                 "=",
-                "Saves_and_Loads.QuestName +  Saves_and_Loads.QuestLevelName"
+                "\" Object : \" +Saves_and_Loads.QuestSteps.QuestName + \" Location: \" +Saves_and_Loads.QuestSteps.QuestLevelName "
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Complete Step",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Pickable_Object",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "QuestCount",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "20",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Steps[Saves_and_Loads.StepNumber].TargetObject",
+                        "=",
+                        "InventoryData[QuestCount].Name"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Steps[Saves_and_Loads.StepNumber].TargetNumber",
+                        "<=",
+                        "InventoryData[QuestCount].Number"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.StepNumber",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Count",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestsButton.Count].StepNumber",
+                                "=",
+                                "Saves_and_Loads.StepNumber"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Count",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ]
     },
@@ -54618,6 +54657,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Clickable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -55975,7 +56015,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pickable object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59924,7 +59963,7 @@
                 "NPC",
                 "Name",
                 "contains",
-                "Saves_and_Loads.QuestName"
+                "Saves_and_Loads.QuestSteps.QuestName"
               ]
             },
             {
@@ -60060,18 +60099,6 @@
                 "\"Quest\"",
                 "yes"
               ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "New sound effect3",
-                "",
-                "",
-                ""
-              ]
             }
           ],
           "events": [
@@ -60141,7 +60168,7 @@
                 "Map_End_Teleport",
                 "Scene",
                 "=",
-                "Saves_and_Loads.QuestLevelName"
+                "Saves_and_Loads.QuestSteps.QuestLevelName"
               ]
             }
           ],
@@ -60227,7 +60254,7 @@
                 "NPC",
                 "Quest_Type.Name",
                 "contains",
-                "Saves_and_Loads.QuestName"
+                "Saves_and_Loads.QuestSteps.QuestName"
               ]
             }
           ],
@@ -60589,39 +60616,6 @@
                   },
                   "parameters": [
                     "NPC",
-                    "Quest_Type.Steps[0].TargetObject",
-                    "=",
-                    "NPCQuests[NPC.ID][0].Steps[0].TargetObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Quest_Type.Steps[1].TargetObject",
-                    "=",
-                    "NPCQuests[NPC.ID][0].Steps[1].TargetObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Quest_Type.Steps[2].TargetObject",
-                    "=",
-                    "NPCQuests[NPC.ID][0].Steps[0].TargetObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "NPC",
                     "Quest_Type.Description",
                     "=",
                     "NPCQuests[NPC.ID][2].Description"
@@ -60648,6 +60642,61 @@
                     "=",
                     "NPCQuests[NPC.ID][0].TargetNumber"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].TargetObject",
+                            "=",
+                            "NPCQuests[NPC.ID][0].Steps[NPC.Count].TargetObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Count",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -60658,12 +60707,9 @@
           "conditions": [
             {
               "type": {
-                "value": "Distance"
+                "value": "DepartScene"
               },
               "parameters": [
-                "Player",
-                "NPC",
-                "200",
                 ""
               ]
             }
