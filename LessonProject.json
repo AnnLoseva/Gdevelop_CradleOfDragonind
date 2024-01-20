@@ -12597,6 +12597,7 @@
           "value": ""
         },
         {
+          "folded": true,
           "name": "Steps",
           "type": "array",
           "children": [
@@ -12607,24 +12608,24 @@
                   "folded": true,
                   "name": "Location",
                   "type": "string",
-                  "value": "Tutorial Village"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Number",
                   "type": "number",
-                  "value": 1
+                  "value": 0
                 },
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": "NPC2"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Type",
                   "type": "string",
-                  "value": "Dialogue"
+                  "value": ""
                 }
               ]
             },
@@ -12637,24 +12638,24 @@
                   "name": "Location",
                   "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
                   "type": "string",
-                  "value": "Tutorial Village2"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Number",
                   "type": "number",
-                  "value": 10
+                  "value": 0
                 },
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": "Grass"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Type",
                   "type": "string",
-                  "value": "Collect"
+                  "value": ""
                 }
               ]
             },
@@ -12667,24 +12668,24 @@
                   "name": "Location",
                   "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
                   "type": "string",
-                  "value": "Tutorial Level"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Number",
                   "type": "number",
-                  "value": 1
+                  "value": 0
                 },
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": "NPC1"
+                  "value": ""
                 },
                 {
                   "folded": true,
                   "name": "Type",
                   "type": "string",
-                  "value": "Finish"
+                  "value": ""
                 }
               ]
             }
@@ -13874,7 +13875,6 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -13924,18 +13924,12 @@
                           "folded": true,
                           "name": "Number",
                           "type": "number",
-                          "value": 1
+                          "value": 0
                         },
                         {
                           "name": "TargetObject",
                           "type": "string",
                           "value": "NPC1"
-                        },
-                        {
-                          "folded": true,
-                          "name": "Type",
-                          "type": "string",
-                          "value": "Dialogue"
                         }
                       ]
                     },
@@ -13960,12 +13954,30 @@
                           "name": "TargetObject",
                           "type": "string",
                           "value": "Grass"
+                        }
+                      ]
+                    },
+                    {
+                      "persistentUuid": "b7fe12d9-a22f-4f01-90ca-81b118b22c67",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "Tutorial Level"
                         },
                         {
                           "folded": true,
-                          "name": "Type",
+                          "name": "Number",
+                          "type": "number",
+                          "value": 10
+                        },
+                        {
+                          "name": "TargetObject",
                           "type": "string",
-                          "value": "Collect"
+                          "value": "NPC2"
                         }
                       ]
                     }
@@ -14012,13 +14024,19 @@
                   "value": "Gold"
                 },
                 {
+                  "folded": true,
                   "name": "Steps",
                   "type": "array",
                   "children": [
                     {
-                      "folded": true,
                       "type": "structure",
                       "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": ""
+                        },
                         {
                           "folded": true,
                           "name": "Number",
@@ -14027,22 +14045,21 @@
                         },
                         {
                           "name": "TargetObject",
-                          "type": "string",
-                          "value": ""
-                        },
-                        {
-                          "folded": true,
-                          "name": "Type",
                           "type": "string",
                           "value": ""
                         }
                       ]
                     },
                     {
-                      "folded": true,
                       "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                       "type": "structure",
                       "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": ""
+                        },
                         {
                           "folded": true,
                           "name": "Number",
@@ -14051,12 +14068,6 @@
                         },
                         {
                           "name": "TargetObject",
-                          "type": "string",
-                          "value": ""
-                        },
-                        {
-                          "folded": true,
-                          "name": "Type",
                           "type": "string",
                           "value": ""
                         }
@@ -14542,11 +14553,11 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -14582,8 +14593,15 @@
               "type": "array",
               "children": [
                 {
+                  "folded": true,
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14592,12 +14610,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14605,9 +14617,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14616,12 +14634,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14629,9 +14641,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14640,12 +14658,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14653,9 +14665,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14664,12 +14682,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14677,9 +14689,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14688,12 +14706,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14701,9 +14713,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14712,12 +14730,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14741,7 +14753,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "69880586-e1a1-4cc0-b74b-fb219dacdeb7",
+          "persistentUuid": "8529a6d1-c186-47f0-ae83-b8545266f168",
           "type": "structure",
           "children": [
             {
@@ -14772,7 +14784,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -14783,18 +14794,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14802,9 +14813,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14813,12 +14830,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14826,9 +14837,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14837,12 +14854,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14850,9 +14861,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14861,12 +14878,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14874,9 +14885,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14885,12 +14902,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14898,9 +14909,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -14909,12 +14926,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14938,7 +14949,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "fdff1d25-c11e-4ed3-b50e-cbbc2c84f2a7",
+          "persistentUuid": "8fa42a04-4e84-4e89-ad91-8e8abf0771af",
           "type": "structure",
           "children": [
             {
@@ -14969,7 +14980,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -14980,18 +14990,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -14999,9 +15009,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15010,12 +15026,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15023,9 +15033,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15034,12 +15050,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15047,9 +15057,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15058,12 +15074,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15071,9 +15081,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15082,12 +15098,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15095,9 +15105,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15106,12 +15122,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15135,7 +15145,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "980d9a60-2431-4305-b8fa-d2fe2e1bbe42",
+          "persistentUuid": "0eb50b5f-9d64-42ab-b053-ba9fea89ef68",
           "type": "structure",
           "children": [
             {
@@ -15166,7 +15176,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15177,18 +15186,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15196,9 +15205,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15207,12 +15222,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15220,9 +15229,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15231,12 +15246,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15244,9 +15253,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15255,12 +15270,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15268,9 +15277,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15279,12 +15294,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15292,9 +15301,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15303,12 +15318,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15332,7 +15341,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "8f20c295-5afe-4649-9b5b-d7f755a72325",
+          "persistentUuid": "17412a44-eaa0-4728-9106-c256ddcbf174",
           "type": "structure",
           "children": [
             {
@@ -15363,7 +15372,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15374,18 +15382,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15393,9 +15401,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15404,12 +15418,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15417,9 +15425,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15428,12 +15442,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15441,9 +15449,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15452,12 +15466,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15465,9 +15473,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15476,12 +15490,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15489,9 +15497,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15500,12 +15514,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15529,7 +15537,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "cd09b30e-d927-4523-9d83-967203e36a98",
+          "persistentUuid": "1b5f9c18-8bfc-4bb5-bdd8-dbdb30d0d9db",
           "type": "structure",
           "children": [
             {
@@ -15560,7 +15568,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15571,18 +15578,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15590,9 +15597,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15601,12 +15614,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15614,9 +15621,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15625,12 +15638,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15638,9 +15645,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15649,12 +15662,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15662,9 +15669,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15673,12 +15686,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15686,9 +15693,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15697,12 +15710,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15726,7 +15733,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "cec065c5-4402-4872-851a-cd2e51f985cc",
+          "persistentUuid": "4392423e-7ab4-47f7-9836-a1fe6b654a08",
           "type": "structure",
           "children": [
             {
@@ -15757,7 +15764,6 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15768,18 +15774,18 @@
                   "children": [
                     {
                       "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
                       "name": "Number",
                       "type": "number",
                       "value": 0
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15787,9 +15793,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
+                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15798,12 +15810,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15811,9 +15817,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
+                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15822,12 +15834,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15835,9 +15841,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
+                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15846,12 +15858,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15859,9 +15865,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
+                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15870,12 +15882,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -15883,9 +15889,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
                   "type": "structure",
                   "children": [
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
                     {
                       "folded": true,
                       "name": "Number",
@@ -15894,800 +15906,6 @@
                     },
                     {
                       "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "1492f9c3-ca62-4be4-b477-7c190371ec7e",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "IsOn",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Location",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "name": "StepNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Steps",
-              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
-              "type": "array",
-              "children": [
-                {
-                  "folded": true,
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "5d35ad7a-6242-418f-88da-26ef645b0305",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "IsOn",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Location",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "name": "StepNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Steps",
-              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
-              "type": "array",
-              "children": [
-                {
-                  "folded": true,
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "8cc96fdf-8d96-4bbb-af43-f43903c8273a",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "IsOn",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Location",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "name": "StepNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Steps",
-              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
-              "type": "array",
-              "children": [
-                {
-                  "folded": true,
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "name": "TargetNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "TargetObject",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "persistentUuid": "acb1969a-6d8f-40af-862d-59491285b1a5",
-          "type": "structure",
-          "children": [
-            {
-              "name": "Description",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "IsOn",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Location",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "name": "StepNumber",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Steps",
-              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
-              "type": "array",
-              "children": [
-                {
-                  "folded": true,
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "5807cfe5-cddb-41dc-8a76-075f62cda814",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "cc827056-0627-40e7-a32d-ffe45472d544",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "24cf951a-618e-4cbd-8f18-37fb7c9fbbc4",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "98cf8574-c196-4c7d-8944-e8a7fd7fbc05",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
                       "type": "string",
                       "value": ""
                     }
@@ -32242,7 +31460,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC2"
+              "value": "NPC1"
             },
             {
               "folded": true,
@@ -37071,7 +36289,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC1"
+              "value": "NPC2"
             },
             {
               "name": "Quest_Type",
@@ -48687,7 +47905,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48912,6 +48129,26 @@
                                     "=",
                                     "NPC.Quest_Type.Steps[NPC.StepCount].TargetObject"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[0].Steps[NPC.StepCount].Number",
+                                    "=",
+                                    "NPC.Quest_Type.Steps[NPC.StepCount].Number"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[0].Steps[NPC.StepCount].Location",
+                                    "=",
+                                    "NPC.Quest_Type.Steps[NPC.StepCount].Location"
+                                  ]
                                 }
                               ]
                             },
@@ -49063,19 +48300,83 @@
                                 "value": "ModVarGlobalTxt"
                               },
                               "parameters": [
-                                "JournalQuests[QuestCount-1].Steps",
+                                "JournalQuests[QuestCount].Name",
                                 "=",
-                                "JournalQuests[QuestCount].Steps"
+                                "\"no\""
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobalTxt"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
-                                "JournalQuests[QuestCount].Name",
+                                "NPC",
+                                "StepCount",
                                 "=",
-                                "\"no\""
+                                "0"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "10",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount-1].Steps[NPC.StepCount].TargetObject",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].TargetObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount-1].Steps[NPC.StepCount].Number",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Number"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount-1].Steps[NPC.StepCount].Location",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Location"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "StepCount",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -49318,12 +48619,76 @@
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobalTxt"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
-                                "JournalQuests[QuestCount].Steps",
+                                "NPC",
+                                "StepCount",
                                 "=",
-                                "NPC.Quest_Type.Steps"
+                                "0"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "10",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].TargetObject",
+                                        "=",
+                                        "NPC.Quest_Type.Steps[NPC.StepCount].TargetObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Number",
+                                        "=",
+                                        "NPC.Quest_Type.Steps[NPC.StepCount].Number"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Location",
+                                        "=",
+                                        "NPC.Quest_Type.Steps[NPC.StepCount].Location"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "StepCount",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -49488,7 +48853,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50132,6 +49496,17 @@
                                 "=",
                                 "JournalQuests[QuestCount].StepNumber"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "StepCount",
+                                "=",
+                                "0"
+                              ]
                             }
                           ],
                           "events": [
@@ -50207,6 +49582,70 @@
                                     "Effect",
                                     "\"Outline\"",
                                     "yes"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "10",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "QuestsButton",
+                                        "Steps[NPC.StepCount].TargetObject",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].TargetObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "QuestsButton",
+                                        "Steps[NPC.StepCount].Location",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Location"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "QuestsButton",
+                                        "Steps[NPC.StepCount].Number",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Number"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "StepCount",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
@@ -50820,12 +50259,164 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Click Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "QuestCount",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "QuestsButton",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "ID",
+                            "=",
+                            "QuestCount"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "JournalQuests[QuestCount].Name",
+                            "=",
+                            "\"no\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "QuestsButton"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "QuestCount",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "ID",
+                            "=",
+                            "QuestCount"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "JournalQuests[QuestCount].Name",
+                            "=",
+                            "\"no\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Name",
+                            "=",
+                            "JournalQuests[QuestCount].Name"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Location",
+                            "=",
+                            "JournalQuests[QuestCount].Location"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "QuestCount",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -51266,113 +50857,82 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "QuestsButton",
-                "On",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "Saves_and_Loads.QuestSteps.QuestLevelName",
-                "=",
-                "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
-              ]
             },
             {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "Saves_and_Loads.QuestSteps.QuestName",
-                "=",
-                "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "QuestCount",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Repeat",
-              "repeatExpression": "10",
-              "conditions": [],
-              "actions": [],
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "QuestsButton",
+                    "On",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestSteps.QuestLevelName",
+                    "=",
+                    "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestSteps.QuestName",
+                    "=",
+                    "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "QuestCount",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "On",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Name",
-                        "=",
-                        "JournalQuests[QuestCount].Name"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "JournalQuests[QuestCount].IsOn",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "On",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "VarObjetTxt"
                           },
                           "parameters": [
-                            "DiaryPannel",
-                            "State",
+                            "QuestsButton",
+                            "Name",
                             "=",
-                            "\"Quests\""
+                            "JournalQuests[QuestCount].Name"
                           ]
                         }
                       ],
@@ -51382,37 +50942,83 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "Saves_and_Loads.StepNumber",
+                            "JournalQuests[QuestCount].IsOn",
                             "=",
-                            "JournalQuests[QuestsButton.Count].StepNumber"
+                            "1"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Quests\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Saves_and_Loads.StepNumber",
+                                "=",
+                                "JournalQuests[QuestsButton.Count].StepNumber"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Tree",
+                                "Info.Object",
+                                "=",
+                                "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Tree",
+                                "Info.Chosen",
+                                "True"
+                              ]
+                            }
                           ]
                         }
                       ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Tree",
-                            "Info.Object",
-                            "=",
-                            "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
-                          ]
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
-                            "value": "SetObjectVariableAsBoolean"
+                            "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "Tree",
-                            "Info.Chosen",
-                            "True"
+                            "QuestCount",
+                            "+",
+                            "1"
                           ]
                         }
                       ]
@@ -51421,247 +51027,35 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "QuestCount",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "QuestsButton",
-                    "Steps[Saves_and_Loads.StepNumber].Type",
-                    "=",
-                    "\"Finish\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "QuestCount",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "QuestsButton",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "VarObjetTxt"
                       },
                       "parameters": [
                         "QuestsButton",
-                        "ID",
+                        "Steps[Saves_and_Loads.StepNumber].Type",
                         "=",
-                        "QuestCount"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "JournalQuests[QuestCount].Name",
-                        "=",
-                        "\"no\""
+                        "\"Finish\""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "SetGlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "QuestsButton"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "QuestCount",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "ID",
-                        "=",
-                        "QuestCount"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarGlobalTxt"
-                      },
-                      "parameters": [
-                        "JournalQuests[QuestCount].Name",
-                        "=",
-                        "\"no\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Name",
-                        "=",
-                        "JournalQuests[QuestCount].Name"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Location",
-                        "=",
-                        "JournalQuests[QuestCount].Location"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "QuestCount",
-                        "+",
-                        "1"
+                        "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                        "True"
                       ]
                     }
                   ]
                 }
               ]
             }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "NPC",
-                "Player",
-                "200",
-                ""
-              ]
-            }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "NPC.Quest_Type.Steps[0].TargetObject + NPC.Quest_Type.Steps[1].TargetObject + NPC.Quest_Type.Steps[2].TargetObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "\" Object : \" +Saves_and_Loads.QuestSteps.QuestName + \" Location: \" +Saves_and_Loads.QuestSteps.QuestLevelName "
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -51754,6 +51148,18 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio\\Cat1.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "events": [
@@ -51804,6 +51210,96 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "\"Step: \" + ToString(Saves_and_Loads.StepNumber) + \" Object : \" +Saves_and_Loads.QuestSteps.QuestName + \" Location: \" +Saves_and_Loads.QuestSteps.QuestLevelName "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "QuestsButton",
+                "On",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "QuestsButton.Steps[0].TargetObject +QuestsButton.Steps[1].TargetObject + QuestsButton.Steps[2].TargetObject"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "JournalQuests[0].Steps[0].TargetObject +JournalQuests[0].Steps[1].TargetObject  + JournalQuests[0].Steps[2].TargetObject "
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "NPC.Quest_Type.Steps[0].TargetObject + NPC.Quest_Type.Steps[1].TargetObject + NPC.Quest_Type.Steps[2].TargetObject"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -60676,6 +60172,28 @@
                             "=",
                             "NPCQuests[NPC.ID][0].Steps[NPC.Count].TargetObject"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].Location",
+                            "=",
+                            "NPCQuests[NPC.ID][0].Steps[NPC.Count].Location"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].Number",
+                            "=",
+                            "NPCQuests[NPC.ID][0].Steps[NPC.Count].Number"
+                          ]
                         }
                       ]
                     },
@@ -60826,6 +60344,72 @@
                     "Player",
                     "Can_Take_Quest",
                     "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].TargetObject",
+                            "=",
+                            "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].TargetObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].Location",
+                            "=",
+                            "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].Location"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].Number",
+                            "=",
+                            "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].Number"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Count",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
