@@ -13966,6 +13966,7 @@
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -14023,6 +14024,236 @@
                           "name": "TargetObject",
                           "type": "string",
                           "value": "NPC1"
+                        }
+                      ]
+                    },
+                    {
+                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "name": "Finish",
+                          "persistentUuid": "decb62fd-6396-466e-8fa9-e5989b523b3e",
+                          "type": "boolean",
+                          "value": false
+                        },
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "Tutorial Village2"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 10
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "Grass"
+                        }
+                      ]
+                    },
+                    {
+                      "persistentUuid": "b7fe12d9-a22f-4f01-90ca-81b118b22c67",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "name": "Finish",
+                          "type": "boolean",
+                          "value": true
+                        },
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "Tutorial Level"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 10
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "NPC2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "persistentUuid": "8d7874a5-b5fe-4b01-b4b7-eae14b10aed7",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "I'll teach you to brew"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Start1"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "folded": true,
+                  "name": "Steps",
+                  "type": "array",
+                  "children": [
+                    {
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": ""
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": ""
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TargetNumber",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "TargetObject",
+                  "type": "string",
+                  "value": "BasePotion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "persistentUuid": "d68dd820-7c42-4611-b165-7b60b36c1fd9",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Description",
+                  "type": "string",
+                  "value": "Talk to Kenny"
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Let's Make Potion!2"
+                },
+                {
+                  "folded": true,
+                  "name": "RevardNumber",
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "folded": true,
+                  "name": "RevardObject",
+                  "type": "string",
+                  "value": "Gold"
+                },
+                {
+                  "name": "Steps",
+                  "type": "array",
+                  "children": [
+                    {
+                      "type": "structure",
+                      "children": [
+                        {
+                          "name": "Finish",
+                          "persistentUuid": "a935a0b9-fafd-4e7f-b318-b94897aac515",
+                          "type": "boolean",
+                          "value": true
+                        },
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "type": "string",
+                          "value": "Tutorial Village2"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "NPC3"
                         }
                       ]
                     },
@@ -21965,7 +22196,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "no"
+              "value": "NPC3"
             },
             {
               "folded": true,
@@ -33330,7 +33561,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37687720367509975,
+        "zoomFactor": 0.38958562738274155,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -50778,6 +51009,7 @@
                   "comment": "Quests Button\n"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -51521,7 +51753,6 @@
                   "comment": "Description"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
