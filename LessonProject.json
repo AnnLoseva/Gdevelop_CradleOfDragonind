@@ -5066,7 +5066,6 @@
           "value": 0
         },
         {
-          "folded": true,
           "name": "Quest_Type",
           "type": "structure",
           "children": [
@@ -5107,6 +5106,7 @@
               "value": ""
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "c156c38b-b7ad-40b6-874b-1b5802a49dbe",
               "type": "array",
@@ -5115,6 +5115,11 @@
                   "folded": true,
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -5131,12 +5136,93 @@
                       "name": "TargetObject",
                       "type": "string",
                       "value": "NPC2"
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "4cdfa7c7-a059-4640-a884-3683414900bf",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "type": "boolean",
+                      "value": false
                     },
                     {
                       "folded": true,
-                      "name": "Type",
+                      "name": "Location",
                       "type": "string",
-                      "value": "Dialogue"
+                      "value": "Tutorial Village"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "NPC2"
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "a78a0576-90ac-472f-adfd-8f19e22ff2dd",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": "Tutorial Village"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "NPC2"
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "0e7455bf-7ff6-4610-858d-6e35b9f861b7",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": "Tutorial Village"
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": "NPC2"
                     }
                   ]
                 },
@@ -5145,6 +5231,12 @@
                   "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "bfa2946c-1fb0-4e38-868f-588b13b4109b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -5162,12 +5254,6 @@
                       "name": "TargetObject",
                       "type": "string",
                       "value": "Grass"
-                    },
-                    {
-                      "folded": true,
-                      "name": "Type",
-                      "type": "string",
-                      "value": "Collect"
                     }
                   ]
                 }
@@ -12597,13 +12683,18 @@
           "value": ""
         },
         {
-          "folded": true,
           "name": "Steps",
           "type": "array",
           "children": [
             {
               "type": "structure",
               "children": [
+                {
+                  "folded": true,
+                  "name": "Finish",
+                  "type": "boolean",
+                  "value": false
+                },
                 {
                   "folded": true,
                   "name": "Location",
@@ -12618,12 +12709,6 @@
                 },
                 {
                   "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "folded": true,
-                  "name": "Type",
                   "type": "string",
                   "value": ""
                 }
@@ -12635,6 +12720,13 @@
               "children": [
                 {
                   "folded": true,
+                  "name": "Finish",
+                  "persistentUuid": "d311964b-7526-4046-a6bb-69ebf4597566",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "folded": true,
                   "name": "Location",
                   "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
                   "type": "string",
@@ -12648,12 +12740,6 @@
                 },
                 {
                   "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "folded": true,
-                  "name": "Type",
                   "type": "string",
                   "value": ""
                 }
@@ -12665,6 +12751,13 @@
               "children": [
                 {
                   "folded": true,
+                  "name": "Finish",
+                  "persistentUuid": "9fc8c731-f6a6-4012-8282-4fb5d8692517",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "folded": true,
                   "name": "Location",
                   "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
                   "type": "string",
@@ -12678,12 +12771,6 @@
                 },
                 {
                   "name": "TargetObject",
-                  "type": "string",
-                  "value": ""
-                },
-                {
-                  "folded": true,
-                  "name": "Type",
                   "type": "string",
                   "value": ""
                 }
@@ -13915,6 +14002,12 @@
                       "type": "structure",
                       "children": [
                         {
+                          "name": "Finish",
+                          "persistentUuid": "a935a0b9-fafd-4e7f-b318-b94897aac515",
+                          "type": "boolean",
+                          "value": false
+                        },
+                        {
                           "folded": true,
                           "name": "Location",
                           "type": "string",
@@ -13937,6 +14030,12 @@
                       "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                       "type": "structure",
                       "children": [
+                        {
+                          "name": "Finish",
+                          "persistentUuid": "decb62fd-6396-466e-8fa9-e5989b523b3e",
+                          "type": "boolean",
+                          "value": false
+                        },
                         {
                           "folded": true,
                           "name": "Location",
@@ -13961,6 +14060,11 @@
                       "persistentUuid": "b7fe12d9-a22f-4f01-90ca-81b118b22c67",
                       "type": "structure",
                       "children": [
+                        {
+                          "name": "Finish",
+                          "type": "boolean",
+                          "value": true
+                        },
                         {
                           "folded": true,
                           "name": "Location",
@@ -14553,11 +14657,11 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -14593,9 +14697,14 @@
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14617,9 +14726,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14641,9 +14756,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14665,9 +14786,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14689,9 +14816,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14713,9 +14846,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14753,7 +14892,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "8529a6d1-c186-47f0-ae83-b8545266f168",
+          "persistentUuid": "d252a87e-7229-40f8-945c-684314c2b742",
           "type": "structure",
           "children": [
             {
@@ -14784,6 +14923,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -14793,53 +14933,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -14861,9 +14959,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14885,9 +14989,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14909,9 +15019,75 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -14949,7 +15125,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "8fa42a04-4e84-4e89-ad91-8e8abf0771af",
+          "persistentUuid": "46f02bbd-aadf-4fbd-bfd8-4d0e5d896d51",
           "type": "structure",
           "children": [
             {
@@ -14980,6 +15156,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -14989,53 +15166,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -15057,9 +15192,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15081,9 +15222,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15105,9 +15252,75 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15145,7 +15358,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "0eb50b5f-9d64-42ab-b053-ba9fea89ef68",
+          "persistentUuid": "076cd25d-7c19-4c7a-83bb-a0bdcf484a46",
           "type": "structure",
           "children": [
             {
@@ -15176,6 +15389,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15185,53 +15399,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -15253,9 +15425,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15277,9 +15455,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15301,9 +15485,75 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15341,7 +15591,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "17412a44-eaa0-4728-9106-c256ddcbf174",
+          "persistentUuid": "fbf57f02-401b-4c1c-85a1-87b6c6e3ecef",
           "type": "structure",
           "children": [
             {
@@ -15372,6 +15622,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15381,53 +15632,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -15449,9 +15658,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15473,9 +15688,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15497,9 +15718,75 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15537,7 +15824,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "1b5f9c18-8bfc-4bb5-bdd8-dbdb30d0d9db",
+          "persistentUuid": "4db37c86-d026-4d59-8e54-edf6b0c7c0b0",
           "type": "structure",
           "children": [
             {
@@ -15568,6 +15855,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15577,53 +15865,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -15645,9 +15891,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15669,9 +15921,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15693,9 +15951,75 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15733,7 +16057,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "4392423e-7ab4-47f7-9836-a1fe6b654a08",
+          "persistentUuid": "7656a167-fc08-43db-b5ac-7b479a4611ed",
           "type": "structure",
           "children": [
             {
@@ -15764,6 +16088,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
@@ -15773,53 +16098,11 @@
                   "type": "structure",
                   "children": [
                     {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
                     },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "31926c0e-c002-4399-8e1c-bc390c762213",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "folded": true,
-                      "name": "Location",
-                      "type": "string",
-                      "value": ""
-                    },
-                    {
-                      "folded": true,
-                      "name": "Number",
-                      "type": "number",
-                      "value": 0
-                    },
-                    {
-                      "name": "TargetObject",
-                      "type": "string",
-                      "value": ""
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "persistentUuid": "c75d2881-60dc-4adf-852e-48a78f5dd8e6",
-                  "type": "structure",
-                  "children": [
                     {
                       "folded": true,
                       "name": "Location",
@@ -15841,9 +16124,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "d66f6c67-099a-4b27-b745-9d00204a173d",
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15865,9 +16154,15 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "9b35b644-b9ca-4e80-a6ee-9ef2d88ec710",
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -15889,9 +16184,1007 @@
                 },
                 {
                   "folded": true,
-                  "persistentUuid": "a857bf41-552a-4ba0-a391-e967d96d5371",
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "8c00f8cd-8552-4b2e-98fa-f858aaa8eba6",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "21782fa6-73ec-4eca-ba8c-6fbabb5430d5",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "b037de07-926d-4f72-8e73-14633a75f5ac",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "TargetNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "TargetObject",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "persistentUuid": "8ed67051-7178-44ce-a58e-f7ef7e0ddf1f",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Description",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "IsOn",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Location",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "no"
+            },
+            {
+              "name": "StepNumber",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Steps",
+              "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
+                    {
+                      "folded": true,
+                      "name": "Location",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "folded": true,
+                      "name": "Number",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "TargetObject",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
+                  "type": "structure",
+                  "children": [
+                    {
+                      "name": "Finish",
+                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
+                      "type": "boolean",
+                      "value": false
+                    },
                     {
                       "folded": true,
                       "name": "Location",
@@ -39225,9 +40518,9 @@
                     {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
+                        "b": 184,
+                        "g": 255,
+                        "r": 109,
                         "textB": 0,
                         "textG": 0,
                         "textR": 0
@@ -39336,6 +40629,7 @@
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -39450,7 +40744,7 @@
                             "value": "DialogueTree::StartDialogueFromBranch"
                           },
                           "parameters": [
-                            "\"Complete\""
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-7) + \"Complete\""
                           ]
                         }
                       ]
@@ -48150,6 +49444,60 @@
                                     "NPC.Quest_Type.Steps[NPC.StepCount].Location"
                                   ]
                                 }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "Quest_Type.Steps[NPC.StepCount].Finish",
+                                        "True"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetGlobalVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[0].Steps[NPC.StepCount].Finish",
+                                        "True"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "Quest_Type.Steps[NPC.StepCount].Finish",
+                                        "False"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetGlobalVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[0].Steps[NPC.StepCount].Finish",
+                                        "False"
+                                      ]
+                                    }
+                                  ]
+                                }
                               ]
                             },
                             {
@@ -48669,6 +50017,65 @@
                                         "=",
                                         "NPC.Quest_Type.Steps[NPC.StepCount].Location"
                                       ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "NPC",
+                                            "Quest_Type.Steps[NPC.StepCount].Finish",
+                                            "True"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetGlobalVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "JournalQuests[QuestCount].Steps[NPC.StepCount].Finish",
+                                            "True"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "NPC",
+                                            "Quest_Type.Steps[NPC.StepCount].Finish",
+                                            "False"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetGlobalVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "JournalQuests[QuestCount].Steps[NPC.StepCount].Finish",
+                                            "False"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": []
                                     }
                                   ]
                                 },
@@ -49627,6 +51034,60 @@
                                         "Steps[NPC.StepCount].Number",
                                         "=",
                                         "JournalQuests[QuestCount].Steps[NPC.StepCount].Number"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "GlobalVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "JournalQuests[QuestCount].Steps[NPC.StepCount].Finish",
+                                            "True"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "QuestsButton",
+                                            "Steps[NPC.StepCount].Finish",
+                                            "True"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "GlobalVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "JournalQuests[QuestCount].Steps[NPC.StepCount].Finish",
+                                            "False"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "QuestsButton",
+                                            "Steps[NPC.StepCount].Finish",
+                                            "False"
+                                          ]
+                                        }
                                       ]
                                     }
                                   ]
@@ -51030,13 +52491,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjetTxt"
+                        "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "QuestsButton",
-                        "Steps[Saves_and_Loads.StepNumber].Type",
-                        "=",
-                        "\"Finish\""
+                        "Steps[Saves_and_Loads.StepNumber].Finish",
+                        "True"
                       ]
                     }
                   ],
@@ -51048,6 +52508,32 @@
                       "parameters": [
                         "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
                         "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "Steps[Saves_and_Loads.StepNumber].Finish",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                        "False"
                       ]
                     }
                   ]
@@ -51212,7 +52698,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -51223,12 +52708,13 @@
               "parameters": [
                 "Instruction",
                 "=",
-                "\"Step: \" + ToString(Saves_and_Loads.StepNumber) + \" Object : \" +Saves_and_Loads.QuestSteps.QuestName + \" Location: \" +Saves_and_Loads.QuestSteps.QuestLevelName "
+                "\"Step: \" + ToString(Saves_and_Loads.StepNumber) + \" Object : \" +Saves_and_Loads.QuestSteps.QuestName + \" Location: \" +Saves_and_Loads.QuestSteps.QuestLevelName +\"State: \" + Saves_and_Loads.QuestSteps[\"Quest Finished\"]"
               ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -60195,6 +61681,60 @@
                             "NPCQuests[NPC.ID][0].Steps[NPC.Count].Number"
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPCQuests[NPC.ID][0].Steps[NPC.Count].Finish",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Steps[NPC.Count].Finish",
+                                "True"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPCQuests[NPC.ID][0].Steps[NPC.Count].Finish",
+                                "False"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Steps[NPC.Count].Finish",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     },
                     {
@@ -60389,6 +61929,72 @@
                             "Quest_Type.Steps[NPC.Count].Number",
                             "=",
                             "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].Number"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "New sound effect3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].Finish",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Steps[NPC.Count].Finish",
+                                "True"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPCQuests[NPC.ID][NPC.Quest_Type.QuestNumber].Steps[NPC.Count].Finish",
+                                "False"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Quest_Type.Steps[NPC.Count].Finish",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]

@@ -108,5 +108,25 @@
 			"y": -82
 		},
 		"colorID": 0
+	},
+	{
+		"title": "Let's Make Potion!Complete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 1396,
+			"y": -493
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sell me Potion!Complete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 267,
+			"y": -626
+		},
+		"colorID": 0
 	}
 ]
