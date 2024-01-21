@@ -3058,9 +3058,10 @@
           "PlatformerCharacter": "PlatformerObject"
         },
         {
+          "jumpSpeed": 600,
+          "maxSpeed": 500,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "jumpSpeed": 601,
           "ignoreDefaultControls": false,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
@@ -3071,7 +3072,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -25714,7 +25714,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30887412163427447,
+        "zoomFactor": 0.10339049701062283,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29644,134 +29644,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Static_platform",
-          "persistentUuid": "223053dc-42ff-4c2d-a5be-9c0926bf2489",
-          "width": 3278,
-          "x": -572,
-          "y": 721,
-          "zOrder": 328,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Map_End_Teleport",
-          "persistentUuid": "e05c82f6-5aee-4e20-aedf-9d3c740136ea",
-          "width": 0,
-          "x": 2504,
-          "y": 399,
-          "zOrder": 329,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Scene",
-              "type": "string",
-              "value": "Tutorial Village2"
-            },
-            {
-              "folded": true,
-              "name": "Right_Border",
-              "type": "boolean",
-              "value": true
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Map_End_Teleport",
-          "persistentUuid": "d0bb202b-764c-447f-a7c3-7d26c2968acf",
-          "width": 0,
-          "x": -507,
-          "y": 341,
-          "zOrder": 330,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Right",
-              "type": "boolean",
-              "value": true
-            },
-            {
-              "folded": true,
-              "name": "Scene",
-              "type": "string",
-              "value": "Tutorial Level"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "d0a82441-cee7-4f29-a2cc-e30e2a40eb5b",
-          "width": 0,
-          "x": 1010,
-          "y": 656,
-          "zOrder": 332,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "NPC1"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "46169eee-0e85-42ac-b523-cfe6a22db57f",
-          "width": 0,
-          "x": 1314,
-          "y": 644,
-          "zOrder": 333,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Name",
-              "type": "string",
-              "value": "no"
-            },
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "Checks",
@@ -29794,19 +29666,126 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 272,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "Player",
-          "persistentUuid": "870e0e6c-4907-47c4-bd48-c2256334334a",
-          "width": 256,
-          "x": 491,
-          "y": 418,
-          "zOrder": 331,
+          "persistentUuid": "5451e34a-e270-4bc6-b9a2-622e2f881155",
+          "width": 0,
+          "x": 361,
+          "y": 228,
+          "zOrder": 335,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "8fa39db6-5ba7-4347-bf8a-107212cba607",
+          "width": 0,
+          "x": 1493,
+          "y": 216,
+          "zOrder": 336,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "fd11c51d-1795-4d20-aed0-b7d29432496f",
+          "width": 0,
+          "x": 2397,
+          "y": 176,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Static_platform",
+          "persistentUuid": "5bde1e8a-f9fc-4f07-88ba-a24d80cf01ef",
+          "width": 16228,
+          "x": -5333,
+          "y": 865,
+          "zOrder": 338,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Map_End_Teleport",
+          "persistentUuid": "6db2e1e5-da0e-4947-b70f-62b06ecfce6a",
+          "width": 0,
+          "x": 6038,
+          "y": 685,
+          "zOrder": 339,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Right_Border",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
+              "name": "Right",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "Scene",
+              "type": "string",
+              "value": "Tutorial Village2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Map_End_Teleport",
+          "persistentUuid": "13d1aeae-5ea5-455e-933d-7c6d8c288c12",
+          "width": 0,
+          "x": -3228,
+          "y": 625,
+          "zOrder": 340,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Right",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
+              "name": "Scene",
+              "type": "string",
+              "value": "Tutorial Level"
+            }
+          ]
         }
       ],
       "objects": [],
@@ -29937,7 +29916,7 @@
           "isLocked": false,
           "name": "Map",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -30161,7 +30140,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -30325,7 +30304,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491660364,
+        "zoomFactor": 0.1591183884683908,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -34551,8 +34530,8 @@
           "name": "NPC",
           "persistentUuid": "16fb3918-b29b-4c05-8ba2-71357758a196",
           "width": 0,
-          "x": 2071,
-          "y": 2156,
+          "x": 2093,
+          "y": 2165,
           "zOrder": 319,
           "numberProperties": [],
           "stringProperties": [],
@@ -34626,8 +34605,8 @@
           "name": "NPC",
           "persistentUuid": "ab7ebfe0-a8e8-4cce-8f8c-35771478c1d9",
           "width": 0,
-          "x": 3006,
-          "y": 2025,
+          "x": 3010,
+          "y": 2181,
           "zOrder": 319,
           "numberProperties": [],
           "stringProperties": [],
@@ -35260,7 +35239,7 @@
           "isLocked": false,
           "name": "Map",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35484,7 +35463,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -58367,12 +58346,82 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Map_End_Teleport",
+                    "Right_Border",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Borders.Right",
+                    "=",
+                    "Map_End_Teleport.X()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Map_End_Teleport",
+                    "Right_Border",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Borders.Left",
+                    "=",
+                    "Map_End_Teleport.X() + 100"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "Distance"
               },
               "parameters": [
                 "Player",
                 "Map_End_Teleport",
-                "300",
+                "500",
                 ""
               ]
             },
@@ -58385,6 +58434,12 @@
                 "Usable",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -58442,72 +58497,6 @@
           "conditions": [
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Map_End_Teleport",
-                "Right_Border",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Borders.Right",
-                "=",
-                "Map_End_Teleport.X()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Map_End_Teleport",
-                "Right_Border",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Borders.Left",
-                "=",
-                "Map_End_Teleport.X()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "IsOnScreen::InOnScreen::IsOnScreen"
               },
               "parameters": [
@@ -58549,6 +58538,12 @@
                 "-10",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
