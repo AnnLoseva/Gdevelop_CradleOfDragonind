@@ -58493,49 +58493,18 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsOnScreen::InOnScreen::IsOnScreen"
-              },
-              "parameters": [
-                "Map_End_Teleport",
-                "InOnScreen",
-                "-10",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "Borders.Left",
-                "-10000",
-                "Borders.Right",
-                "100000",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": true,
-                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                "value": "Distance"
               },
               "parameters": [
+                "Player",
                 "Map_End_Teleport",
-                "InOnScreen",
-                "-10",
+                "500",
                 ""
               ]
             },
@@ -58556,6 +58525,26 @@
                 "-1000000",
                 "-10000",
                 "10000000",
+                "100000",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "Borders.Left",
+                "-10000",
+                "Borders.Right",
                 "100000",
                 "",
                 ""
