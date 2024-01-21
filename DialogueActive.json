@@ -72,7 +72,7 @@
 	{
 		"title": "Sell me Potion!Active",
 		"tags": "End",
-		"body": "<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> <<$Quest is Potion>>  \nYou have no Potion\n<< endif >>\n\n<< if $Current > 0 and $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>> <<$Quest is Potion>> \nNot enough!\n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
+		"body": "<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> \nYou have no Potion\n<< endif >>\n\n<< if $Current > 0 and $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>>  \nNot enough!\n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
 		"position": {
 			"x": 306,
 			"y": -389
@@ -84,7 +84,7 @@
 		"tags": "End",
 		"body": "<< $Reward is BasePotion>> << $RewardAmount is 1>>\n<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> <<$Quest is Ingridients>> \nYou have no ingredients. You can't make Potion.\n<< endif >>\n\n<< if $Current > 0  and  $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>> <<$Quest is Ingridients>> \nNot enough! \n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
 		"position": {
-			"x": 987,
+			"x": 985,
 			"y": -488
 		},
 		"colorID": 0
@@ -102,7 +102,7 @@
 	{
 		"title": "Quest",
 		"tags": "",
-		"body": "<<step>> \nCompleted [[Answer:End|End]]",
+		"body": "<<step>> \nThis step is Completed [[Answer:End|End]]",
 		"position": {
 			"x": 1297,
 			"y": -82
@@ -112,7 +112,7 @@
 	{
 		"title": "Let's Make Potion!Complete",
 		"tags": "End",
-		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n\n[[Answer:End|End]]",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
 		"position": {
 			"x": 1396,
 			"y": -493
@@ -122,7 +122,7 @@
 	{
 		"title": "Sell me Potion!Complete",
 		"tags": "End",
-		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n\n[[Answer:End|End]]",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
 		"position": {
 			"x": 267,
 			"y": -626

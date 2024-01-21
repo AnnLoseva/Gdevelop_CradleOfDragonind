@@ -3058,10 +3058,10 @@
           "PlatformerCharacter": "PlatformerObject"
         },
         {
-          "jumpSpeed": 600,
-          "maxSpeed": 500,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSpeed": 600,
+          "maxSpeed": 500,
           "ignoreDefaultControls": false,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
@@ -29692,7 +29692,14 @@
           "zOrder": 336,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "NPC1"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -35087,8 +35094,8 @@
           "name": "Player",
           "persistentUuid": "a24fcf04-a6d4-4d92-8c09-97dbd66377f1",
           "width": 128,
-          "x": 1724,
-          "y": 2360,
+          "x": 2667,
+          "y": 2473,
           "zOrder": 331,
           "numberProperties": [],
           "stringProperties": [],
@@ -37428,7 +37435,7 @@
                                 "NPC",
                                 "Quest_Type.TargetObject",
                                 "=",
-                                "InventoryData[QuestObjectNumber.Count].Name"
+                                "Saves_and_Loads.StepNumber"
                               ]
                             }
                           ],
@@ -37455,7 +37462,7 @@
                                 "NPC",
                                 "Quest_Type.TargetObject",
                                 "=",
-                                "PotionsData[QuestObjectNumber.Count].Name"
+                                "Saves_and_Loads.StepNumber"
                               ]
                             }
                           ],
