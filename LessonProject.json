@@ -10674,6 +10674,82 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+      "name": "GiveItem_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "folded": true,
+          "name": "ItemName",
+          "type": "string",
+          "value": "No"
+        },
+        {
+          "folded": true,
+          "name": "Count",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 6,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Hovered.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Idle.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Give...",
+          "font": "Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Transparent Button With White Blue Border_Pressed.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -10684,6 +10760,9 @@
         "children": [
           {
             "objectName": "Give_Button"
+          },
+          {
+            "objectName": "GiveItem_Button"
           },
           {
             "objectName": "Dialogue_Button"
@@ -10913,12 +10992,10 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10948,6 +11025,7 @@
                   "value": "Gold"
                 },
                 {
+                  "folded": true,
                   "name": "Steps",
                   "type": "array",
                   "children": [
@@ -11148,6 +11226,7 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "d68dd820-7c42-4611-b165-7b60b36c1fd9",
           "type": "array",
           "children": [
@@ -15114,7 +15193,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13480471535734972,
+        "zoomFactor": 0.43034038022077803,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19230,6 +19309,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Give",
+          "name": "GiveItem_Button",
+          "persistentUuid": "5d0b434d-c286-463f-be99-915cd1fde34d",
+          "width": 0,
+          "x": 1312,
+          "y": 671,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -19617,6 +19711,38 @@
           "name": "Video",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Give",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -25896,7 +26022,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3411856023473555,
+        "zoomFactor": 0.44485159988867895,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29975,6 +30101,21 @@
               "value": "Tutorial Level"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Give",
+          "name": "GiveItem_Button",
+          "persistentUuid": "b258ca66-9307-4124-aa62-43490f1ecbeb",
+          "width": 0,
+          "x": 1245,
+          "y": 701,
+          "zOrder": 341,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -30380,6 +30521,38 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Give",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -30493,7 +30666,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1591183884683908,
+        "zoomFactor": 0.36458333333334586,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35298,6 +35471,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Give",
+          "name": "GiveItem_Button",
+          "persistentUuid": "2919a204-f7e4-4a65-baa5-b3138abb2422",
+          "width": 0,
+          "x": 1307,
+          "y": 685,
+          "zOrder": 336,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -35703,6 +35891,38 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Give",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -36029,7 +36249,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36504,9 +36723,9 @@
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
+                    "b": 236,
+                    "g": 250,
+                    "r": 35,
                     "textB": 0,
                     "textG": 0,
                     "textR": 0
@@ -36514,7 +36733,6 @@
                   "comment": "Start Dialogue"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36618,80 +36836,55 @@
                       "comment": "Put Current Loot into Dialogue"
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "1",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.TargetObject",
-                                "=",
-                                "Saves_and_Loads.StepNumber"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "DialogueTree::SetNumberVariable"
-                              },
-                              "parameters": [
-                                "\"Current\"",
-                                "InventoryData[QuestObjectNumber.Count].Number"
-                              ]
-                            }
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.TargetObject",
+                            "=",
+                            "Saves_and_Loads.StepNumber"
                           ]
-                        },
+                        }
+                      ],
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.TargetObject",
-                                "=",
-                                "Saves_and_Loads.StepNumber"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "DialogueTree::SetNumberVariable"
-                              },
-                              "parameters": [
-                                "\"Current\"",
-                                "PotionsData[QuestObjectNumber.Count].Number"
-                              ]
-                            }
+                          "type": {
+                            "value": "DialogueTree::SetNumberVariable"
+                          },
+                          "parameters": [
+                            "\"Current\"",
+                            "InventoryData[QuestObjectNumber.Count].Number"
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "QuestObjectNumber",
-                                "Count",
-                                "+",
-                                "1"
-                              ]
-                            }
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.TargetObject",
+                            "=",
+                            "Saves_and_Loads.StepNumber"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DialogueTree::SetNumberVariable"
+                          },
+                          "parameters": [
+                            "\"Current\"",
+                            "PotionsData[QuestObjectNumber.Count].Number"
                           ]
                         }
                       ]
@@ -37323,6 +37516,16 @@
                         "State",
                         "=",
                         "\"Idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Next_Dialogue",
+                        "True"
                       ]
                     },
                     {
@@ -41827,6 +42030,304 @@
                     "=",
                     "\"Give\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Give\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Give_Button",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Dialogue_Button",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Inventory_Potion",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Give\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Inventory_Potion",
+                    "Number",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "GiveItem_Button",
+                    "ItemName",
+                    "=",
+                    "Inventory_Potion.Name"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Inventory_Item",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Give\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Inventory_Item",
+                    "Number",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "GiveItem_Button",
+                    "ItemName",
+                    "=",
+                    "Inventory_Item.Name"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "GiveItem_Button",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "GiveItem_Button",
+                    "ItemName",
+                    "!=",
+                    "\"No\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "GiveItem_Button",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "\"ScrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "NotEnd",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Dialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "QuestObjectNumber",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Complete\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "GiveItem_Button",
+                            "ItemName",
+                            "=",
+                            "InventoryData[GiveItem_Button.Count].Name"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "InventoryData[GiveItem_Button.Count].Number",
+                            "-",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "GiveItem_Button",
+                            "Count",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Quest_Type.TargetObject",
+                        "=",
+                        "Saves_and_Loads.StepNumber"
+                      ]
+                    }
+                  ],
+                  "actions": []
                 }
               ]
             }
@@ -41845,6 +42346,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42400,6 +42902,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44504,7 +45007,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Diary Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44522,6 +45024,7 @@
               "comment": "Just opened Diary pannel Brightness\n"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -44676,6 +45179,7 @@
               "comment": "Click Tab Button"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -44888,6 +45392,27 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "Open",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "HideLayer"
                   },
                   "parameters": [
@@ -44942,13 +45467,11 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjetTxt"
+                    "value": "HideLayer"
                   },
                   "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Idle\""
+                    "",
+                    "\"Give\""
                   ]
                 },
                 {
@@ -44957,6 +45480,38 @@
                   },
                   "parameters": [
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "State",
+                        "=",
+                        "\"Dialogue\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "State",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -45973,6 +46528,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49899,6 +50455,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -52146,6 +52703,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Potions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56653,13 +57211,11 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Brew",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
