@@ -19402,7 +19402,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -30147,7 +30147,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -35470,7 +35470,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -35619,1029 +35619,6 @@
     {
       "associatedLayout": "Tutorial Level",
       "lastChangeTimeStamp": 0,
-      "name": "DialoguePassive",
-      "events": [
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Beginning",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Preload Dialogue data"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Close to NPC",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Show Text Bubble above NPC"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "NPC",
-                        "500",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player",
-                        "State",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Effect",
-                    "\"Talkable\"",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenCameraZoom2"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "1",
-                    "",
-                    "\"linear\"",
-                    "1"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Quest is NOT completed"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "contains",
-                        "\"Complete\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "contains",
-                        "\"Active\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.TargetObject",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Animation",
-                        "=",
-                        "\"Wants to Talk\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "PassiveDialoguePannel",
-                        "NPC.CenterX()-50",
-                        "NPC.CenterY() -100",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        "Animation",
-                        "=",
-                        "\"Not Taken\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "contains",
-                        "\"Complete\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "contains",
-                        "\"Active\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Animation",
-                        "=",
-                        "\"Wants to Talk\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "PassiveDialoguePannel",
-                        "NPC.CenterX()-50",
-                        "NPC.CenterY() -100",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        "Animation",
-                        "=",
-                        "\"Active\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Quest IS completed"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "contains",
-                        "\"Complete\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Animation",
-                        "=",
-                        "\"Wants to Talk\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "PassiveDialoguePannel",
-                        "NPC.CenterX()-50",
-                        "NPC.CenterY() -100",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PassiveDialoguePannel",
-                        "Animation",
-                        "=",
-                        "\"Complete\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Dialogue Ended",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "End dialogue by key E"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player",
-                        "State",
-                        "=",
-                        "\"Dialogue\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "e"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "NotEnd",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Next_Dialogue",
-                        "False"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "State",
-                    "=",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "NotEnd",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "Next_Dialogue",
-                    "True"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "DialogueTree::CurrentBranchContainsTag"
-                  },
-                  "parameters": [
-                    "\"End\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "NotEnd",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                      },
-                      "parameters": []
-                    },
-                    {
-                      "type": {
-                        "value": "DialogueTree::CurrentBranchContainsTag"
-                      },
-                      "parameters": [
-                        "\"End\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "NotEnd",
-                    "True"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Show/Hide Passive Dialogue Bubble & Stop Dialogue"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "State",
-                    "=",
-                    "\"Idle\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Effect",
-                    "\"Brightness\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::StopRunningDialogue"
-                  },
-                  "parameters": []
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                      },
-                      "parameters": [
-                        "Dialogue_Shadow",
-                        "Tween",
-                        "\"Show\"",
-                        "0",
-                        "\"linear\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                      },
-                      "parameters": [
-                        "DIalogue_NPC",
-                        "Tween",
-                        "\"Show\"",
-                        "0",
-                        "\"linear\"",
-                        "0.3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                      },
-                      "parameters": [
-                        "DIalogue_Player",
-                        "Tween",
-                        "\"Show\"",
-                        "0",
-                        "\"linear\"",
-                        "0.3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Cin_Bor_Up",
-                        "Tween",
-                        "\"Move\"",
-                        "-200",
-                        "\"linear\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Cin_Bor_Down",
-                        "Tween",
-                        "\"Move\"",
-                        "1080",
-                        "\"linear\"",
-                        "1",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                          },
-                          "parameters": [
-                            "NPC",
-                            "Flippable"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                          },
-                          "parameters": [
-                            "DIalogue_Player",
-                            "Tween",
-                            "\"Move Left\"",
-                            "-500",
-                            "\"linear\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                          },
-                          "parameters": [
-                            "DIalogue_NPC",
-                            "Tween",
-                            "\"Move Left\"",
-                            "2000",
-                            "\"linear\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "DIalogue_Player",
-                            "Flippable",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "DIalogue_NPC",
-                            "Flippable",
-                            "no"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                          },
-                          "parameters": [
-                            "NPC",
-                            "Flippable"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                          },
-                          "parameters": [
-                            "DIalogue_NPC",
-                            "Tween",
-                            "\"Move Left\"",
-                            "-500",
-                            "\"linear\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                          },
-                          "parameters": [
-                            "DIalogue_Player",
-                            "Tween",
-                            "\"Move Left\"",
-                            "2000",
-                            "\"linear\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "DIalogue_Player",
-                            "Flippable",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "DIalogue_NPC",
-                            "Flippable",
-                            "yes"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "NPC",
-                        "500",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::TweenCameraZoom2"
-                      },
-                      "parameters": [
-                        "",
-                        "",
-                        "1",
-                        "",
-                        "\"linear\"",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Effect",
-                        "\"Brightness\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Effect",
-                        "\"Talkable\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EffectCapability::EffectBehavior::EnableEffect"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Effect",
-                        "\"Brightness\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Animation",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
-                            "\"Right\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
-                          },
-                          "parameters": [
-                            "Player",
-                            "SmoothCamera",
-                            "=",
-                            "250",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
-                            "\"Left\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
-                          },
-                          "parameters": [
-                            "Player",
-                            "SmoothCamera",
-                            "=",
-                            "-250",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "PassiveDialoguePannel",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "State",
-                    "=",
-                    "\"Dialogue\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "PassiveDialoguePannel",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Tutorial Level",
-      "lastChangeTimeStamp": 0,
       "name": "DialogueActive",
       "events": [
         {
@@ -36649,6 +35626,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36869,6 +35847,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37611,7 +36590,17 @@
                       ]
                     },
                     {
-                      "disabled": true,
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [],
+                      "parameters": []
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -38102,6 +37091,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue text is \"Text\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39292,6 +38282,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue text is \"Options\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40260,6 +39251,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue is Running",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41083,6 +40075,725 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "Dialogue Ended",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "End dialogue by key E"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "State",
+                        "=",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "NotEnd",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Next_Dialogue",
+                        "False"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "NotEnd",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Next_Dialogue",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::CurrentBranchContainsTag"
+                  },
+                  "parameters": [
+                    "\"End\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "NotEnd",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::CurrentBranchContainsTag"
+                      },
+                      "parameters": [
+                        "\"End\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "NotEnd",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Show/Hide Passive Dialogue Bubble & Stop Dialogue"
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Effect",
+                    "\"Brightness\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StopRunningDialogue"
+                  },
+                  "parameters": []
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Dialogue_Shadow",
+                        "Tween",
+                        "\"Show\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "DIalogue_NPC",
+                        "Tween",
+                        "\"Show\"",
+                        "0",
+                        "\"linear\"",
+                        "0.3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "DIalogue_Player",
+                        "Tween",
+                        "\"Show\"",
+                        "0",
+                        "\"linear\"",
+                        "0.3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Cin_Bor_Up",
+                        "Tween",
+                        "\"Move\"",
+                        "-200",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Cin_Bor_Down",
+                        "Tween",
+                        "\"Move\"",
+                        "1080",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                          },
+                          "parameters": [
+                            "DIalogue_Player",
+                            "Tween",
+                            "\"Move Left\"",
+                            "-500",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                          },
+                          "parameters": [
+                            "DIalogue_NPC",
+                            "Tween",
+                            "\"Move Left\"",
+                            "2000",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "DIalogue_Player",
+                            "Flippable",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "DIalogue_NPC",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                          },
+                          "parameters": [
+                            "DIalogue_NPC",
+                            "Tween",
+                            "\"Move Left\"",
+                            "-500",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                          },
+                          "parameters": [
+                            "DIalogue_Player",
+                            "Tween",
+                            "\"Move Left\"",
+                            "2000",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "DIalogue_Player",
+                            "Flippable",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "DIalogue_NPC",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "NPC",
+                        "500",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraZoom2"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "1",
+                        "",
+                        "\"linear\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Effect",
+                        "\"Brightness\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Effect",
+                        "\"Talkable\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Effect",
+                        "\"Brightness\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "Animation",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "\"Right\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                          },
+                          "parameters": [
+                            "Player",
+                            "SmoothCamera",
+                            "=",
+                            "250",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "\"Left\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                          },
+                          "parameters": [
+                            "Player",
+                            "SmoothCamera",
+                            "=",
+                            "-250",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "NPC",
+                    "500",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenCameraZoom2"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "\"linear\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Effect",
+                    "\"Brightness\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Effect",
+                    "\"Talkable\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Effect",
+                    "\"Brightness\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothCamera",
+                        "=",
+                        "250",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SmoothCamera::SmoothCamera::SetOffsetXOp"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothCamera",
+                        "=",
+                        "-250",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Animations During Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -54134,7 +53845,7 @@
                       "parameters": [
                         "Player",
                         "Pickable_Object",
-                        "200",
+                        "50",
                         ""
                       ]
                     }
@@ -54198,7 +53909,7 @@
                                   "parameters": [
                                     "Player",
                                     "Pickable_Object",
-                                    "200",
+                                    "50",
                                     ""
                                   ]
                                 }
@@ -54266,7 +53977,7 @@
                                   "parameters": [
                                     "Player",
                                     "Pickable_Object",
-                                    "200",
+                                    "50",
                                     ""
                                   ]
                                 }
@@ -58421,7 +58132,7 @@
               "parameters": [
                 "Player",
                 "Map_End_Teleport",
-                "500",
+                "300",
                 ""
               ]
             },
@@ -59081,6 +58792,18 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Tutorial Level",
+      "lastChangeTimeStamp": 0,
+      "name": "Give/Use Item",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
@@ -60182,214 +59905,6 @@
               "name": "IsDestroyedWithParent"
             }
           ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": []
-    },
-    {
-      "author": "Lim98SE",
-      "category": "Input",
-      "extensionNamespace": "",
-      "fullName": "Cursor object",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWN1cnNvci1kZWZhdWx0LW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAuMDcsMTQuMjdDMTAuNTcsMTQuMDMgMTEuMTYsMTQuMjUgMTEuNCwxNC43NUwxMy43LDE5Ljc0TDE1LjUsMTguODlMMTMuMTksMTMuOTFDMTIuOTUsMTMuNDEgMTMuMTcsMTIuODEgMTMuNjcsMTIuNThMMTMuOTUsMTIuNUwxNi4yNSwxMi4wNUw4LDUuMTJWMTUuOUw5LjgyLDE0LjQzTDEwLjA3LDE0LjI3TTEzLjY0LDIxLjk3QzEzLjE0LDIyLjIxIDEyLjU0LDIyIDEyLjMxLDIxLjVMMTAuMTMsMTYuNzZMNy42MiwxOC43OEM3LjQ1LDE4LjkyIDcuMjQsMTkgNywxOUExLDEgMCAwLDEgNiwxOFYzQTEsMSAwIDAsMSA3LDJDNy4yNCwyIDcuNDcsMi4wOSA3LjY0LDIuMjNMNy42NSwyLjIyTDE5LjE0LDExLjg2QzE5LjU3LDEyLjIyIDE5LjYyLDEyLjg1IDE5LjI3LDEzLjI3QzE5LjEyLDEzLjQ1IDE4LjkxLDEzLjU3IDE4LjcsMTMuNjFMMTUuNTQsMTQuMjNMMTcuNzQsMTguOTZDMTgsMTkuNDYgMTcuNzYsMjAuMDUgMTcuMjYsMjAuMjhMMTMuNjQsMjEuOTdaIiAvPjwvc3ZnPg==",
-      "name": "MouseHelper",
-      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/8f81db7cf269c88bf0b13f816ee501ae786b3f15526d59c9d0005da09c13a18d_cursor-default-outline.svg",
-      "shortDescription": "Turn any object into a cursor.",
-      "version": "2.0.0",
-      "description": [
-        "This extension allows to replace the cursor with an object.",
-        "",
-        "Breaking change of the version 2.0.0:",
-        "- The button behavior has been removed. The button object can be used instead. Some ready to use buttons can be downloaded from the [Buttons pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=menu-buttons-menu-buttons) of the asset store."
-      ],
-      "origin": {
-        "identifier": "MouseHelper",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "mouse",
-        "pointer",
-        "cursor"
-      ],
-      "authorIds": [],
-      "dependencies": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Turn any object into a mouse cursor.",
-          "fullName": "Cursor",
-          "name": "cursor",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CacheSouris"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "MouseHelper::cursor",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "CursorX()",
-                        "=",
-                        "CursorY()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "MouseHelper::cursor",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onActivate",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CacheSouris"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "MouseHelper::cursor",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onDeActivate",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MontreSouris"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Object"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "MouseHelper::cursor",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [],
           "sharedPropertyDescriptors": []
         }
       ],
