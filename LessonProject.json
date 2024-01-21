@@ -14932,7 +14932,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34118560234735484,
+        "zoomFactor": 0.13480471535734972,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18862,30 +18862,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Static_platform",
-          "persistentUuid": "223053dc-42ff-4c2d-a5be-9c0926bf2489",
-          "width": 3278,
-          "x": -572,
-          "y": 721,
-          "zOrder": 328,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "Map_End_Teleport",
           "persistentUuid": "e05c82f6-5aee-4e20-aedf-9d3c740136ea",
           "width": 0,
-          "x": 2510,
-          "y": 600,
+          "x": 3816,
+          "y": 570,
           "zOrder": 329,
           "numberProperties": [],
           "stringProperties": [],
@@ -18912,8 +18896,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "d0bb202b-764c-447f-a7c3-7d26c2968acf",
           "width": 0,
-          "x": -507,
-          "y": 581,
+          "x": -2495,
+          "y": 522,
           "zOrder": 330,
           "numberProperties": [],
           "stringProperties": [],
@@ -18941,8 +18925,8 @@
           "name": "Player",
           "persistentUuid": "16545e01-76a0-48b4-a152-43cfc674c8c1",
           "width": 256,
-          "x": 376,
-          "y": 269,
+          "x": -944,
+          "y": 454,
           "zOrder": 331,
           "numberProperties": [],
           "stringProperties": [],
@@ -18956,8 +18940,8 @@
           "name": "NPC",
           "persistentUuid": "d0a82441-cee7-4f29-a2cc-e30e2a40eb5b",
           "width": 0,
-          "x": 1010,
-          "y": 656,
+          "x": -89,
+          "y": 238,
           "zOrder": 332,
           "numberProperties": [],
           "stringProperties": [],
@@ -18984,8 +18968,8 @@
           "name": "NPC",
           "persistentUuid": "46169eee-0e85-42ac-b523-cfe6a22db57f",
           "width": 0,
-          "x": 1314,
-          "y": 644,
+          "x": 873,
+          "y": 217,
           "zOrder": 333,
           "numberProperties": [],
           "stringProperties": [],
@@ -19048,6 +19032,22 @@
               "value": 0
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Static_platform",
+          "persistentUuid": "c11276b9-a539-4a92-a663-346a0d1d616e",
+          "width": 6966,
+          "x": -2809,
+          "y": 762,
+          "zOrder": 336,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -19178,7 +19178,7 @@
           "isLocked": false,
           "name": "Map",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -19402,7 +19402,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35689,7 +35689,7 @@
                       "parameters": [
                         "Player",
                         "NPC",
-                        "150",
+                        "500",
                         ""
                       ]
                     },
@@ -36451,7 +36451,7 @@
                       "parameters": [
                         "Player",
                         "NPC",
-                        "150",
+                        "500",
                         ""
                       ]
                     }
@@ -36876,7 +36876,7 @@
                   "parameters": [
                     "NPC",
                     "Player",
-                    "150",
+                    "500",
                     ""
                   ]
                 },
@@ -38118,7 +38118,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     },
@@ -38916,7 +38916,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Hide NPC Dialogue",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -38931,7 +38930,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     },
@@ -39286,7 +39285,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue text is \"Options\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39296,7 +39294,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Show Player's Text",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -39319,7 +39316,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     }
@@ -39923,7 +39920,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Hide Player's Dialogue",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -39947,7 +39943,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     }
@@ -40310,7 +40306,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     }
@@ -40582,7 +40578,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     },
@@ -40627,7 +40623,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "120",
+                                "300",
                                 ""
                               ]
                             }
@@ -40685,7 +40681,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "100",
+                                "250",
                                 ""
                               ]
                             }
@@ -40762,7 +40758,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "120",
+                                "300",
                                 ""
                               ]
                             }
@@ -40820,7 +40816,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "100",
+                                "250",
                                 ""
                               ]
                             }
@@ -40896,7 +40892,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "120",
+                                "250",
                                 ""
                               ]
                             }
@@ -40937,7 +40933,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "100",
+                                "250",
                                 ""
                               ]
                             }
@@ -40995,7 +40991,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "120",
+                                "300",
                                 ""
                               ]
                             }
@@ -41036,7 +41032,7 @@
                               "parameters": [
                                 "Player",
                                 "NPC",
-                                "100",
+                                "250",
                                 ""
                               ]
                             }
@@ -41080,7 +41076,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animations During Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41104,7 +41099,7 @@
                       "parameters": [
                         "NPC",
                         "Player",
-                        "150",
+                        "500",
                         ""
                       ]
                     }
@@ -52665,7 +52660,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Clickable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52683,7 +52677,6 @@
               "comment": "Is on Screen"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -52722,7 +52715,7 @@
                       "parameters": [
                         "Tree",
                         "Player",
-                        "100",
+                        "300",
                         ""
                       ]
                     },
@@ -52992,7 +52985,7 @@
                       "parameters": [
                         "Tree",
                         "Player",
-                        "100",
+                        "300",
                         ""
                       ]
                     }
@@ -54037,7 +54030,7 @@
                   "parameters": [
                     "Player",
                     "Pickable_Object",
-                    "150",
+                    "500",
                     ""
                   ]
                 }
@@ -54134,7 +54127,7 @@
                       "parameters": [
                         "Player",
                         "Pickable_Object",
-                        "50",
+                        "200",
                         ""
                       ]
                     }
@@ -54198,7 +54191,7 @@
                                   "parameters": [
                                     "Player",
                                     "Pickable_Object",
-                                    "50",
+                                    "200",
                                     ""
                                   ]
                                 }
@@ -54266,7 +54259,7 @@
                                   "parameters": [
                                     "Player",
                                     "Pickable_Object",
-                                    "50",
+                                    "200",
                                     ""
                                   ]
                                 }
