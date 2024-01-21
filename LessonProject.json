@@ -36029,6 +36029,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41749,6 +41750,85 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Give Item",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Player",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Give_Button",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Base Diary\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ingridients + Potions\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "State",
+                    "=",
+                    "\"Inventory\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "DiaryPannel",
+                    "State",
+                    "=",
+                    "\"Give\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -51526,6 +51606,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -51535,6 +51616,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Fill Ingridients",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -51569,6 +51651,17 @@
                             "=",
                             "\"Potions\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "DiaryPannel",
+                            "State",
+                            "=",
+                            "\"Give\""
+                          ]
                         }
                       ]
                     }
@@ -51592,13 +51685,32 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjetTxt"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "DiaryPannel",
-                            "State",
-                            "=",
-                            "\"Inventory\""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Inventory\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Give\""
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -51725,13 +51837,32 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjetTxt"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "DiaryPannel",
-                            "State",
-                            "=",
-                            "\"Inventory\""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Inventory\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Give\""
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -51765,13 +51896,32 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjetTxt"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "DiaryPannel",
-                            "State",
-                            "=",
-                            "\"Inventory\""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Inventory\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "DiaryPannel",
+                                "State",
+                                "=",
+                                "\"Give\""
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -51855,7 +52005,6 @@
               "parameters": []
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -51870,13 +52019,32 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjetTxt"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Inventory\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Inventory\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Give\""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -51978,7 +52146,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Potions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52012,6 +52179,17 @@
                         "State",
                         "=",
                         "\"Potions\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Give\""
                       ]
                     }
                   ]
@@ -52316,13 +52494,43 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjetTxt"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Inventory\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Inventory\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Potions\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Give\""
+                      ]
+                    }
                   ]
                 }
               ],
