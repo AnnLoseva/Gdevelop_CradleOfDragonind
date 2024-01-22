@@ -2827,6 +2827,136 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "name": "Kenney Mini Square.ttf"
         }
+      },
+      {
+        "file": "audio/SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-04.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-04.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/SWSH_Woosh Boxer Shorts Fast_SARM_Wooshes_Mono-OneShot-02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Boxer Shorts Fast_SARM_Wooshes_Mono-OneShot-02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/SWSH_Woosh Oven Glove_SARM_Wooshes_Mono-OneShot-05.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\SWSH_Woosh Oven Glove_SARM_Wooshes_Mono-OneShot-05.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9529,7 +9659,7 @@
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": ""
+                  "value": "no"
                 }
               ]
             },
@@ -9560,7 +9690,7 @@
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": ""
+                  "value": "no"
                 }
               ]
             },
@@ -9591,7 +9721,7 @@
                 {
                   "name": "TargetObject",
                   "type": "string",
-                  "value": ""
+                  "value": "no"
                 }
               ]
             }
@@ -11029,13 +11159,15 @@
                   "type": "array",
                   "children": [
                     {
+                      "folded": true,
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "persistentUuid": "a935a0b9-fafd-4e7f-b318-b94897aac515",
-                          "type": "boolean",
-                          "value": false
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "3c944c15-23c3-49e7-9496-f63e46ee29c6",
+                          "type": "string",
+                          "value": "He coughed"
                         },
                         {
                           "folded": true,
@@ -11057,14 +11189,16 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "persistentUuid": "decb62fd-6396-466e-8fa9-e5989b523b3e",
-                          "type": "boolean",
-                          "value": false
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "017f2dca-7f3b-4da7-aac6-dfd905fe5fc0",
+                          "type": "string",
+                          "value": "He had high temperature"
                         },
                         {
                           "folded": true,
@@ -11091,9 +11225,11 @@
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "type": "boolean",
-                          "value": true
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "7644f84a-4065-40e0-9a67-cc8cc8e724a9",
+                          "type": "string",
+                          "value": "He had snot"
                         },
                         {
                           "folded": true,
@@ -11112,6 +11248,37 @@
                           "name": "TargetObject",
                           "type": "string",
                           "value": "Diana"
+                        }
+                      ]
+                    },
+                    {
+                      "persistentUuid": "33d4bb2a-f0fd-4e15-80bb-84fa16a7b4df",
+                      "type": "structure",
+                      "children": [
+                        {
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "1cf100f1-8fa8-4081-b0b0-b2e2732bfe60",
+                          "type": "string",
+                          "value": "He had snot"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "He needs medicine"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Number",
+                          "type": "number",
+                          "value": 10
+                        },
+                        {
+                          "name": "TargetObject",
+                          "type": "string",
+                          "value": "NPC1"
                         }
                       ]
                     }
@@ -11164,6 +11331,7 @@
                   "value": "Gold"
                 },
                 {
+                  "folded": true,
                   "name": "Steps",
                   "type": "array",
                   "children": [
@@ -15109,7 +15277,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3088741216342743,
+        "zoomFactor": 0.1539278892348373,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19402,7 +19570,7 @@
           "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -19466,7 +19634,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -30595,7 +30763,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36458333333334586,
+        "zoomFactor": 0.5427920802473458,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30852,22 +31020,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 121,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "92b8fafa-5e0f-4e21-a48a-571b8c36a47e",
-          "width": 559,
-          "x": 398,
-          "y": 224,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 59,
           "layer": "Quests",
           "name": "QuestObjectNumber",
@@ -30953,29 +31105,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 158,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "5c91b016-4caa-443f-b145-452496cd3c4e",
-          "width": 561,
-          "x": 389,
-          "y": 457,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 57,
           "layer": "Quests",
           "name": "QuestObjectNumber",
@@ -31007,29 +31136,6 @@
           "x": 390,
           "y": 641,
           "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 169,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "8b99ef65-c5d8-457b-a88f-8456ef0a5f9f",
-          "width": 589,
-          "x": 388,
-          "y": 734,
-          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -33078,29 +33184,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 157,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "0489e73a-e524-4792-966f-7d9e7f073e54",
-          "width": 561,
-          "x": 405,
-          "y": 1041,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 57,
           "layer": "Quests",
           "name": "QuestObjectNumber",
@@ -33132,29 +33215,6 @@
           "x": 390,
           "y": 1237,
           "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 158,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "3fa53489-8baf-4b7d-ae22-f650b742f579",
-          "width": 574,
-          "x": 391,
-          "y": 1314,
-          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -33216,29 +33276,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 169,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "50d68aba-d22b-476d-9908-8aedb1a2b822",
-          "width": 569,
-          "x": 388,
-          "y": 1661,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 61,
           "layer": "Quests",
           "name": "QuestObjectNumber",
@@ -33270,29 +33307,6 @@
           "x": 401,
           "y": 1862,
           "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 157,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "cdd581da-836f-4949-aa76-a241578b35e4",
-          "width": 542,
-          "x": 409,
-          "y": 1947,
-          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -33643,29 +33657,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 169,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "2f301ca7-c67d-4f9a-966c-34ca49df268f",
-          "width": 569,
-          "x": 392,
-          "y": 2249,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 7
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 61,
           "layer": "Quests",
           "name": "QuestObjectNumber",
@@ -33697,29 +33688,6 @@
           "x": 405,
           "y": 2450,
           "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 8
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 157,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "b32ce624-4de0-416d-b2ce-13110cabd10c",
-          "width": 542,
-          "x": 413,
-          "y": 2535,
-          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -33812,29 +33780,6 @@
           "x": 409,
           "y": 2728,
           "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 157,
-          "layer": "Quests",
-          "name": "QuestDescription",
-          "persistentUuid": "654f938e-3c2a-462a-8d46-8db32e0233cd",
-          "width": 542,
-          "x": 417,
-          "y": 2813,
-          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -34831,7 +34776,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC2"
+              "value": "NPC1"
             },
             {
               "name": "Quest_Type",
@@ -35415,6 +35360,91 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "0d275df5-c871-46cd-aa0c-db6ddfd02593",
+          "width": 585,
+          "x": 1059,
+          "y": 182,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "9ae48266-daa2-494e-94d4-c51c40f867ad",
+          "width": 585,
+          "x": 1055,
+          "y": 366,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "890103e4-5693-49e6-b97a-9ab47d56c51a",
+          "width": 585,
+          "x": 1059,
+          "y": 537,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "layer": "Quests",
+          "name": "QuestDescription",
+          "persistentUuid": "2fbac4be-9775-4429-a036-94dca166a22c",
+          "width": 585,
+          "x": 1053,
+          "y": 707,
+          "zOrder": 337,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
         }
       ],
       "objects": [],
@@ -35577,7 +35607,7 @@
           "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -35641,7 +35671,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -42287,6 +42317,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44039,11 +44070,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsJumping"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Player",
-                        "PlatformerObject"
+                        "",
+                        "Space"
                       ]
                     },
                     {
@@ -44053,55 +44084,224 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "711122_cultureshock007_large-wings-superhero-cape-foley (mp3cut.net) (1).wav",
-                        "",
-                        "50",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-01.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Tween",
-                        "\"JumpStrech\"",
-                        "0.3",
-                        "\"easeInOutQuad\"",
-                        "0.1",
-                        "",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-02.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.150"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-03.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Tween",
-                        "\"JumpStrech\"",
-                        "0.25",
-                        "\"easeInOutQuad\"",
-                        "0.1",
-                        "",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Art Canvas_SARM_Wooshes_Mono-OneShot-04.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Boxer Shorts Fast_SARM_Wooshes_Mono-OneShot-02.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,6)",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\SWSH_Woosh Oven Glove_SARM_Wooshes_Mono-OneShot-05.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Tween",
+                            "\"JumpStrech\"",
+                            "0.3",
+                            "\"easeInOutQuad\"",
+                            "0.1",
+                            "",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.150"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Tween",
+                            "\"JumpStrech\"",
+                            "0.25",
+                            "\"easeInOutQuad\"",
+                            "0.1",
+                            "",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -44162,68 +44362,6 @@
                         "0.1",
                         "",
                         "yes"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                "\"Jump\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "w"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateControl"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
-                            "\"Jump\""
-                          ]
-                        }
                       ]
                     }
                   ]
@@ -45235,10 +45373,98 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomInRange(1,3)",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomInRange(1,3)",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomInRange(1,3)",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -45270,6 +45496,13 @@
                     "Diary_Tab_Button.Type"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
               ]
             },
             {
@@ -45285,6 +45518,7 @@
               "comment": "Close Diary"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -45499,6 +45733,7 @@
                       "comment": "Inventory"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -45751,6 +45986,93 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -45767,6 +46089,7 @@
                       "comment": "Brew Potions"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -46018,10 +46341,98 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -46096,15 +46507,6 @@
                           "parameters": [
                             "",
                             "\"Quests\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ShowLayer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Desctiption Image\""
                           ]
                         }
                       ],
@@ -46197,12 +46599,100 @@
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -46382,6 +46872,93 @@
                                 "100",
                                 "\"easeInQuad\"",
                                 "0.3",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-01.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-02.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,3)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEMisc_Playing Card Withdraw from Deck_SARM_BGE_OneShot-03.wav",
+                                "",
+                                "",
                                 ""
                               ]
                             }
@@ -46889,6 +47466,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48174,6 +48752,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -48494,6 +49073,7 @@
                   "comment": "Quests Button\n"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49225,149 +49805,6 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Description"
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "QuestCount",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "QuestDescription",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "QuestDescription",
-                                "ID",
-                                "=",
-                                "QuestCount"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "JournalQuests[QuestCount].Name",
-                                "=",
-                                "\"no\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "QuestDescription"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "QuestCount",
-                                "+",
-                                "1"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "QuestDescription",
-                                "ID",
-                                "=",
-                                "QuestCount"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "JournalQuests[QuestCount].Name",
-                                "=",
-                                "\"no\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Montre"
-                              },
-                              "parameters": [
-                                "QuestDescription",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BBText::SetBBText"
-                              },
-                              "parameters": [
-                                "QuestDescription",
-                                "=",
-                                "\"[b]\" + JournalQuests[QuestCount].Description"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "QuestCount",
-                                "+",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49427,6 +49864,140 @@
                   ]
                 }
               ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Steps Description",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestDescription",
+                        "ID",
+                        ">=",
+                        "Saves_and_Loads.StepNumber"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "QuestDescription",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "QuestDescription",
+                            "ID",
+                            "=",
+                            "Saves_and_Loads.StepNumber"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "QuestDescription",
+                            "=",
+                            "\"[b]\" + QuestsButton.Name + NewLine() + \"Step Target: \"\n+QuestsButton.Steps[QuestDescription.ID].TargetObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "QuestDescription",
+                            "ID",
+                            ">=",
+                            "Saves_and_Loads.StepNumber"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "QuestDescription",
+                            "=",
+                            "\"[b]\" + QuestsButton.Name + NewLine() + \"Step Target: \"\n+QuestsButton.Steps[QuestDescription.ID].TargetObject +QuestsButton.Name"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "QuestDescription",
+                        "ID",
+                        ">=",
+                        "Saves_and_Loads.StepNumber"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "QuestDescription"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -49593,7 +50164,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -49764,6 +50334,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -50032,10 +50603,134 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -50093,6 +50788,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Repeat",
                   "repeatExpression": "10",
                   "conditions": [],
@@ -51938,6 +52634,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Open/Close Inventory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52150,7 +52847,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ingridients",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52679,6 +53375,129 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -52690,12 +53509,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Potions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -53163,6 +53982,129 @@
                         "Animation",
                         "=",
                         "Inventory_Potion.Name"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -56003,7 +56945,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -56143,6 +57084,129 @@
                             "Animation",
                             "=",
                             "\"Empty\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,4)",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -56624,7 +57688,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Click",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -56675,6 +57738,7 @@
                       "comment": "Choosing Ingridient > 0 & Is NOT Chosen"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -57187,6 +58251,129 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57230,6 +58417,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "10",
                       "conditions": [],
@@ -57425,18 +58613,6 @@
                                             "-",
                                             "1"
                                           ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "New sound effect",
-                                            "",
-                                            "15",
-                                            ""
-                                          ]
                                         }
                                       ]
                                     },
@@ -57547,6 +58723,129 @@
                                 "SubstractCount",
                                 "+",
                                 "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Checkers_Place_on_Cardboard_Board_SARM_BGE_OneShot_04.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot2.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "RandomInRange(1,4)",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audio\\GAMEBoard_Chess_Piece_Place_Gently_on_Cardboard_Board_SARM_BGE_OneShot3.wav",
+                                "",
+                                "",
+                                ""
                               ]
                             }
                           ]
