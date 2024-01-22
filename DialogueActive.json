@@ -198,5 +198,15 @@
 			"y": -253
 		},
 		"colorID": 0
+	},
+	{
+		"title": "IamSickComplete",
+		"tags": "",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 1876,
+			"y": -588
+		},
+		"colorID": 0
 	}
 ]

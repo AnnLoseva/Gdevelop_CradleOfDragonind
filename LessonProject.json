@@ -8572,7 +8572,7 @@
           ]
         },
         {
-          "name": "Let's Make Potion!",
+          "name": "IamSick",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -10992,7 +10992,6 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -14393,6 +14392,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "Saves_and_Loads",
       "type": "structure",
       "children": [
@@ -35957,6 +35957,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36661,6 +36662,7 @@
                   "comment": "Start Dialogue"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -37076,252 +37078,6 @@
                   "comment": "Quest Compleated"
                 },
                 {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::IsCommandCalled"
-                      },
-                      "parameters": [
-                        "\"success\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Quest_Type.Name",
-                        "=",
-                        "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-6) + \"Complete\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DialogueTree::SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "\"Busy\"",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "NPC",
-                        "Count",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "10",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "InventoryData[NPC.Count].Name",
-                                "=",
-                                "NPC.Quest_Type.TargetObject"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "InventoryData[NPC.Count].Number",
-                                "-",
-                                "NPC.Quest_Type.TargetNumber"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "InventoryData[NPC.Count].Name",
-                                "=",
-                                "NPC.Quest_Type.RewardObject"
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Repeat",
-                              "repeatExpression": "NPC.Quest_Type.RewardNumber",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Pickable_Object",
-                                    "NPC.CenterX() + RandomInRange(-20,20)",
-                                    "NPC.CenterY() + 5",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    "Animation",
-                                    "=",
-                                    "NPC.Quest_Type.RewardObject"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    "Scale",
-                                    "=",
-                                    "0.2"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "PotionsData[NPC.Count].Name",
-                                "=",
-                                "NPC.Quest_Type.TargetObject"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "PotionsData[NPC.Count].Number",
-                                "-",
-                                "NPC.Quest_Type.TargetNumber"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "PotionsData[NPC.Count].Name",
-                                "=",
-                                "NPC.Quest_Type.RewardObject"
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Repeat",
-                              "repeatExpression": "NPC.Quest_Type.RewardNumber",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Pickable_Object",
-                                    "NPC.CenterX() + RandomInRange(-20,20)",
-                                    "NPC.CenterY() + 5",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    "Animation",
-                                    "=",
-                                    "NPC.Quest_Type.RewardObject"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    "Scale",
-                                    "=",
-                                    "0.2"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Count",
-                                "+",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -37596,6 +37352,251 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsCommandCalled"
+                  },
+                  "parameters": [
+                    "\"success\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Quest_Type.Name",
+                    "=",
+                    "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-6) + \"Complete\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "\"Busy\"",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "InventoryData[NPC.Count].Name",
+                            "=",
+                            "NPC.Quest_Type.TargetObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "InventoryData[NPC.Count].Number",
+                            "-",
+                            "NPC.Quest_Type.TargetNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "InventoryData[NPC.Count].Name",
+                            "=",
+                            "NPC.Quest_Type.RewardObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "NPC.Quest_Type.RewardNumber",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Pickable_Object",
+                                "NPC.CenterX() + RandomInRange(-20,20)",
+                                "NPC.CenterY() + 5",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                "Animation",
+                                "=",
+                                "NPC.Quest_Type.RewardObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "PotionsData[NPC.Count].Name",
+                            "=",
+                            "NPC.Quest_Type.TargetObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "PotionsData[NPC.Count].Number",
+                            "-",
+                            "NPC.Quest_Type.TargetNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "PotionsData[NPC.Count].Name",
+                            "=",
+                            "NPC.Quest_Type.RewardObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "NPC.Quest_Type.RewardNumber",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Pickable_Object",
+                                "NPC.CenterX() + RandomInRange(-20,20)",
+                                "NPC.CenterY() + 5",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                "Animation",
+                                "=",
+                                "NPC.Quest_Type.RewardObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Count",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -37605,6 +37606,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue text is \"Text\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39764,6 +39766,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue is Running",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41888,7 +41891,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Give Item",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42131,57 +42133,6 @@
                     "DialogueText",
                     "\"ScrollText\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "NPC",
-                    "NotEnd",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "State",
-                    "=",
-                    "\"Dialogue\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "DiaryPannel",
-                    "State",
-                    "=",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "QuestObjectNumber",
-                    "Count",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
-                  },
-                  "parameters": [
-                    "\"Complete\""
-                  ]
                 }
               ],
               "events": [
@@ -42244,17 +42195,80 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjetTxt"
+                        "value": "Distance"
                       },
                       "parameters": [
                         "NPC",
-                        "Quest_Type.TargetObject",
+                        "Player",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "GiveItem_Button",
+                        "ItemName",
                         "=",
-                        "Saves_and_Loads.StepNumber"
+                        "NPC.Quest_Type.TargetObject"
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "NotEnd",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "State",
+                        "=",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "DiaryPannel",
+                        "State",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "QuestObjectNumber",
+                        "Count",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestSteps.QuestFullName + \"Complete\""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -42273,7 +42287,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Base settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42764,13 +42777,6 @@
                 "includeConfig": 0
               },
               "target": "Inventory"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "DialoguePassive"
             },
             {
               "type": "BuiltinCommonInstructions::Link",
@@ -46927,6 +46933,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Instruction",
+                    "=",
+                    "NPC.Quest_Type.Name"
+                  ]
                 }
               ],
               "events": [
@@ -46961,6 +46977,7 @@
                       "comment": "Get First Quest"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -47042,7 +47059,7 @@
                           "parameters": [
                             "JournalQuests[QuestCount].Name",
                             "=",
-                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-1)"
+                            "NPC.Quest_Type.Name"
                           ]
                         },
                         {
@@ -47218,6 +47235,7 @@
                       "comment": "Get Next Quests"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -47294,7 +47312,7 @@
                               "parameters": [
                                 "JournalQuests[QuestCount-1].Name",
                                 "=",
-                                "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-1)"
+                                "NPC.Quest_Type.Name"
                               ]
                             },
                             {
@@ -47803,21 +47821,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::And"
+                            "value": "VarObjetTxt"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Name",
-                                "=",
-                                "GlobalVariableString(JournalQuests[QuestCount].Name) + \"Complete\""
-                              ]
-                            }
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Name",
+                            "=",
+                            "GlobalVariableString(JournalQuests[QuestCount].Name) + \"Complete\""
                           ]
                         },
                         {
@@ -47827,45 +47837,20 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
-                      "events": [
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Quest_Type.Chosen",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "Arrow"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EffectCapability::EffectBehavior::EnableEffect"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "Effect",
-                                "\"Quest\"",
-                                "no"
-                              ]
-                            }
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Effect",
+                            "\"Quest\"",
+                            "no"
                           ]
-                        },
+                        }
+                      ],
+                      "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
@@ -47892,6 +47877,26 @@
                             },
                             {
                               "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "Saves_and_Loads.QuestSteps.QuestName",
+                                "=",
+                                "\"no\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobalTxt"
+                              },
+                              "parameters": [
+                                "Saves_and_Loads.QuestSteps.QuestLevelName",
+                                "=",
+                                "\"no\""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "ModVarObjet"
                               },
                               "parameters": [
@@ -47910,6 +47915,33 @@
                                 "Quest_Type.Name",
                                 "=",
                                 "\"no\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                ""
                               ]
                             }
                           ]
@@ -47944,6 +47976,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48176,7 +48209,6 @@
                   "comment": "Name"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -48287,7 +48319,7 @@
                               "parameters": [
                                 "QuestName",
                                 "=",
-                                "\"[b]\" + JournalQuests[QuestCount].Name"
+                                "\"[b]\" + SubStr(JournalQuests[QuestCount].Name,0,StrLength(JournalQuests[QuestCount].Name)-1) "
                               ]
                             },
                             {
@@ -48462,7 +48494,6 @@
                   "comment": "Quests Button\n"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -48564,7 +48595,7 @@
                                 "QuestsButton",
                                 "Name",
                                 "=",
-                                "JournalQuests[QuestCount].Name"
+                                "SubStr(JournalQuests[QuestCount].Name,0,StrLength(JournalQuests[QuestCount].Name)-1) "
                               ]
                             },
                             {
@@ -49206,6 +49237,7 @@
                   "comment": "Description"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49389,7 +49421,7 @@
                         "Description_Image",
                         "Animation",
                         "=",
-                        "SubStr(QuestsButton.Name,0,StrLength(QuestsButton.Name) - 7)"
+                        "QuestsButton.Name"
                       ]
                     }
                   ]
@@ -50242,6 +50274,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Complete Step",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50497,18 +50530,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "Instruction",
-                "=",
-                "Saves_and_Loads.QuestSteps.QuestFullName + NPC.Name"
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
@@ -53491,6 +53513,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Clickable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -54850,41 +54873,81 @@
           "name": "Pickable object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Pickable_Object",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Pickable_Object",
+                "Pathfinding",
+                "",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Pickable_Object",
+                "\"Speed\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Distance"
+                    "value": "CompareObjectTimer"
                   },
                   "parameters": [
-                    "Player",
                     "Pickable_Object",
-                    "500",
-                    ""
+                    "\"Speed\"",
+                    ">=",
+                    "0.1"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
+                    "value": "PathfindingBehavior::Speed"
                   },
                   "parameters": [
                     "Pickable_Object",
                     "Pathfinding",
-                    "",
-                    "Player.X()",
-                    "Player.Y()"
+                    "+",
+                    "10"
                   ]
                 },
                 {
@@ -54896,244 +54959,204 @@
                     "\"Speed\""
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Check The Type of Object"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Pickable_Object",
+                    "100",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Pickable_Object",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                }
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Pickable_Object",
-                        "\"Speed\"",
-                        ">=",
-                        "0.1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PathfindingBehavior::Speed"
-                      },
-                      "parameters": [
-                        "Pickable_Object",
-                        "Pathfinding",
-                        "+",
-                        "10"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Pickable_Object",
-                        "\"Speed\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Check The Type of Object"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Pickable_Object",
-                        "50",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Pickable_Object",
-                        "Count",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
                   "events": [
                     {
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "10",
-                      "conditions": [],
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "InventoryData[Pickable_Object.Count].Name",
+                            "=",
+                            "Pickable_Object.Animation::Name()"
+                          ]
+                        }
+                      ],
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Add & Delete"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Pickable_Object",
                           "conditions": [
                             {
                               "type": {
-                                "value": "VarGlobalTxt"
+                                "value": "Distance"
                               },
                               "parameters": [
-                                "InventoryData[Pickable_Object.Count].Name",
-                                "=",
-                                "Pickable_Object.Animation::Name()"
+                                "Player",
+                                "Pickable_Object",
+                                "100",
+                                ""
                               ]
                             }
                           ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Comment",
-                              "color": {
-                                "b": 109,
-                                "g": 230,
-                                "r": 255,
-                                "textB": 0,
-                                "textG": 0,
-                                "textR": 0
-                              },
-                              "comment": "Add & Delete"
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::ForEach",
-                              "object": "Pickable_Object",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Distance"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Pickable_Object",
-                                    "50",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "InventoryData[Pickable_Object.Count].Number",
-                                    "+",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "PotionsData[Pickable_Object.Count].Name",
-                                "=",
-                                "Pickable_Object.Animation::Name()"
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Comment",
-                              "color": {
-                                "b": 109,
-                                "g": 230,
-                                "r": 255,
-                                "textB": 0,
-                                "textG": 0,
-                                "textR": 0
-                              },
-                              "comment": "Add & Delete"
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::ForEach",
-                              "object": "Pickable_Object",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Distance"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Pickable_Object",
-                                    "50",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "PotionsData[Pickable_Object.Count].Number",
-                                    "+",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Pickable_Object",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
                           "actions": [
                             {
                               "type": {
-                                "value": "ModVarObjet"
+                                "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "Pickable_Object",
-                                "Count",
+                                "InventoryData[Pickable_Object.Count].Number",
                                 "+",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                ""
+                              ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "PotionsData[Pickable_Object.Count].Name",
+                            "=",
+                            "Pickable_Object.Animation::Name()"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Add & Delete"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Pickable_Object",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Pickable_Object",
+                                "100",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "PotionsData[Pickable_Object.Count].Number",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Pickable_Object",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Pickable_Object",
+                            "Count",
+                            "+",
+                            "1"
                           ]
                         }
                       ]
@@ -55142,8 +55165,7 @@
                 }
               ]
             }
-          ],
-          "parameters": []
+          ]
         }
       ]
     },
@@ -58886,6 +58908,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -59033,6 +59056,31 @@
               "parameters": [
                 "Arrow",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Saves_and_Loads.QuestSteps.QuestLevelName",
+                "=",
+                "\"no\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Arrow"
               ]
             }
           ]
