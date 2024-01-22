@@ -10992,6 +10992,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -11005,12 +11006,12 @@
                 {
                   "name": "Description",
                   "type": "string",
-                  "value": "I'll teach you to brew"
+                  "value": "Start"
                 },
                 {
                   "name": "Name",
                   "type": "string",
-                  "value": "Let's Make Potion!1"
+                  "value": "IamSick1"
                 },
                 {
                   "folded": true,
@@ -11025,7 +11026,6 @@
                   "value": "Gold"
                 },
                 {
-                  "folded": true,
                   "name": "Steps",
                   "type": "array",
                   "children": [
@@ -11053,7 +11053,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "NPC1"
+                          "value": "John"
                         }
                       ]
                     },
@@ -11083,7 +11083,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "Grass"
+                          "value": "Nick"
                         }
                       ]
                     },
@@ -11112,99 +11112,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "NPC2"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "persistentUuid": "8d7874a5-b5fe-4b01-b4b7-eae14b10aed7",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start1"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "folded": true,
-                  "name": "Steps",
-                  "type": "array",
-                  "children": [
-                    {
-                      "type": "structure",
-                      "children": [
-                        {
-                          "folded": true,
-                          "name": "Location",
-                          "type": "string",
-                          "value": ""
-                        },
-                        {
-                          "folded": true,
-                          "name": "Number",
-                          "type": "number",
-                          "value": 0
-                        },
-                        {
-                          "name": "TargetObject",
-                          "type": "string",
-                          "value": ""
-                        }
-                      ]
-                    },
-                    {
-                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
-                      "type": "structure",
-                      "children": [
-                        {
-                          "folded": true,
-                          "name": "Location",
-                          "type": "string",
-                          "value": ""
-                        },
-                        {
-                          "folded": true,
-                          "name": "Number",
-                          "type": "number",
-                          "value": 0
-                        },
-                        {
-                          "name": "TargetObject",
-                          "type": "string",
-                          "value": ""
+                          "value": "Diana"
                         }
                       ]
                     }
@@ -14489,6 +14397,7 @@
       "type": "structure",
       "children": [
         {
+          "folded": true,
           "name": "Abilities",
           "type": "structure",
           "children": [
@@ -14570,6 +14479,13 @@
               "name": "Quest Finished",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "QuestFullName",
+              "persistentUuid": "3d1d73f9-5995-428f-b538-2983b59ed221",
+              "type": "string",
+              "value": ""
             },
             {
               "folded": true,
@@ -15193,7 +15109,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43034038022077803,
+        "zoomFactor": 0.3088741216342743,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19211,7 +19127,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC3"
+              "value": "Nick"
             },
             {
               "folded": true,
@@ -30003,9 +29919,15 @@
           "initialVariables": [
             {
               "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "NPC1"
+              "value": "John"
             }
           ]
         },
@@ -30022,7 +29944,14 @@
           "zOrder": 337,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 6
+            }
+          ]
         },
         {
           "angle": 0,
@@ -34983,7 +34912,7 @@
               "folded": true,
               "name": "Name",
               "type": "string",
-              "value": "no"
+              "value": "Diana"
             },
             {
               "name": "Quest_Type",
@@ -35005,7 +34934,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "no"
+                  "value": "Diana"
                 },
                 {
                   "folded": true,
@@ -36028,7 +35957,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36947,7 +36875,7 @@
                             "value": "DialogueTree::StartDialogueFromBranch"
                           },
                           "parameters": [
-                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name) - 1) "
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-1)"
                           ]
                         }
                       ]
@@ -37081,7 +37009,7 @@
                             "value": "DialogueTree::StartDialogueFromBranch"
                           },
                           "parameters": [
-                            "\"Quest\""
+                            "Saves_and_Loads.QuestSteps.QuestFullName + NPC.Name"
                           ]
                         }
                       ]
@@ -37677,7 +37605,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue text is \"Text\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39837,7 +39764,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue is Running",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41962,6 +41888,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Give Item",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46970,7 +46897,7 @@
                   "parameters": [
                     "NPC",
                     "Player",
-                    "200",
+                    "500",
                     ""
                   ]
                 },
@@ -47115,7 +47042,7 @@
                           "parameters": [
                             "JournalQuests[QuestCount].Name",
                             "=",
-                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-6) "
+                            "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-1)"
                           ]
                         },
                         {
@@ -47367,7 +47294,7 @@
                               "parameters": [
                                 "JournalQuests[QuestCount-1].Name",
                                 "=",
-                                "JournalQuests[QuestCount].Name"
+                                "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-1)"
                               ]
                             },
                             {
@@ -47689,7 +47616,7 @@
                               "parameters": [
                                 "JournalQuests[QuestCount].Name",
                                 "=",
-                                "SubStr(NPC.Quest_Type.Name, 0, StrLength(NPC.Quest_Type.Name)-6) "
+                                "NPC.Quest_Type.Name"
                               ]
                             },
                             {
@@ -50120,6 +50047,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.QuestSteps.QuestFullName",
+                    "=",
+                    "QuestsButton.Name"
+                  ]
                 }
               ],
               "events": [
@@ -50527,7 +50464,7 @@
               "parameters": [
                 "Player",
                 "NPC",
-                "200",
+                "500",
                 ""
               ]
             }
@@ -50541,6 +50478,34 @@
                 "Instruction",
                 "=",
                 "NPC.Quest_Type.Steps[0].TargetObject + NPC.Quest_Type.Steps[1].TargetObject + NPC.Quest_Type.Steps[2].TargetObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "500",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "Instruction",
+                "=",
+                "Saves_and_Loads.QuestSteps.QuestFullName + NPC.Name"
               ]
             }
           ]
