@@ -11130,6 +11130,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -11307,6 +11308,7 @@
           ]
         },
         {
+          "folded": true,
           "persistentUuid": "d68dd820-7c42-4611-b165-7b60b36c1fd9",
           "type": "array",
           "children": [
@@ -11942,11 +11944,11 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "structure",
           "children": [
             {
@@ -12172,7 +12174,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "d252a87e-7229-40f8-945c-684314c2b742",
+          "persistentUuid": "7589b2a3-2bdd-4652-a9b7-74d2fccb7e0e",
           "type": "structure",
           "children": [
             {
@@ -12203,20 +12205,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12238,15 +12238,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12268,15 +12267,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12298,15 +12296,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12328,15 +12325,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12358,15 +12354,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12405,7 +12400,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "46f02bbd-aadf-4fbd-bfd8-4d0e5d896d51",
+          "persistentUuid": "81098eaa-0c8e-4ff6-b9e0-d8b390e699ef",
           "type": "structure",
           "children": [
             {
@@ -12436,20 +12431,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12471,15 +12464,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12501,15 +12493,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12531,15 +12522,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12561,15 +12551,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12591,15 +12580,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12638,7 +12626,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "076cd25d-7c19-4c7a-83bb-a0bdcf484a46",
+          "persistentUuid": "5d4f2a7f-304c-448c-8b4d-7a0ce5be7a54",
           "type": "structure",
           "children": [
             {
@@ -12669,20 +12657,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12704,15 +12690,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12734,15 +12719,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12764,15 +12748,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12794,15 +12777,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12824,15 +12806,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12871,7 +12852,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "fbf57f02-401b-4c1c-85a1-87b6c6e3ecef",
+          "persistentUuid": "e9230523-226b-465d-9a81-0abb34dc5d4c",
           "type": "structure",
           "children": [
             {
@@ -12902,20 +12883,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12937,15 +12916,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12967,15 +12945,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12997,15 +12974,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13027,15 +13003,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13057,15 +13032,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13104,7 +13078,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "4db37c86-d026-4d59-8e54-edf6b0c7c0b0",
+          "persistentUuid": "2a3905e8-eabf-400e-8018-3aecc3a5317c",
           "type": "structure",
           "children": [
             {
@@ -13135,20 +13109,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13170,15 +13142,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13200,15 +13171,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13230,15 +13200,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13260,15 +13229,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13290,15 +13258,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13337,7 +13304,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "7656a167-fc08-43db-b5ac-7b479a4611ed",
+          "persistentUuid": "a387a912-929e-4efd-b0e9-97d79f8f9f3d",
           "type": "structure",
           "children": [
             {
@@ -13368,20 +13335,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13403,15 +13368,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13433,15 +13397,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13463,15 +13426,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13493,15 +13455,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13523,15 +13484,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13570,7 +13530,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "8c00f8cd-8552-4b2e-98fa-f858aaa8eba6",
+          "persistentUuid": "b7169334-85de-44e5-907e-38ddf90a50ca",
           "type": "structure",
           "children": [
             {
@@ -13601,20 +13561,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13636,15 +13594,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13666,15 +13623,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13696,15 +13652,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13726,15 +13681,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13756,15 +13710,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13803,7 +13756,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "21782fa6-73ec-4eca-ba8c-6fbabb5430d5",
+          "persistentUuid": "f34781de-e911-486b-b693-372bbe1bf354",
           "type": "structure",
           "children": [
             {
@@ -13834,20 +13787,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13869,15 +13820,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13899,15 +13849,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13929,15 +13878,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13959,15 +13907,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -13989,15 +13936,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14036,7 +13982,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "b037de07-926d-4f72-8e73-14633a75f5ac",
+          "persistentUuid": "9af45200-f344-43af-a5e0-05aae0261b46",
           "type": "structure",
           "children": [
             {
@@ -14067,20 +14013,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14102,15 +14046,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14132,15 +14075,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14162,15 +14104,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14192,15 +14133,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14222,15 +14162,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14269,7 +14208,7 @@
         },
         {
           "folded": true,
-          "persistentUuid": "8ed67051-7178-44ce-a58e-f7ef7e0ddf1f",
+          "persistentUuid": "a92eff8f-6849-4ad9-97e8-977c5b9e4911",
           "type": "structure",
           "children": [
             {
@@ -14300,20 +14239,18 @@
               "value": 0
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "83c7b5f8-d2b5-4aff-b076-179dab0ab4bd",
               "type": "array",
               "children": [
                 {
-                  "folded": true,
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14335,15 +14272,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14365,15 +14301,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14395,15 +14330,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14425,15 +14359,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -14455,15 +14388,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -41869,6 +41801,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Give Item",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -47625,6 +47558,7 @@
                       "comment": "Get First Quest"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -47753,7 +47687,6 @@
                       ],
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "10",
                           "conditions": [],
@@ -47893,7 +47826,6 @@
                       "comment": "Get Next Quests"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -48061,9 +47993,9 @@
                                         "value": "ModVarGlobalTxt"
                                       },
                                       "parameters": [
-                                        "JournalQuests[0].Steps[NPC.StepCount].Description",
+                                        "JournalQuests[QuestCount-1].Steps[NPC.StepCount].Description",
                                         "=",
-                                        "NPC.Quest_Type.Steps[NPC.StepCount].Description"
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Description"
                                       ]
                                     },
                                     {
@@ -48376,6 +48308,16 @@
                                         "JournalQuests[QuestCount].Steps[NPC.StepCount].Number",
                                         "=",
                                         "NPC.Quest_Type.Steps[NPC.StepCount].Number"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Description",
+                                        "=",
+                                        "NPC.Quest_Type.Steps[NPC.StepCount].Description"
                                       ]
                                     },
                                     {
@@ -48876,6 +48818,7 @@
                   "comment": "Name"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -50010,6 +49953,7 @@
                   ],
                   "events": [
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -50039,19 +49983,7 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "QuestDescription",
-                            "ID",
-                            "<",
-                            "Saves_and_Loads.StepNumber"
-                          ]
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
