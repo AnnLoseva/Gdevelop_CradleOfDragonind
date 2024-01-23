@@ -3675,7 +3675,6 @@
               "value": ""
             },
             {
-              "folded": true,
               "name": "Steps",
               "persistentUuid": "c156c38b-b7ad-40b6-874b-1b5802a49dbe",
               "type": "array",
@@ -3685,9 +3684,10 @@
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8c8a1ed9-1f10-4835-ae99-e63217e2cefe",
+                      "type": "string",
+                      "value": "NPC2"
                     },
                     {
                       "folded": true,
@@ -3714,9 +3714,10 @@
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "a065fd48-c119-481b-adbc-43b6c195d4c1",
+                      "type": "string",
+                      "value": "NPC2"
                     },
                     {
                       "folded": true,
@@ -3743,9 +3744,10 @@
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "71e506d6-21ec-490e-ab14-e36238bdbb34",
+                      "type": "string",
+                      "value": "NPC2"
                     },
                     {
                       "folded": true,
@@ -3772,9 +3774,10 @@
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "f5b50e57-d8a6-40c2-bee9-e7157f537693",
+                      "type": "string",
+                      "value": "NPC2"
                     },
                     {
                       "folded": true,
@@ -3796,15 +3799,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "bfa2946c-1fb0-4e38-868f-588b13b4109b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "d7bd66c3-19f5-490a-8780-cb333b739de5",
+                      "type": "string",
+                      "value": "NPC2"
                     },
                     {
                       "folded": true,
@@ -3864,6 +3866,11 @@
           "name": "NotEnd",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "value": "NPC2"
         }
       ],
       "effects": [
@@ -9640,9 +9647,10 @@
               "children": [
                 {
                   "folded": true,
-                  "name": "Finish",
-                  "type": "boolean",
-                  "value": false
+                  "name": "Description",
+                  "persistentUuid": "6a6c354e-20a0-4bab-b3c1-0fd8e887071e",
+                  "type": "string",
+                  "value": "0"
                 },
                 {
                   "folded": true,
@@ -9669,10 +9677,10 @@
               "children": [
                 {
                   "folded": true,
-                  "name": "Finish",
-                  "persistentUuid": "d311964b-7526-4046-a6bb-69ebf4597566",
-                  "type": "boolean",
-                  "value": false
+                  "name": "Description",
+                  "persistentUuid": "b12e20a4-726f-48ba-82ef-8ecca9a71ebd",
+                  "type": "string",
+                  "value": "0"
                 },
                 {
                   "folded": true,
@@ -9700,10 +9708,10 @@
               "children": [
                 {
                   "folded": true,
-                  "name": "Finish",
-                  "persistentUuid": "9fc8c731-f6a6-4012-8282-4fb5d8692517",
-                  "type": "boolean",
-                  "value": false
+                  "name": "Description",
+                  "persistentUuid": "df750244-f34a-42ca-87b3-22b3eca708b9",
+                  "type": "string",
+                  "value": "0"
                 },
                 {
                   "folded": true,
@@ -11122,6 +11130,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
@@ -11189,7 +11198,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
                       "type": "structure",
                       "children": [
@@ -11994,7 +12002,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -12037,10 +12044,10 @@
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "2ada74a9-6761-4549-8664-b9ed603ae057",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12062,15 +12069,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "80056764-9be0-428d-a736-c2a2b5ba78df",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "e5897ee9-c61c-4d21-a676-b8765663c79c",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12092,15 +12098,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "fb22186a-58a4-4904-bbf7-6fefdaa8603b",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "51248fa5-127d-4b8c-afa5-46ad0ae9d9ff",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12122,15 +12127,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "0580f598-c04a-4997-8dfd-7d469824e69d",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "394f7e69-0493-4d8e-9d71-8baba6843cfc",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12152,15 +12156,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "1242e1f3-7d64-44a5-b9ee-8523c8a39a0e",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "02e8e56a-bf21-4eda-833f-d349385c3465",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -12182,15 +12185,14 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "persistentUuid": "242c16b1-ab92-4f5d-bf88-3eb4a3bcd03c",
                   "type": "structure",
                   "children": [
                     {
-                      "name": "Finish",
-                      "persistentUuid": "a63a0846-61ec-4703-b140-45e3a7a91b4b",
-                      "type": "boolean",
-                      "value": false
+                      "name": "Description",
+                      "persistentUuid": "8e32b589-c69e-4b07-a82c-e199a9fe24ac",
+                      "type": "string",
+                      "value": ""
                     },
                     {
                       "folded": true,
@@ -15254,6 +15256,11 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Description",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -15277,7 +15284,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1539278892348373,
+        "zoomFactor": 0.491387754532951,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30763,7 +30770,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5427920802473458,
+        "zoomFactor": 0.33005600491660375,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46432,7 +46439,18 @@
                       ]
                     },
                     {
-                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Quests\n"
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -46498,6 +46516,15 @@
                           "parameters": [
                             "",
                             "\"Potions\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Desctiption Image\""
                           ]
                         },
                         {
@@ -46690,6 +46717,18 @@
                           "actions": []
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Diary"
                     },
                     {
                       "folded": true,
@@ -47466,7 +47505,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get/Compleate Quest",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -47555,7 +47593,6 @@
                       "comment": "Get First Quest"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -47684,6 +47721,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "10",
                           "conditions": [],
@@ -47721,6 +47759,16 @@
                                     "JournalQuests[0].Steps[NPC.StepCount].Location",
                                     "=",
                                     "NPC.Quest_Type.Steps[NPC.StepCount].Location"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "JournalQuests[0].Steps[NPC.StepCount].Description",
+                                    "=",
+                                    "NPC.Quest_Type.Steps[NPC.StepCount].Description"
                                   ]
                                 }
                               ],
@@ -47813,7 +47861,6 @@
                       "comment": "Get Next Quests"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -47974,6 +48021,16 @@
                                         "JournalQuests[QuestCount-1].Steps[NPC.StepCount].Number",
                                         "=",
                                         "JournalQuests[QuestCount].Steps[NPC.StepCount].Number"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarGlobalTxt"
+                                      },
+                                      "parameters": [
+                                        "JournalQuests[0].Steps[NPC.StepCount].Description",
+                                        "=",
+                                        "NPC.Quest_Type.Steps[NPC.StepCount].Description"
                                       ]
                                     },
                                     {
@@ -48554,7 +48611,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fill Journal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48752,7 +48808,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -49073,7 +49128,6 @@
                   "comment": "Quests Button\n"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -49319,6 +49373,17 @@
                                         "Steps[NPC.StepCount].Location",
                                         "=",
                                         "JournalQuests[QuestCount].Steps[NPC.StepCount].Location"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjetTxt"
+                                      },
+                                      "parameters": [
+                                        "QuestsButton",
+                                        "Steps[NPC.StepCount].Description",
+                                        "=",
+                                        "JournalQuests[QuestCount].Steps[NPC.StepCount].Description"
                                       ]
                                     },
                                     {
@@ -49884,7 +49949,7 @@
                       "parameters": [
                         "QuestDescription",
                         "ID",
-                        ">=",
+                        "<=",
                         "Saves_and_Loads.StepNumber"
                       ]
                     },
@@ -49934,7 +49999,7 @@
                           "parameters": [
                             "QuestDescription",
                             "=",
-                            "\"[b]\" + QuestsButton.Name + NewLine() + \"Step Target: \"\n+QuestsButton.Steps[QuestDescription.ID].TargetObject"
+                            "\"[b]\" + QuestsButton.Steps[QuestDescription.ID].TargetObject "
                           ]
                         }
                       ]
@@ -49949,7 +50014,7 @@
                           "parameters": [
                             "QuestDescription",
                             "ID",
-                            ">=",
+                            "<",
                             "Saves_and_Loads.StepNumber"
                           ]
                         }
@@ -49962,7 +50027,7 @@
                           "parameters": [
                             "QuestDescription",
                             "=",
-                            "\"[b]\" + QuestsButton.Name + NewLine() + \"Step Target: \"\n+QuestsButton.Steps[QuestDescription.ID].TargetObject +QuestsButton.Name"
+                            "\"[b]\" + QuestsButton.Steps[QuestDescription.ID].TargetObject +QuestsButton.Steps[QuestDescription.ID].Description "
                           ]
                         }
                       ]
@@ -49974,13 +50039,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
                         "value": "VarObjet"
                       },
                       "parameters": [
                         "QuestDescription",
                         "ID",
-                        ">=",
+                        ">",
                         "Saves_and_Loads.StepNumber"
                       ]
                     }
@@ -50007,6 +50071,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Click Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60800,7 +60865,7 @@
                     "NPC",
                     "Quest_Type.Description",
                     "=",
-                    "NPCQuests[NPC.ID][2].Description"
+                    "NPCQuests[NPC.ID][0].Description"
                   ]
                 },
                 {
@@ -60868,6 +60933,17 @@
                             "Quest_Type.Steps[NPC.Count].Location",
                             "=",
                             "NPCQuests[NPC.ID][0].Steps[NPC.Count].Location"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Quest_Type.Steps[NPC.Count].Description",
+                            "=",
+                            "NPCQuests[NPC.ID][0].Steps[NPC.Count].Description"
                           ]
                         },
                         {
