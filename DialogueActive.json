@@ -164,7 +164,7 @@
 		"tags": "End",
 		"body": "Talk to [color=blue] Nick, Diana and John [[Answer:End|End]]",
 		"position": {
-			"x": 1309,
+			"x": 1310,
 			"y": -599
 		},
 		"colorID": 0
@@ -174,7 +174,7 @@
 		"tags": "End",
 		"body": "<<step>> \nHe coughed [[Answer:End|End]]",
 		"position": {
-			"x": 1806,
+			"x": 1733,
 			"y": -12
 		},
 		"colorID": 0
@@ -184,7 +184,7 @@
 		"tags": "End",
 		"body": "<<step>> \nHe had high temperature [[Answer:End|End]]",
 		"position": {
-			"x": 1756,
+			"x": 1683,
 			"y": -270
 		},
 		"colorID": 0
@@ -194,7 +194,7 @@
 		"tags": "End",
 		"body": "<<step>> \n He had snot[[Answer:End|End]]",
 		"position": {
-			"x": 2093,
+			"x": 2020,
 			"y": -253
 		},
 		"colorID": 0
@@ -204,8 +204,58 @@
 		"tags": "",
 		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
 		"position": {
-			"x": 1876,
+			"x": 1803,
 			"y": -588
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSick",
+		"tags": "End",
+		"body": "Help my friend! \nHe is very sick!\nTalk to [color=blue] Nick, Diana and John! [[Answer:End|End]]",
+		"position": {
+			"x": 2602,
+			"y": -15
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickNick",
+		"tags": "End",
+		"body": "He was bleeding [[Answer:End|End]]",
+		"position": {
+			"x": 2585,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickDiana",
+		"tags": "End",
+		"body": "He was talking in his sleep [[Answer:End|End]]",
+		"position": {
+			"x": 2863,
+			"y": -426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickJohn",
+		"tags": "End",
+		"body": "askdl;kasd\n [[Answer:End|End]]",
+		"position": {
+			"x": 2974,
+			"y": -181
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickComplete",
+		"tags": "End",
+		"body": "<< success>> \nThanks!\n [[Answer:End|End]]",
+		"position": {
+			"x": 2687,
+			"y": -638
 		},
 		"colorID": 0
 	}

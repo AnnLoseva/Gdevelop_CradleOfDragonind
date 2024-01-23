@@ -11130,11 +11130,11 @@
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "NPCQuests",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -11168,7 +11168,6 @@
                   "type": "array",
                   "children": [
                     {
-                      "folded": true,
                       "type": "structure",
                       "children": [
                         {
@@ -11176,7 +11175,7 @@
                           "name": "Description",
                           "persistentUuid": "3c944c15-23c3-49e7-9496-f63e46ee29c6",
                           "type": "string",
-                          "value": "He coughed"
+                          "value": "\nInfo: \"He coughed\""
                         },
                         {
                           "folded": true,
@@ -11206,7 +11205,7 @@
                           "name": "Description",
                           "persistentUuid": "017f2dca-7f3b-4da7-aac6-dfd905fe5fc0",
                           "type": "string",
-                          "value": "He had high temperature"
+                          "value": "\nInfo: \"He had high temperature\""
                         },
                         {
                           "folded": true,
@@ -11237,7 +11236,7 @@
                           "name": "Description",
                           "persistentUuid": "7644f84a-4065-40e0-9a67-cc8cc8e724a9",
                           "type": "string",
-                          "value": "He had snot"
+                          "value": "\nInfo: \"He had snot\""
                         },
                         {
                           "folded": true,
@@ -11308,23 +11307,22 @@
           ]
         },
         {
-          "folded": true,
           "persistentUuid": "d68dd820-7c42-4611-b165-7b60b36c1fd9",
           "type": "array",
           "children": [
             {
-              "persistentUuid": "84b118c5-e1ab-4265-890b-685f59464424",
+              "persistentUuid": "2dced4bb-e545-4371-af88-7a63adbc41a1",
               "type": "structure",
               "children": [
                 {
                   "name": "Description",
                   "type": "string",
-                  "value": "Talk to Kenny"
+                  "value": "Start"
                 },
                 {
                   "name": "Name",
                   "type": "string",
-                  "value": "Let's Make Potion!2"
+                  "value": "MyFriendIsSick1"
                 },
                 {
                   "folded": true,
@@ -11339,7 +11337,6 @@
                   "value": "Gold"
                 },
                 {
-                  "folded": true,
                   "name": "Steps",
                   "type": "array",
                   "children": [
@@ -11347,16 +11344,17 @@
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "persistentUuid": "a935a0b9-fafd-4e7f-b318-b94897aac515",
-                          "type": "boolean",
-                          "value": true
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "3c944c15-23c3-49e7-9496-f63e46ee29c6",
+                          "type": "string",
+                          "value": "\nInfo: \"He was bleeding!\""
                         },
                         {
                           "folded": true,
                           "name": "Location",
                           "type": "string",
-                          "value": "Tutorial Village2"
+                          "value": "Tutorial Village"
                         },
                         {
                           "folded": true,
@@ -11367,7 +11365,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "NPC3"
+                          "value": "John"
                         }
                       ]
                     },
@@ -11376,10 +11374,11 @@
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "persistentUuid": "decb62fd-6396-466e-8fa9-e5989b523b3e",
-                          "type": "boolean",
-                          "value": false
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "017f2dca-7f3b-4da7-aac6-dfd905fe5fc0",
+                          "type": "string",
+                          "value": "\nInfo: \"He was uncontious\""
                         },
                         {
                           "folded": true,
@@ -11397,7 +11396,7 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "Grass"
+                          "value": "Nick"
                         }
                       ]
                     },
@@ -11406,9 +11405,11 @@
                       "type": "structure",
                       "children": [
                         {
-                          "name": "Finish",
-                          "type": "boolean",
-                          "value": true
+                          "folded": true,
+                          "name": "Description",
+                          "persistentUuid": "7644f84a-4065-40e0-9a67-cc8cc8e724a9",
+                          "type": "string",
+                          "value": "\nInfo: \"He was talking in his sleep\""
                         },
                         {
                           "folded": true,
@@ -11426,99 +11427,38 @@
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": "NPC2"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "TargetNumber",
-                  "type": "number",
-                  "value": 1
-                },
-                {
-                  "folded": true,
-                  "name": "TargetObject",
-                  "type": "string",
-                  "value": "BasePotion"
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "persistentUuid": "8d7874a5-b5fe-4b01-b4b7-eae14b10aed7",
-              "type": "structure",
-              "children": [
-                {
-                  "name": "Description",
-                  "type": "string",
-                  "value": "I'll teach you to brew"
-                },
-                {
-                  "name": "Name",
-                  "type": "string",
-                  "value": "Start1"
-                },
-                {
-                  "folded": true,
-                  "name": "RevardNumber",
-                  "type": "number",
-                  "value": 10
-                },
-                {
-                  "folded": true,
-                  "name": "RevardObject",
-                  "type": "string",
-                  "value": "Gold"
-                },
-                {
-                  "folded": true,
-                  "name": "Steps",
-                  "type": "array",
-                  "children": [
-                    {
-                      "type": "structure",
-                      "children": [
-                        {
-                          "folded": true,
-                          "name": "Location",
-                          "type": "string",
-                          "value": ""
-                        },
-                        {
-                          "folded": true,
-                          "name": "Number",
-                          "type": "number",
-                          "value": 0
-                        },
-                        {
-                          "name": "TargetObject",
-                          "type": "string",
-                          "value": ""
+                          "value": "Diana"
                         }
                       ]
                     },
                     {
-                      "persistentUuid": "1586d6cc-5df6-41c1-be63-51c7613c899a",
+                      "persistentUuid": "33d4bb2a-f0fd-4e15-80bb-84fa16a7b4df",
                       "type": "structure",
                       "children": [
                         {
                           "folded": true,
-                          "name": "Location",
+                          "name": "Description",
+                          "persistentUuid": "1cf100f1-8fa8-4081-b0b0-b2e2732bfe60",
                           "type": "string",
-                          "value": ""
+                          "value": "He needs medicine"
+                        },
+                        {
+                          "folded": true,
+                          "name": "Location",
+                          "persistentUuid": "b78f4596-5317-44bc-adc5-3d7359f50b78",
+                          "type": "string",
+                          "value": "Tutorial Level"
                         },
                         {
                           "folded": true,
                           "name": "Number",
                           "type": "number",
-                          "value": 0
+                          "value": 10
                         },
                         {
                           "name": "TargetObject",
                           "type": "string",
-                          "value": ""
+                          "value": "Diana"
                         }
                       ]
                     }
@@ -12002,6 +11942,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "JournalQuests",
       "type": "array",
       "children": [
@@ -30770,7 +30711,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33005600491660375,
+        "zoomFactor": 0.35269049347713455,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -34886,7 +34827,7 @@
                   "folded": true,
                   "name": "Name",
                   "type": "string",
-                  "value": "Diana"
+                  "value": "no"
                 },
                 {
                   "folded": true,
@@ -35614,7 +35555,7 @@
           "isLocked": false,
           "name": "Base Diary",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35678,7 +35619,7 @@
           "isLocked": false,
           "name": "Quests",
           "renderingType": "2d",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35806,7 +35747,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35870,7 +35811,7 @@
           "isLocked": false,
           "name": "Give",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35994,7 +35935,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36215,6 +36155,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Close to NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36699,7 +36640,6 @@
                   "comment": "Start Dialogue"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
