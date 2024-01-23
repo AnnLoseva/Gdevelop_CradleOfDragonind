@@ -47861,6 +47861,7 @@
                       "comment": "Get Next Quests"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
