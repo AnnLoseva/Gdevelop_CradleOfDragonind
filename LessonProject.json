@@ -15176,7 +15176,6 @@
           "value": 0
         },
         {
-          "folded": true,
           "name": "TempSave",
           "type": "structure",
           "children": [
@@ -15209,6 +15208,13 @@
               "folded": true,
               "name": "TempQuestsState",
               "persistentUuid": "f91fc3bc-0673-480f-9697-42995cfca46d",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempSavesAndLoads",
+              "persistentUuid": "ee9e0205-cd21-484d-8546-9083bd05d1e1",
               "type": "string",
               "value": ""
             },
@@ -26005,7 +26011,6 @@
           "value": 0
         },
         {
-          "folded": true,
           "name": "TempSave",
           "type": "structure",
           "children": [
@@ -26038,6 +26043,13 @@
               "folded": true,
               "name": "TempQuestsState",
               "persistentUuid": "f91fc3bc-0673-480f-9697-42995cfca46d",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempSavesAndLoads",
+              "persistentUuid": "9574ee69-b3d6-4556-849d-0fef0de048a2",
               "type": "string",
               "value": ""
             },
@@ -30644,7 +30656,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35269049347713455,
+        "zoomFactor": 0.20069741314550402,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30662,7 +30674,6 @@
           "value": 0
         },
         {
-          "folded": true,
           "name": "TempSave",
           "type": "structure",
           "children": [
@@ -30695,6 +30706,12 @@
               "folded": true,
               "name": "TempQuestsState",
               "persistentUuid": "f91fc3bc-0673-480f-9697-42995cfca46d",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TempSavesAndLoads",
               "type": "string",
               "value": ""
             },
@@ -35680,7 +35697,7 @@
           "isLocked": false,
           "name": "Checks",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -37025,61 +37042,6 @@
                   ],
                   "events": [
                     {
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "10",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Name",
-                                "=",
-                                "JournalQuests[QuestsButton.Count].Name"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "JournalQuests[QuestsButton.Count].StepNumber",
-                                "=",
-                                "Saves_and_Loads.StepNumber"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Count",
-                                "+",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -37137,6 +37099,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "10",
                           "conditions": [],
@@ -37304,6 +37267,59 @@
                               "parameters": [
                                 "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
                                 "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Name",
+                                "=",
+                                "JournalQuests[QuestsButton.Count].Name"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestsButton.Count].StepNumber",
+                                "=",
+                                "Saves_and_Loads.StepNumber"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Count",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -51653,7 +51669,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -51823,11 +51838,31 @@
                     },
                     {
                       "type": {
+                        "value": "LireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Save\"",
+                        "\"SavesAndLoads\"",
+                        "",
+                        "TempSave.TempSavesAndLoads"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "JSONToGlobalVariableStructure"
                       },
                       "parameters": [
                         "TempSave.TempInventory",
                         "InventoryData"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToGlobalVariableStructure"
+                      },
+                      "parameters": [
+                        "TempSave.TempSavesAndLoads",
+                        "Saves_and_Loads"
                       ]
                     },
                     {
@@ -52310,7 +52345,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Save",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52866,6 +52900,16 @@
                         "\"QuestState + ToString(QuestsState.ID)\"",
                         "ObjectVarToJSON(QuestsButton, On)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Save\"",
+                        "\"SavesAndLoads\"",
+                        "GlobalVarToJSON(Saves_and_Loads)"
+                      ]
                     }
                   ]
                 }
@@ -53060,6 +53104,16 @@
                             "\"Save\"",
                             "\"Level\"",
                             "GlobalVarToJSON(Saves_and_Loads.MyLevelName)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"Save\"",
+                            "\"SavesAndLoads\"",
+                            "GlobalVarToJSON(Saves_and_Loads)"
                           ]
                         }
                       ]
