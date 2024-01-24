@@ -222,7 +222,7 @@
 	{
 		"title": "MyFriendIsSickNick",
 		"tags": "End",
-		"body": "He was bleeding [[Answer:End|End]]",
+		"body": "<<step>> \nHe was bleeding [[Answer:End|End]]",
 		"position": {
 			"x": 2585,
 			"y": -333
@@ -232,7 +232,7 @@
 	{
 		"title": "MyFriendIsSickDiana",
 		"tags": "End",
-		"body": "He was talking in his sleep [[Answer:End|End]]",
+		"body": "<<step>> \nHe was talking in his sleep [[Answer:End|End]]",
 		"position": {
 			"x": 2863,
 			"y": -426
@@ -242,7 +242,7 @@
 	{
 		"title": "MyFriendIsSickJohn",
 		"tags": "End",
-		"body": "askdl;kasd\n [[Answer:End|End]]",
+		"body": "<<step>> \naskdl;kasd\n [[Answer:End|End]]",
 		"position": {
 			"x": 2974,
 			"y": -181

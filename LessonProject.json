@@ -15158,7 +15158,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.491387754532951,
+        "zoomFactor": 0.10687685869698119,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19100,8 +19100,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "e05c82f6-5aee-4e20-aedf-9d3c740136ea",
           "width": 0,
-          "x": 3816,
-          "y": 570,
+          "x": 2761,
+          "y": 622,
           "zOrder": 329,
           "numberProperties": [],
           "stringProperties": [],
@@ -19128,7 +19128,7 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "d0bb202b-764c-447f-a7c3-7d26c2968acf",
           "width": 0,
-          "x": -2495,
+          "x": -2204,
           "y": 522,
           "zOrder": 330,
           "numberProperties": [],
@@ -19157,8 +19157,8 @@
           "name": "Player",
           "persistentUuid": "16545e01-76a0-48b4-a152-43cfc674c8c1",
           "width": 256,
-          "x": -944,
-          "y": 454,
+          "x": 897,
+          "y": 461,
           "zOrder": 331,
           "numberProperties": [],
           "stringProperties": [],
@@ -25993,7 +25993,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988867895,
+        "zoomFactor": 0.04085027745685002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30022,8 +30022,8 @@
           "layer": "",
           "name": "Static_platform",
           "persistentUuid": "5bde1e8a-f9fc-4f07-88ba-a24d80cf01ef",
-          "width": 16228,
-          "x": -5333,
+          "width": 7083,
+          "x": -1638,
           "y": 865,
           "zOrder": 338,
           "numberProperties": [],
@@ -30038,8 +30038,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "6db2e1e5-da0e-4947-b70f-62b06ecfce6a",
           "width": 0,
-          "x": 6038,
-          "y": 685,
+          "x": 3709,
+          "y": 701,
           "zOrder": 339,
           "numberProperties": [],
           "stringProperties": [],
@@ -30072,8 +30072,8 @@
           "name": "Map_End_Teleport",
           "persistentUuid": "13d1aeae-5ea5-455e-933d-7c6d8c288c12",
           "width": 0,
-          "x": -3228,
-          "y": 625,
+          "x": -977,
+          "y": 563,
           "zOrder": 340,
           "numberProperties": [],
           "stringProperties": [],
@@ -30656,7 +30656,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20069741314550402,
+        "zoomFactor": 0.07671019818341154,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35885,7 +35885,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36111,6 +36110,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -36224,6 +36224,7 @@
                   "comment": "Running throuh the NPC"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36335,6 +36336,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36458,6 +36460,7 @@
                   "comment": "Standing next to NPC"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36994,341 +36997,6 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Quest Compleated"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::IsCommandCalled"
-                      },
-                      "parameters": [
-                        "\"step\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "QuestsButton",
-                        "Count",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Saves_and_Loads.StepNumber",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "QuestsButton",
-                            "On",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "Saves_and_Loads.QuestSteps.QuestLevelName",
-                            "=",
-                            "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "Saves_and_Loads.QuestSteps.QuestName",
-                            "=",
-                            "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "QuestCount",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobalTxt"
-                          },
-                          "parameters": [
-                            "Saves_and_Loads.QuestSteps.QuestFullName",
-                            "=",
-                            "QuestsButton.Name"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "folded": true,
-                          "type": "BuiltinCommonInstructions::Repeat",
-                          "repeatExpression": "10",
-                          "conditions": [],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "QuestsButton",
-                                    "On",
-                                    "True"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "VarObjetTxt"
-                                  },
-                                  "parameters": [
-                                    "QuestsButton",
-                                    "Name",
-                                    "=",
-                                    "JournalQuests[QuestCount].Name"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "JournalQuests[QuestCount].IsOn",
-                                    "=",
-                                    "1"
-                                  ]
-                                }
-                              ],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "VarObjetTxt"
-                                      },
-                                      "parameters": [
-                                        "DiaryPannel",
-                                        "State",
-                                        "=",
-                                        "\"Quests\""
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "ModVarGlobal"
-                                      },
-                                      "parameters": [
-                                        "Saves_and_Loads.StepNumber",
-                                        "=",
-                                        "JournalQuests[QuestsButton.Count].StepNumber"
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "VarObjetTxt"
-                                      },
-                                      "parameters": [
-                                        "Tree",
-                                        "Info.Object",
-                                        "=",
-                                        "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Tree",
-                                        "Info.Chosen",
-                                        "True"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "QuestCount",
-                                    "+",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Steps[Saves_and_Loads.StepNumber].Finish",
-                                "True"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
-                                "True"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Steps[Saves_and_Loads.StepNumber].Finish",
-                                "False"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetGlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
-                                "False"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Repeat",
-                      "repeatExpression": "10",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Name",
-                                "=",
-                                "JournalQuests[QuestsButton.Count].Name"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "JournalQuests[QuestsButton.Count].StepNumber",
-                                "=",
-                                "Saves_and_Loads.StepNumber"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "QuestsButton",
-                                "Count",
-                                "+",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -37496,6 +37164,342 @@
                         "State",
                         "=",
                         "\"Idle\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Quest Compleated"
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsCommandCalled"
+                  },
+                  "parameters": [
+                    "\"step\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "QuestsButton",
+                    "Count",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Saves_and_Loads.StepNumber",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "QuestsButton",
+                        "On",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestSteps.QuestLevelName",
+                        "=",
+                        "QuestsButton.Steps[Saves_and_Loads.StepNumber].Location"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestSteps.QuestName",
+                        "=",
+                        "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "QuestCount",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Saves_and_Loads.QuestSteps.QuestFullName",
+                        "=",
+                        "QuestsButton.Name"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "10",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "On",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "QuestsButton",
+                                "Name",
+                                "=",
+                                "JournalQuests[QuestCount].Name"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "JournalQuests[QuestCount].IsOn",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "DiaryPannel",
+                                    "State",
+                                    "=",
+                                    "\"Quests\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Saves_and_Loads.StepNumber",
+                                    "=",
+                                    "JournalQuests[QuestsButton.Count].StepNumber"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "Tree",
+                                    "Info.Object",
+                                    "=",
+                                    "QuestsButton.Steps[Saves_and_Loads.StepNumber].TargetObject"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Tree",
+                                    "Info.Chosen",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "QuestCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Steps[Saves_and_Loads.StepNumber].Finish",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Steps[Saves_and_Loads.StepNumber].Finish",
+                            "False"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Saves_and_Loads.QuestSteps[\"Quest Finished\"]",
+                            "False"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "10",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Name",
+                            "=",
+                            "JournalQuests[QuestsButton.Count].Name"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "JournalQuests[QuestsButton.Count].StepNumber",
+                            "=",
+                            "Saves_and_Loads.StepNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "QuestsButton",
+                            "Count",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -51838,31 +51842,11 @@
                     },
                     {
                       "type": {
-                        "value": "LireFichierTxt"
-                      },
-                      "parameters": [
-                        "\"Save\"",
-                        "\"SavesAndLoads\"",
-                        "",
-                        "TempSave.TempSavesAndLoads"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "JSONToGlobalVariableStructure"
                       },
                       "parameters": [
                         "TempSave.TempInventory",
                         "InventoryData"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "JSONToGlobalVariableStructure"
-                      },
-                      "parameters": [
-                        "TempSave.TempSavesAndLoads",
-                        "Saves_and_Loads"
                       ]
                     },
                     {
@@ -51889,6 +51873,7 @@
                       "comment": "Clickable loot spawner"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -52022,6 +52007,7 @@
                       "comment": "QuetsState"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -52127,6 +52113,7 @@
                       "comment": "NPCs"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -52281,6 +52268,32 @@
                             "GreenButton",
                             "\"Start from\"+ NewLine() +Saves_and_Loads.MyLevelName",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"Save\"",
+                            "\"SavesAndLoads\"",
+                            "",
+                            "TempSave.TempSavesAndLoads"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "JSONToGlobalVariableStructure"
+                          },
+                          "parameters": [
+                            "TempSave.TempSavesAndLoads",
+                            "Saves_and_Loads"
                           ]
                         }
                       ]
