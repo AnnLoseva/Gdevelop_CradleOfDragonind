@@ -202,7 +202,7 @@
 	{
 		"title": "IamSickComplete",
 		"tags": "",
-		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest IamSick is Completed!\n\n[[Answer:End|End]]",
 		"position": {
 			"x": 1803,
 			"y": -588
@@ -252,7 +252,7 @@
 	{
 		"title": "MyFriendIsSickComplete",
 		"tags": "End",
-		"body": "<< success>> \nThanks!\n [[Answer:End|End]]",
+		"body": "<< success>> \nQuest MyFriendIsSick is Completed! \n [[Answer:End|End]]",
 		"position": {
 			"x": 2687,
 			"y": -638
