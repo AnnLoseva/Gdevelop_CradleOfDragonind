@@ -1,0 +1,272 @@
+[
+	{
+		"title": "Start",
+		"tags": "IdlePlayer",
+		"body": "<<IdleNPC>> \nHello my dear dragon friend!\nDO u wanna chill here? \n<<HappyNPC>> \nBabboodaba BOO\n \n[[Yes|YES]]\n[[Maybe|MAYBE]]\n[[No|NoChill]]",
+		"position": {
+			"x": 575,
+			"y": 517
+		},
+		"colorID": 7
+	},
+	{
+		"title": "YES",
+		"tags": "HappyNPC HappyPlayer End",
+		"body": "<<HappyNPC>> <<HappyPlayer>>\nBABBODAAA\n [[Answer:End|End]]",
+		"position": {
+			"x": 290,
+			"y": 290
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MAYBE",
+		"tags": "AngryNPC IdlePlayer End",
+		"body": "MAYBE??????? U DONT WANNA CHILL??? ARE U CRAZY??🐊\n [[Answer:Node|End]]",
+		"position": {
+			"x": 567,
+			"y": 287
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoChill",
+		"tags": "AngryPlayer AngryNPC End",
+		"body": "<<AngryNPC>> <<AngryPlayer>> \nNO CHILLING HERE GO AWAY [[Answer:End|End]]",
+		"position": {
+			"x": 882,
+			"y": 284
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Let's Make Potion!",
+		"tags": "End IdleNPC IdlePlayer",
+		"body": "<< if $Busy is false>> \n<<quest>> \nLet's make Potion! Bring me 5 Ingridients!\n<< endif>>\n\n<< if $Busy is true>> \nYou already have a quest\n<< endif>>\n[[Answer:End|End]]",
+		"position": {
+			"x": -69,
+			"y": -42
+		},
+		"colorID": 0
+	},
+	{
+		"title": "End",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 695,
+			"y": -102
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sell me Potion!",
+		"tags": "End IdleNPC IdlePlayer",
+		"body": "<<quest>> \nHey! I need 2 potions!\n[[Answer:End|End]]",
+		"position": {
+			"x": 254,
+			"y": -45
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sell me Potion!Active",
+		"tags": "End",
+		"body": "<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> \nYou have no Potion\n<< endif >>\n\n<< if $Current > 0 and $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>>  \nNot enough!\n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
+		"position": {
+			"x": 250,
+			"y": -268
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Let's Make Potion!Active",
+		"tags": "End",
+		"body": "<< $Reward is BasePotion>> << $RewardAmount is 1>>\n<< if $Current is 0 >> \n<<AngryNPC>> << IdlePlayer>> <<$Quest is Ingridients>> \nYou have no ingredients. You can't make Potion.\n<< endif >>\n\n<< if $Current > 0  and  $Current < $Target >>\n<< IdlePlayer>> <<AngryNPC>> <<$Quest is Ingridients>> \nNot enough! \n<< endif >>\n\n<< if $Current >= $Target>>\n<< HappyNPC>> << HappyPlayer>>  <<success>> \nYEAY!!!!!!\n<< endif >>\n[[Answer:End|End]]",
+		"position": {
+			"x": -69,
+			"y": -258
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Complete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>> \nI have no more quests for you \n[[Answer:End|End]]",
+		"position": {
+			"x": 705,
+			"y": -815
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Let's Make Potion!Complete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": -71,
+			"y": -479
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sell me Potion!Complete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 248,
+			"y": -498
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSick",
+		"tags": "IdlePlayer",
+		"body": "I am sick \n\n[[SickAnswer1|SickAnswer1]]\n[[SickAnswer2|SickAnswer2]]",
+		"position": {
+			"x": 1034,
+			"y": -33
+		},
+		"colorID": 4
+	},
+	{
+		"title": "SickAnswer2",
+		"tags": "",
+		"body": "You have to help me!\n [[Answer:SickAnswer1|SickAnswer1]]",
+		"position": {
+			"x": 1391,
+			"y": -291
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SickAnswer1",
+		"tags": "",
+		"body": "I was uncontious for a full day! \nI don't know what happened... [[Answer:SickAnswer3|SickAnswer3]]",
+		"position": {
+			"x": 1040,
+			"y": -292
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SickAnswer3",
+		"tags": "End",
+		"body": "<<quest>> \nBut [color=green] Nick, Diana [color=black] and [color=green] John[color=black] know what happened to me! [[Answer:End|End]]",
+		"position": {
+			"x": 1039,
+			"y": -548
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSickActive",
+		"tags": "End",
+		"body": "Talk to [color=blue] Nick, Diana and John [[Answer:End|End]]",
+		"position": {
+			"x": 1310,
+			"y": -599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSickJohn",
+		"tags": "End",
+		"body": "<<step>> \nHe coughed [[Answer:End|End]]",
+		"position": {
+			"x": 1733,
+			"y": -12
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSickNick",
+		"tags": "End",
+		"body": "<<step>> \nHe had high temperature [[Answer:End|End]]",
+		"position": {
+			"x": 1683,
+			"y": -270
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSickDiana",
+		"tags": "End",
+		"body": "<<step>> \n He had snot[[Answer:End|End]]",
+		"position": {
+			"x": 2020,
+			"y": -253
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IamSickComplete",
+		"tags": "",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest IamSick is Completed!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 1803,
+			"y": -588
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSick",
+		"tags": "End",
+		"body": "Help my friend! \nHe is very sick!\nTalk to [color=blue] Nick, Diana and John! [[Answer:End|End]]",
+		"position": {
+			"x": 2602,
+			"y": -15
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickNick",
+		"tags": "End",
+		"body": "<<step>> \nHe was bleeding [[Answer:End|End]]",
+		"position": {
+			"x": 2585,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickDiana",
+		"tags": "End",
+		"body": "<<step>> \nHe was talking in his sleep [[Answer:End|End]]",
+		"position": {
+			"x": 2863,
+			"y": -426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickJohn",
+		"tags": "End",
+		"body": "<<step>> \naskdl;kasd\n [[Answer:End|End]]",
+		"position": {
+			"x": 2974,
+			"y": -181
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MyFriendIsSickComplete",
+		"tags": "End",
+		"body": "<< success>> \nQuest MyFriendIsSick is Completed! \n [[Answer:End|End]]",
+		"position": {
+			"x": 2687,
+			"y": -638
+		},
+		"colorID": 0
+	},
+	{
+		"title": "WrongItem",
+		"tags": "End",
+		"body": "I don't need this \n[[Answer:End|End]]",
+		"position": {
+			"x": 623,
+			"y": -586
+		},
+		"colorID": 0
+	}
+]
