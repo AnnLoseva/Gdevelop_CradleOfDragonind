@@ -12,9 +12,9 @@
 	{
 		"title": "YES",
 		"tags": "HappyNPC HappyPlayer End",
-		"body": "<<HappyNPC>> <<HappyPlayer>>\nBABBODAAA\n [[Answer:End|End]]",
+		"body": "<<HappyNPC>> <<HappyPlayer>> <<ChangeQuest>>  <<set $QuestNumber to 1>>\nBABBODAAA \n [[Answer:End|End]]",
 		"position": {
-			"x": 290,
+			"x": 289,
 			"y": 290
 		},
 		"colorID": 0
