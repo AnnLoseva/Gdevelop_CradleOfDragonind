@@ -42,10 +42,10 @@
 	{
 		"title": "Let's Make Potion!",
 		"tags": "End IdleNPC IdlePlayer",
-		"body": "<< if $Busy is false>> \n<<quest>> \nLet's make Potion! Bring me 5 Ingridients!\n<< endif>>\n\n<< if $Busy is true>> \nYou already have a quest\n<< endif>>\n[[Answer:End|End]]",
+		"body": "<< if $Busy is false>> \n<<Quest>> \nLet's make Potion! Bring me 5 Ingridients!\n<< endif>>\n\n<< if $Busy is true>> \nYou already have a quest\n<< endif>>\n[[Answer:End|End]]",
 		"position": {
-			"x": -69,
-			"y": -42
+			"x": -71,
+			"y": -41
 		},
 		"colorID": 0
 	},
@@ -62,7 +62,7 @@
 	{
 		"title": "Sell me Potion!",
 		"tags": "End IdleNPC IdlePlayer",
-		"body": "<<quest>> \nHey! I need 2 potions!\n[[Answer:End|End]]",
+		"body": "<<Quest>> \nHey! I need 2 potions!\n[[Answer:End|End]]",
 		"position": {
 			"x": 254,
 			"y": -45
@@ -124,8 +124,8 @@
 		"tags": "IdlePlayer",
 		"body": "I am sick \n\n[[SickAnswer1|SickAnswer1]]\n[[SickAnswer2|SickAnswer2]]",
 		"position": {
-			"x": 1034,
-			"y": -33
+			"x": 1035,
+			"y": -32
 		},
 		"colorID": 4
 	},
@@ -152,10 +152,10 @@
 	{
 		"title": "SickAnswer3",
 		"tags": "End",
-		"body": "<<quest>> \nBut [color=green] Nick, Diana [color=black] and [color=green] John[color=black] know what happened to me! [[Answer:End|End]]",
+		"body": "But [color=green] Nick, Diana [color=black] and [color=green] John[color=black] know what happened to me<<Quest>>! \n  [[Answer:End|End]]",
 		"position": {
-			"x": 1039,
-			"y": -548
+			"x": 1042,
+			"y": -549
 		},
 		"colorID": 0
 	},
@@ -212,10 +212,10 @@
 	{
 		"title": "MyFriendIsSick",
 		"tags": "End",
-		"body": "Help my friend! \nHe is very sick!\nTalk to [color=blue] Nick, Diana and John! [[Answer:End|End]]",
+		"body": "<<Quest>> Help my friend! \nHe is very sick!\nTalk to [color=blue] Nick, Diana and John!\n\n[[Answer:End|End]]",
 		"position": {
-			"x": 2602,
-			"y": -15
+			"x": 2603,
+			"y": -16
 		},
 		"colorID": 0
 	},
@@ -266,6 +266,36 @@
 		"position": {
 			"x": 623,
 			"y": -586
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirstRecipe",
+		"tags": "[End]",
+		"body": "Hello, stranger! \nCould you please give me a green potion?\n...\nYou don't know what that is?\nOk... I'll teach you how to make one.\nYou need to pick 1 tree grass and 1 apple. \nThey grow on that tree that stands on the East. Then come to me again. \n[[Answer:End|End]]",
+		"position": {
+			"x": 1228,
+			"y": 420
+		},
+		"colorID": 8
+	},
+	{
+		"title": "FirstRecipeComplete",
+		"tags": "End",
+		"body": "<< HappyNPC>> << HappyPlayer>>  <<success>> \nQuest is Completed!\n\n[[Answer:End|End]]",
+		"position": {
+			"x": 1470,
+			"y": 308
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirstRecipeJohn",
+		"tags": "[End]",
+		"body": "<<step>>\nBrew a potion from Flower and Leaf\n [[Answer:End|End]]",
+		"position": {
+			"x": 1736,
+			"y": 359
 		},
 		"colorID": 0
 	}
